@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  ViewControllerLabelList.swift
 //  AutoLayout
 //
 //  Created by yuency on 14/09/2017.
@@ -7,33 +7,27 @@
 //
 
 import UIKit
-import SDAutoLayout
 
 /// cell 重用标示
-let cellid = "shilidaima"
+let cellidLabelList = "ViewControllerLabelList"
 
 
-class MainViewController: UIViewController {
+class ViewControllerLabelList: UIViewController {
     
     //MARK: - 属性组
-    let tableView = UITableView()
+    private let tableView = UITableView()
     
     let listArray = [
-        ["ViewControllerButtonList":"按钮组"],
-        ["ViewControllerLabelList":"标签组"],
-        
+        ["VCAutoSizeLabel":"SD label 文字宽高自适应"],
         ]
     
     
-    
-    //MARK: - 生命周期
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //设置页面
         setUpView()
     }
-    
     
     /// 设置页面
     private func setUpView() {
@@ -48,16 +42,16 @@ class MainViewController: UIViewController {
         view.sd_addSubviews([tableView])
         
         _ = tableView.sd_layout().topEqualToView(view)?.rightEqualToView(view)?.bottomEqualToView(view)?.leftEqualToView(view)
-        
     }
+    
 }
 
 
+
+
 // MARK: - 实现表格的协议方法
-extension MainViewController: UITableViewDelegate, UITableViewDataSource {
+extension ViewControllerLabelList: UITableViewDelegate, UITableViewDataSource {
     
-    
-    //MARK: -  数据源
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listArray.count
     }
@@ -68,8 +62,10 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         
         //使用字典的值作为标题
         cell.textLabel?.text = "\(indexPath.row): \(Array(listArray[indexPath.row].values)[0])"
+        
         return cell
     }
+    
     
     //MARK: - 事件
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -84,17 +80,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
-    
 }
-
-
-
-
-
-
-
-
-
 
 
 
