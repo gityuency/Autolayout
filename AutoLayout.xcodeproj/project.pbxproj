@@ -16,6 +16,7 @@
 		1CC2C2201F6A58CA005964C7 /* ViewControllerButtonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C21F1F6A58CA005964C7 /* ViewControllerButtonList.swift */; };
 		1CC2C2231F6A5FB4005964C7 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2221F6A5FB4005964C7 /* Bundle+Extension.swift */; };
 		1CC2C2251F6A6563005964C7 /* VCImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2241F6A6563005964C7 /* VCImageButton.swift */; };
+		1CC2C2271F6A6B45005964C7 /* VCUnderLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2261F6A6B45005964C7 /* VCUnderLineButton.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		1CC2C21F1F6A58CA005964C7 /* ViewControllerButtonList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerButtonList.swift; sourceTree = "<group>"; };
 		1CC2C2221F6A5FB4005964C7 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		1CC2C2241F6A6563005964C7 /* VCImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCImageButton.swift; sourceTree = "<group>"; };
+		1CC2C2261F6A6B45005964C7 /* VCUnderLineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCUnderLineButton.swift; sourceTree = "<group>"; };
 		9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 			children = (
 				1CC2C21F1F6A58CA005964C7 /* ViewControllerButtonList.swift */,
 				1CC2C2241F6A6563005964C7 /* VCImageButton.swift */,
+				1CC2C2261F6A6B45005964C7 /* VCUnderLineButton.swift */,
 			);
 			name = "按钮";
 			path = ButtonLayout;
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC2C2271F6A6B45005964C7 /* VCUnderLineButton.swift in Sources */,
 				1CC2C2201F6A58CA005964C7 /* ViewControllerButtonList.swift in Sources */,
 				1CC2C2231F6A5FB4005964C7 /* Bundle+Extension.swift in Sources */,
 				1CC2C2251F6A6563005964C7 /* VCImageButton.swift in Sources */,
