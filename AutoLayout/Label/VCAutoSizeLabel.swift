@@ -19,7 +19,7 @@ class VCAutoSizeLabel: UIViewController {
         
         
         label.backgroundColor = UIColor.orange
-        label.text = "酒店房款拉萨防静电卡拉撒,按钮设置了最大宽度200"
+        label.text = "能不能给我一首歌的时间,按钮设置了最大宽度200"
         
         view.sd_addSubviews([label])
         
