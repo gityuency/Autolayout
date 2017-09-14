@@ -8,6 +8,10 @@
 
 import UIKit
 
+
+/*
+ 这个按钮做的并不好, 有很多的问题. 当前的这个样子只是满足了我的项目需求而已. 不能说是一个完美的方案
+ */
 class VCImageButton: UIViewController {
     
     ///按钮啊
