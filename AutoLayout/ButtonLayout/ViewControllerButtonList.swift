@@ -14,8 +14,13 @@ let cellidButtonList = "ViewControllerButtonList"
 class ViewControllerButtonList: UIViewController {
 
     //MARK: - 属性组
-    let tableView = UITableView()
+    private let tableView = UITableView()
    
+    let listArray = [
+        ["VCImageButton":"带有图片和标题的按钮"],
+        
+        ]
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,15 +53,33 @@ class ViewControllerButtonList: UIViewController {
 extension ViewControllerButtonList: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return listArray.count
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellid, for: indexPath)
-        cell.textLabel?.text = "按钮 \(indexPath.row): "
+       
+        //使用字典的值作为标题
+        cell.textLabel?.text = "\(indexPath.row): \(Array(listArray[indexPath.row].values)[0])"
+
         return cell
     }
+    
+    
+    //MARK: - 事件
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        //因为字典的 key 就是将要 push 进来的控制器的名字
+        let vcName = Array(listArray[indexPath.row].keys)[0]
+        
+        //把这个 key 转换成为类 需要加上命名空间前缀,否则不生效
+        if let cls = NSClassFromString(Bundle.main.nameSpaceStirng + "." + vcName) as? UIViewController.Type {
+            let vc = cls.init()
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+
 }
 
 
