@@ -14,18 +14,15 @@ let kTimeInterval: TimeInterval = 0.8
 
 class DemoVC0: ViewsViewController {
     
-    
     var timer: Timer?
     
-    
     var widthRatio: CGFloat = 0.4
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         timer = Timer.scheduledTimer(timeInterval: kTimeInterval, target: self, selector: #selector(runAnimation), userInfo: nil, repeats: true)
-        
+
         
         _ = view0.sd_layout().leftSpaceToView(view, 20)?.topSpaceToView(view, 80)?.heightIs(130)?.widthRatioToView(view, widthRatio)
         
@@ -50,7 +47,6 @@ class DemoVC0: ViewsViewController {
             widthRatio = 0.4
         }
         
-        
         UIView.animate(withDuration: 0.8, animations: {
             
             _ = self.view0.sd_layout().widthRatioToView(self.view, self.widthRatio)
@@ -61,8 +57,6 @@ class DemoVC0: ViewsViewController {
             self.view5.updateLayout()
             
         }, completion: nil)
-        
-        
     }
     
     
