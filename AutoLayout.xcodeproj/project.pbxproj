@@ -19,6 +19,8 @@
 		1CC2C2271F6A6B45005964C7 /* VCUnderLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2261F6A6B45005964C7 /* VCUnderLineButton.swift */; };
 		1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2291F6A6D31005964C7 /* VCAutoSizeLabel.swift */; };
 		1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C22B1F6A6DDA005964C7 /* ViewControllerLabelList.swift */; };
+		1CC2C22E1F6A791B005964C7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C22D1F6A791B005964C7 /* UIView+Extension.swift */; };
+		1CC2C2341F6B8189005964C7 /* ViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2331F6B8189005964C7 /* ViewsViewController.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		1CC2C2261F6A6B45005964C7 /* VCUnderLineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCUnderLineButton.swift; sourceTree = "<group>"; };
 		1CC2C2291F6A6D31005964C7 /* VCAutoSizeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCAutoSizeLabel.swift; sourceTree = "<group>"; };
 		1CC2C22B1F6A6DDA005964C7 /* ViewControllerLabelList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerLabelList.swift; sourceTree = "<group>"; };
+		1CC2C22D1F6A791B005964C7 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1CC2C2331F6B8189005964C7 /* ViewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsViewController.swift; sourceTree = "<group>"; };
 		9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +82,7 @@
 				1CB0B2621F347FE000A4B698 /* AppDelegate.swift */,
 				1CB0B2641F347FE000A4B698 /* ViewController.swift */,
 				1C426C431F6A523000E40164 /* MainViewController.swift */,
+				1CC2C22F1F6A7A65005964C7 /* GSD代码练习 */,
 				1CC2C2211F6A5FA8005964C7 /* 工具类 */,
 				1CC2C2281F6A6D15005964C7 /* Label */,
 				1CC2C21E1F6A5874005964C7 /* 按钮 */,
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				1CC2C2221F6A5FB4005964C7 /* Bundle+Extension.swift */,
+				1CC2C22D1F6A791B005964C7 /* UIView+Extension.swift */,
 			);
 			name = "工具类";
 			path = Tools;
@@ -116,6 +122,15 @@
 				1CC2C2291F6A6D31005964C7 /* VCAutoSizeLabel.swift */,
 			);
 			path = Label;
+			sourceTree = "<group>";
+		};
+		1CC2C22F1F6A7A65005964C7 /* GSD代码练习 */ = {
+			isa = PBXGroup;
+			children = (
+				1CC2C2331F6B8189005964C7 /* ViewsViewController.swift */,
+			);
+			name = "GSD代码练习";
+			path = GSDPractice;
 			sourceTree = "<group>";
 		};
 		57F676B89FD1004B0855BAE2 /* Pods */ = {
@@ -262,10 +277,12 @@
 				1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */,
 				1CC2C2201F6A58CA005964C7 /* ViewControllerButtonList.swift in Sources */,
 				1CC2C2231F6A5FB4005964C7 /* Bundle+Extension.swift in Sources */,
+				1CC2C2341F6B8189005964C7 /* ViewsViewController.swift in Sources */,
 				1CC2C2251F6A6563005964C7 /* VCImageButton.swift in Sources */,
 				1C426C441F6A523000E40164 /* MainViewController.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,
 				1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */,
+				1CC2C22E1F6A791B005964C7 /* UIView+Extension.swift in Sources */,
 				1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
