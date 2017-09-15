@@ -21,7 +21,7 @@ class MainViewController: UIViewController {
     let listArray = [
         ["ViewControllerButtonList":"按钮组"],
         ["ViewControllerLabelList":"标签组"],
-        
+        ["GSDPracticeTableViewController": "GSD 自动布局练习"],
         ]
     
     

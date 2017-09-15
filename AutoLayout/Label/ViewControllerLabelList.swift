@@ -9,7 +9,7 @@
 import UIKit
 
 /// cell 重用标示
-let cellidLabelList = "ViewControllerLabelList"
+private let cellidLabelList = "ViewControllerLabelList"
 
 
 class ViewControllerLabelList: UIViewController {
