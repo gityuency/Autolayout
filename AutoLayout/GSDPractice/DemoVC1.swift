@@ -21,6 +21,10 @@ class DemoVC1: ViewsViewController {
         setUpAutoWidthLabel()
         
         
+        //高度自适应的 Label
+        setUpAutoHeightLabel()
+        
+        
     }
     
     
@@ -72,8 +76,17 @@ class DemoVC1: ViewsViewController {
     }
     
     
-    
-    
+    ///高度自适应的Label
+    func setUpAutoHeightLabel() {
+        
+        let autoHeightlabel = UILabel()
+        autoHeightlabel.font = UIFont.systemFont(ofSize: 14)
+        autoHeightlabel.text = "高度自适应(距离父view左边距10，下边距20，宽度为100)"
+        autoHeightlabel.backgroundColor = UIColor.yellow.withAlphaComponent(0.5)
+        view.addSubview(autoHeightlabel)
+        
+        _ = autoHeightlabel.sd_layout().bottomSpaceToView(view, 20)?.leftSpaceToView(view, 20)?.widthIs(100)?.autoHeightRatio(0)
+    }
     
     
 }
