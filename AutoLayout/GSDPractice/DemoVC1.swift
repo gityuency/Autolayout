@@ -25,6 +25,8 @@ class DemoVC1: ViewsViewController {
         setUpAutoHeightLabel()
         
         
+        //设置 Button 根据文字的 size 自适应
+        setupAutoSizeButton()
     }
     
     
@@ -89,4 +91,18 @@ class DemoVC1: ViewsViewController {
     }
     
     
+    //设置按钮根据文字大小自适应
+    func setupAutoSizeButton() {
+        
+        let button = UIButton()
+        button.backgroundColor = UIColor.red
+        button.setTitle("button根据文字自适应", for: .normal)
+        view.addSubview(button)
+        
+        _ = button.sd_layout().centerXEqualToView(view)?.topSpaceToView(view1, 20)
+        
+        //设置按钮根据文字的 size 自适应
+        button.setupAutoSize(withHorizontalPadding: 10, buttonHeight: 25)
+        
+    }
 }
