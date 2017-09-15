@@ -23,6 +23,7 @@
 		1CC2C2341F6B8189005964C7 /* ViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2331F6B8189005964C7 /* ViewsViewController.swift */; };
 		1CC2C2361F6B834D005964C7 /* DemoVC0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2351F6B834D005964C7 /* DemoVC0.swift */; };
 		1CC2C2381F6B84C5005964C7 /* GSDPracticeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2371F6B84C5005964C7 /* GSDPracticeTableViewController.swift */; };
+		1CC2C23A1F6BA22B005964C7 /* DemoVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2391F6BA22B005964C7 /* DemoVC1.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		1CC2C2331F6B8189005964C7 /* ViewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsViewController.swift; sourceTree = "<group>"; };
 		1CC2C2351F6B834D005964C7 /* DemoVC0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC0.swift; sourceTree = "<group>"; };
 		1CC2C2371F6B84C5005964C7 /* GSDPracticeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSDPracticeTableViewController.swift; sourceTree = "<group>"; };
+		1CC2C2391F6BA22B005964C7 /* DemoVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC1.swift; sourceTree = "<group>"; };
 		9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +136,7 @@
 				1CC2C2371F6B84C5005964C7 /* GSDPracticeTableViewController.swift */,
 				1CC2C2331F6B8189005964C7 /* ViewsViewController.swift */,
 				1CC2C2351F6B834D005964C7 /* DemoVC0.swift */,
+				1CC2C2391F6BA22B005964C7 /* DemoVC1.swift */,
 			);
 			name = "GSD代码练习";
 			path = GSDPractice;
@@ -286,6 +289,7 @@
 				1CC2C2201F6A58CA005964C7 /* ViewControllerButtonList.swift in Sources */,
 				1CC2C2231F6A5FB4005964C7 /* Bundle+Extension.swift in Sources */,
 				1CC2C2341F6B8189005964C7 /* ViewsViewController.swift in Sources */,
+				1CC2C23A1F6BA22B005964C7 /* DemoVC1.swift in Sources */,
 				1CC2C2251F6A6563005964C7 /* VCImageButton.swift in Sources */,
 				1C426C441F6A523000E40164 /* MainViewController.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,

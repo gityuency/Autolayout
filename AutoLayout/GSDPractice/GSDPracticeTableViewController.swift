@@ -15,7 +15,10 @@ class GSDPracticeTableViewController: UITableViewController {
     
     
     let listArray = [
-        ["DemoVC0":"一些图片带了动画"],
+        ["DemoVC0":"VC0 自动布局的动画,修改一个 View 布局的约束,其他的 View 会自动重新排布"],
+        ["DemoVC1":"VC1 设置 View1的高度根据子 View 而适应,(在 View1中加入两个子 View, testLabel和 testView 然后色设置 view1高度根据子 view 内容自适应) \n2.高度自适应 Label \n3.宽度自适应 Label"],
+        
+        
         ]
     
     override func viewDidLoad() {
