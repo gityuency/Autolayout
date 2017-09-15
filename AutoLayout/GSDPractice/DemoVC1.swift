@@ -16,7 +16,11 @@ class DemoVC1: ViewsViewController {
         //内容自适应 View
         setUpAutoHeightView()
         
-           
+        
+        //宽度自适应 Label
+        setUpAutoWidthLabel()
+        
+        
     }
     
     
@@ -52,7 +56,22 @@ class DemoVC1: ViewsViewController {
     }
     
     
-
+    //宽度自适应 Label
+    private func setUpAutoWidthLabel() {
+        
+        let autoWidthlabel = UILabel()
+        autoWidthlabel.backgroundColor = UIColor.orange.withAlphaComponent(0.5)
+        autoWidthlabel.font = UIFont.systemFont(ofSize: 12)
+        
+        autoWidthlabel.text = "宽度自适应(距离父view右边距10)"
+        
+        view.addSubview(autoWidthlabel)
+        
+        _ = autoWidthlabel.sd_layout().rightSpaceToView(view, 10)?.heightIs(20)?.bottomSpaceToView(view,50)
+        autoWidthlabel .setSingleLineAutoResizeWithMaxWidth(180)
+    }
+    
+    
     
     
     
