@@ -31,6 +31,8 @@ class DemoVC2: ViewsViewController {
         self.setupAutoWidthViewsWith(count: 4, margin: 10)
         
         
+        //设置一排固定宽度自动间距子 View
+        self.setupAutoMarginViewsWith(count: 4, itemWidth: 100)
         
     }
     
@@ -85,6 +87,27 @@ class DemoVC2: ViewsViewController {
     }
     
     
+    //设置一排固定宽度自动间距子 View
+    func setupAutoMarginViewsWith(count: Int, itemWidth: CGFloat) {
+        
+        autoMarginViewsContainer.backgroundColor = UIColor.blue
+        view.addSubview(autoMarginViewsContainer)
+        
+        var array = Array<Any>()
+        
+        for _ in 0..<count {
+            let view = UIView()
+            view.backgroundColor = UIColor.orange
+            autoMarginViewsContainer.addSubview(view)
+            _ = view.sd_layout().autoHeightRatio(0.5)
+            array.append(view)
+        }
+        
+        ///withPerRowItemsCount每一行3个,多了就会往下排列
+        autoMarginViewsContainer.setupAutoMarginFlowItems(array, withPerRowItemsCount: 3, itemWidth: itemWidth, verticalMargin: 10, verticalEdgeInset: 4, horizontalEdgeInset: 10)
+        
+        _ = autoMarginViewsContainer.sd_layout().leftSpaceToView(view, 10)?.rightSpaceToView(view, 10)?.topSpaceToView(autoWidthViewsContainer, 10)
+    }
     
     
 }
