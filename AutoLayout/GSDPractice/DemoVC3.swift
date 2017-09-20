@@ -24,6 +24,9 @@ class DemoVC3: UITableViewController {
     ]
     
     
+    var imageArray = ["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg"]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -43,6 +46,7 @@ class DemoVC3: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: ID, for: indexPath) as! TestCell2
         
         cell.mytext = textArray[index]
+        cell.view0.image = UIImage(named: imageArray[index])
         
         return cell
     }

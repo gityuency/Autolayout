@@ -18,7 +18,7 @@ class TestCell2: UITableViewCell {
     }
     
     
-    let view0 = UIView(backColor: UIColor.red)
+    let view0 = UIImageView(backColor: UIColor.red)
     
     let view1 = UIView(backColor: UIColor.gray)
     
@@ -51,6 +51,9 @@ class TestCell2: UITableViewCell {
     /// 初始化方法
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
+        
+        view0.contentMode = .scaleAspectFit
         
         
         //添加 View
