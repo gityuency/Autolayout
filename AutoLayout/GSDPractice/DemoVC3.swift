@@ -7,14 +7,12 @@
 //
 
 import UIKit
-
+import MJRefresh
 private let ID = "fdsafdsafdsafdsa";
 
 
-class DemoVC3: UITableViewController {
+class DemoVC3: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    /// 行数
-    var rowCount: Int = 10
     
     var textArray = ["当你的 app 没有提供 3x 的 LaunchImage 时，系统默认进入兼容模式，大屏幕一切按照 320 宽度渲染，屏幕宽度返回 320；然后等比例拉伸到大屏。这种情况下对界面不会产生任何影响，等于把小屏完全拉伸。",
                      "然后等比例拉伸到大屏。这种情况下对界面不会产生任何影响，等于把小屏完全拉伸。",
@@ -27,35 +25,97 @@ class DemoVC3: UITableViewController {
     var imageArray = ["a01.jpg","a02.jpg","a03.jpg","a04.jpg","a05.jpg"]
     
     
+    /// 表格
+    let tableView = UITableView()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.register(TestCell2.self, forCellReuseIdentifier: ID)
-    }
-    
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return rowCount
-    }
-    
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //如何正确删除数组里面的一组元素
+        //self.textArray.removeSubrange(0...2)
+        //self.imageArray.removeSubrange(0...2)
         
-        let index = indexPath.row % 5
+        automaticallyAdjustsScrollViewInsets = false
+        view.addSubview(tableView)
+        
+        _ = tableView.sd_layout().topSpaceToView(view, 64)?.leftEqualToView(view)?.rightEqualToView(view)?.bottomEqualToView(view)
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.tableFooterView = UIView() //去掉多余的分割线
+        tableView.register(TestCell2.self, forCellReuseIdentifier: ID)
+        
+        
+        /// 李明杰下拉刷新的正确姿势
+        let header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: #selector(DemoVC3.headerRefresh))
+        tableView.mj_header = header
+        
+        
+        ///李明杰上拉加载的正确姿势
+        let footer = MJRefreshAutoNormalFooter(refreshingTarget: self, refreshingAction: #selector(DemoVC3.footerRefresh))
+        tableView.mj_footer = footer
+        footer?.triggerAutomaticallyRefreshPercent = 0.2
+        footer?.isAutomaticallyHidden = true
+        
+    }
+    
+    //MARK: - 上拉刷新
+    func headerRefresh() {
+        
+        let when = DispatchTime.now() + 1
+        
+        DispatchQueue.main.asyncAfter(deadline: when, execute: {
+            
+            self.textArray.insert("新刷到的数据 \(when)", at: 0)
+            self.imageArray.insert("e01.jpeg", at: 0)
+            
+            self.tableView.reloadData()
+            
+            self.tableView.mj_header.endRefreshing()
+        })
+    }
+    
+    
+    //MARK: - 下拉加载
+    func footerRefresh() {
+        
+        let when = DispatchTime.now() + 1
+        
+        DispatchQueue.main.asyncAfter(deadline: when, execute: {
+            
+            self.textArray.append("加载到的数据 \(when)")
+            self.imageArray.append("e02.jpeg")
+            
+            self.tableView.reloadData()
+            
+            self.tableView.mj_footer.endRefreshing()
+        })
+    }
+    
+    
+    
+    
+    //MARK: - 表格代理函数
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return textArray.count
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: ID, for: indexPath) as! TestCell2
         
-        cell.mytext = textArray[index]
-        cell.view0.image = UIImage(named: imageArray[index])
+        cell.mytext = textArray[indexPath.row]
+        cell.view0.image = UIImage(named: imageArray[indexPath.row])
         
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
-        let index = indexPath.row % 5
-        let str = textArray[index]
+        let str = textArray[indexPath.row]
         
+        //***********************高度自适应cell设置步骤 2 ************************
         return tableView.cellHeight(for: indexPath, model: str, keyPath: "mytext", cellClass: TestCell2.self, contentViewWidth: UIScreen.main.bounds.size.width)
         
     }

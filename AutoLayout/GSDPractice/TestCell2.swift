@@ -77,9 +77,8 @@ class TestCell2: UITableViewCell {
         //view5
         _ = view5.sd_layout().leftSpaceToView(view4, 10)?.rightSpaceToView(contentView, 10)?.bottomSpaceToView(contentView, 10)?.heightRatioToView(view4, 1)
         
-        //***********************高度自适应cell设置步骤************************
+        //***********************高度自适应cell设置步骤 1 ************************
         self.setupAutoHeight(withBottomView: view4, bottomMargin: 10)  //这里参照的底端的 View 要能知道这个 View 的垂直距离的确切数值, View4 可以算出垂直距离, View5 不可以, 所以这里使用 View5 就不能做到适配
-        
     }
     
     
