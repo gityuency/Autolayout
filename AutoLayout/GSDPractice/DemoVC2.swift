@@ -28,12 +28,14 @@ class DemoVC2: ViewsViewController {
         
         
         //设置一排固定间距自动宽度的子 View
-        self.setupAutoWidthViewsWith(count: 4, margin: 10)
+        setupAutoWidthViewsWith(count: 4, margin: 10)
         
         
         //设置一排固定宽度自动间距子 View
-        self.setupAutoMarginViewsWith(count: 4, itemWidth: 100)
+        setupAutoMarginViewsWith(count: 4, itemWidth: 100)
         
+        //设置3个水平等宽子view
+        setUpEqualWidthView()
     }
     
     
@@ -108,6 +110,27 @@ class DemoVC2: ViewsViewController {
         
         _ = autoMarginViewsContainer.sd_layout().leftSpaceToView(view, 10)?.rightSpaceToView(view, 10)?.topSpaceToView(autoWidthViewsContainer, 10)
     }
+    
+    
+    //设置3个水平等宽子view
+    func setUpEqualWidthView() {
+        
+        let viewOne = UIView(backColor: UIColor.yellow)
+        let viewTwo = UIView(backColor: UIColor.black)
+        let viewThr = UIView(backColor: UIColor.green)
+        
+        
+        _ = view0.sd_layout().leftEqualToView(view)?.rightEqualToView(view)?.heightIs(100)?.topSpaceToView(autoMarginViewsContainer, 20)
+        
+        view0.sd_addSubviews([viewOne, viewTwo, viewThr])
+        view0.sd_equalWidthSubviews = [viewOne, viewTwo, viewThr]
+        
+        _ = viewOne.sd_layout().leftSpaceToView(view0,0)?.topSpaceToView(view0, 20)?.heightEqualToWidth() //heightEqualToWidth宽高相等,正方形
+        _ = viewTwo.sd_layout().leftSpaceToView(viewOne, 0)?.topEqualToView(viewOne)?.heightEqualToWidth()
+        _ = viewThr.sd_layout().leftSpaceToView(viewTwo, 0)?.rightSpaceToView(view0, 0)?.heightEqualToWidth()?.topEqualToView(viewOne)
+        
+    }
+    
     
     
 }
