@@ -119,5 +119,22 @@ class DemoVC3: UIViewController, UITableViewDelegate, UITableViewDataSource {
         return tableView.cellHeight(for: indexPath, model: str, keyPath: "mytext", cellClass: TestCell2.self, contentViewWidth: UIScreen.main.bounds.size.width)
         
     }
+
     
 }
+
+
+
+//- (CGFloat)cellContentViewWith
+//    {
+//        CGFloat width = [UIScreen mainScreen].bounds.size.width;
+//        
+//        // 适配ios7横屏
+//        if ([UIApplication sharedApplication].statusBarOrientation != UIInterfaceOrientationPortrait && [[UIDevice currentDevice].systemVersion floatValue] < 8) {
+//            width = [UIScreen mainScreen].bounds.size.height;
+//        }
+//        return width;
+//}
+
+
+
