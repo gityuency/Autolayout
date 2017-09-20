@@ -36,10 +36,10 @@ class DemoVC3: UIViewController, UITableViewDelegate, UITableViewDataSource {
         //self.textArray.removeSubrange(0...2)
         //self.imageArray.removeSubrange(0...2)
         
-        automaticallyAdjustsScrollViewInsets = false
+        //automaticallyAdjustsScrollViewInsets = false
         view.addSubview(tableView)
         
-        _ = tableView.sd_layout().topSpaceToView(view, 64)?.leftEqualToView(view)?.rightEqualToView(view)?.bottomEqualToView(view)
+        _ = tableView.sd_layout().topSpaceToView(view, 0)?.leftEqualToView(view)?.rightEqualToView(view)?.bottomEqualToView(view)
         tableView.delegate = self
         tableView.dataSource = self
         tableView.tableFooterView = UIView() //去掉多余的分割线
@@ -119,7 +119,7 @@ class DemoVC3: UIViewController, UITableViewDelegate, UITableViewDataSource {
         return tableView.cellHeight(for: indexPath, model: str, keyPath: "mytext", cellClass: TestCell2.self, contentViewWidth: UIScreen.main.bounds.size.width)
         
     }
-
+    
     
 }
 
@@ -128,7 +128,7 @@ class DemoVC3: UIViewController, UITableViewDelegate, UITableViewDataSource {
 //- (CGFloat)cellContentViewWith
 //    {
 //        CGFloat width = [UIScreen mainScreen].bounds.size.width;
-//        
+//
 //        // 适配ios7横屏
 //        if ([UIApplication sharedApplication].statusBarOrientation != UIInterfaceOrientationPortrait && [[UIDevice currentDevice].systemVersion floatValue] < 8) {
 //            width = [UIScreen mainScreen].bounds.size.height;
