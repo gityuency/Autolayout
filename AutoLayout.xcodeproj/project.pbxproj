@@ -10,6 +10,7 @@
 		1C426C441F6A523000E40164 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C426C431F6A523000E40164 /* MainViewController.swift */; };
 		1C45ECB01F72428D00C7E2B9 /* DemoVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECAF1F72428D00C7E2B9 /* DemoVC3.swift */; };
 		1C45ECB21F7246E100C7E2B9 /* TestCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECB11F7246E100C7E2B9 /* TestCell2.swift */; };
+		1C45ECB41F7281C500C7E2B9 /* DemoVC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECB31F7281C500C7E2B9 /* DemoVC4.swift */; };
 		1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0B2621F347FE000A4B698 /* AppDelegate.swift */; };
 		1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0B2641F347FE000A4B698 /* ViewController.swift */; };
 		1CB0B2681F347FE000A4B698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB0B2661F347FE000A4B698 /* Main.storyboard */; };
@@ -82,6 +83,7 @@
 		1C426C431F6A523000E40164 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1C45ECAF1F72428D00C7E2B9 /* DemoVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC3.swift; sourceTree = "<group>"; };
 		1C45ECB11F7246E100C7E2B9 /* TestCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCell2.swift; sourceTree = "<group>"; };
+		1C45ECB31F7281C500C7E2B9 /* DemoVC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC4.swift; sourceTree = "<group>"; };
 		1CB0B25F1F347FE000A4B698 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB0B2621F347FE000A4B698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CB0B2641F347FE000A4B698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				1CC2C23B1F6BAFFF005964C7 /* DemoVC2.swift */,
 				1C45ECAF1F72428D00C7E2B9 /* DemoVC3.swift */,
 				1C45ECB11F7246E100C7E2B9 /* TestCell2.swift */,
+				1C45ECB31F7281C500C7E2B9 /* DemoVC4.swift */,
 			);
 			name = "GSD代码练习";
 			path = GSDPractice;
@@ -506,6 +509,7 @@
 			files = (
 				1CC2C2271F6A6B45005964C7 /* VCUnderLineButton.swift in Sources */,
 				1CC2C2381F6B84C5005964C7 /* GSDPracticeTableViewController.swift in Sources */,
+				1C45ECB41F7281C500C7E2B9 /* DemoVC4.swift in Sources */,
 				1CC2C23C1F6BAFFF005964C7 /* DemoVC2.swift in Sources */,
 				1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */,
 				1CC2C2361F6B834D005964C7 /* DemoVC0.swift in Sources */,
