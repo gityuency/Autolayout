@@ -26,7 +26,11 @@ class DemoVC2: ViewsViewController {
         //设置自定义图片和 Label 位置的 Button
         setupCustomButton()
         
-             
+        
+        //设置一排固定间距自动宽度的子 View
+        self.setupAutoWidthViewsWith(count: 4, margin: 10)
+        
+        
         
     }
     
@@ -55,6 +59,30 @@ class DemoVC2: ViewsViewController {
     }
     
     
+    
+    //设置一排固定间距自动宽度的子 View
+    func setupAutoWidthViewsWith(count: Int, margin: CGFloat) {
+        
+        autoWidthViewsContainer.backgroundColor = UIColor.green
+        view.addSubview(autoWidthViewsContainer)
+        
+        
+        var array = Array<Any>();
+        
+        for _ in 0..<count {
+            let view = UIView()
+            view.backgroundColor = UIColor.orange
+            autoWidthViewsContainer.addSubview(view)
+            _ = view.sd_layout().autoHeightRatio(1) //设置高度约束 这里设置的就是宽高比,
+            // _ = view.sd_layout().heightIs(20) //可以试试直接给个高度
+            array.append(view)
+        }
+        
+        _ = autoWidthViewsContainer.sd_layout().leftSpaceToView(view, 10)?.rightSpaceToView(view, 10)?.topSpaceToView(centerButton, 10)
+        
+        autoWidthViewsContainer.setupAutoWidthFlowItems(array, withPerRowItemsCount: 4, verticalMargin: margin, horizontalMargin: margin, verticalEdgeInset: 5, horizontalEdgeInset: 10)
+        
+    }
     
     
     
