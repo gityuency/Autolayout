@@ -18,8 +18,11 @@ class GSDPracticeTableViewController: UITableViewController {
         ["DemoVC0":"VC0 自动布局的动画,修改一个 View 布局的约束,其他的 View 会自动重新排布"],
         ["DemoVC1":"VC1 设置 View1的高度根据子 View 而适应,(在 View1中加入两个子 View, testLabel和 testView 然后色设置 view1高度根据子 view 内容自适应) \n2.高度自适应 Label \n3.宽度自适应 Label"],
         ["DemoVC2":"VC2 1.自定义 Button 内部 Label 和 imageVie 的位置, \n2.设置间距固定自动调整宽度的一组子 View \n3.设置宽度固定自动调整间距的一组子 View"],
+        ["DemoVC3":"简单 TableView 高度自适应 示例代码"],
         
         ]
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +32,7 @@ class GSDPracticeTableViewController: UITableViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellidGSDPracticeList)
     }
     
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listArray.count
     }
