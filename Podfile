@@ -7,6 +7,8 @@ target 'AutoLayout' do
 
 pod 'SDAutoLayout'
 
+pod 'MJRefresh'
+
   # Pods for AutoLayout
 
 end
