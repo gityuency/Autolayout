@@ -25,10 +25,11 @@ class VCUnderLineButton: UIViewController {
         
         let str = "去注册"
         let attributedString = NSMutableAttributedString(string:"")
-        let attrs = [NSForegroundColorAttributeName :UIColor.black,
-                     NSUnderlineStyleAttributeName :1] as [String :Any]
-        let Setstr = NSMutableAttributedString.init(string: str, attributes: attrs)
-        attributedString.append(Setstr)
+        let attrs = [NSAttributedStringKey.foregroundColor.rawValue :UIColor.black,
+                     NSAttributedStringKey.underlineStyle :1] as! [NSAttributedStringKey :Any]
+        let sssetstr = NSMutableAttributedString.init(string: str, attributes: attrs)
+        
+        attributedString.append(sssetstr)
         buttonX.setAttributedTitle(attributedString, for: .normal)
 
     }

@@ -23,7 +23,7 @@ class DemoVC4: ViewsViewController {
         
         let color = UIColor.red
         
-        let attrString = NSAttributedString(string: text, attributes: [NSForegroundColorAttributeName: color, NSParagraphStyleAttributeName: paragraphStyle])
+        let attrString = NSAttributedString(string: text, attributes: [NSAttributedStringKey.foregroundColor: color, NSAttributedStringKey.paragraphStyle: paragraphStyle])
         
         
         let label = UILabel()

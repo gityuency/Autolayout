@@ -60,7 +60,7 @@ class DemoVC3: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     //MARK: - 上拉刷新
-    func headerRefresh() {
+    @objc func headerRefresh() {
         
         let when = DispatchTime.now() + 1
         
@@ -77,7 +77,7 @@ class DemoVC3: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
     //MARK: - 下拉加载
-    func footerRefresh() {
+    @objc func footerRefresh() {
         
         let when = DispatchTime.now() + 1
         
