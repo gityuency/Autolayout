@@ -9,6 +9,8 @@ pod 'SDAutoLayout'
 
 pod 'MJRefresh'
 
+pod 'SDCycleScrollView'
+
   # Pods for AutoLayout
 
 end

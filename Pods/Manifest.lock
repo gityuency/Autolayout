@@ -1,15 +1,23 @@
 PODS:
   - MJRefresh (3.1.12)
   - SDAutoLayout (2.2.0)
+  - SDCycleScrollView (1.73):
+    - SDWebImage (~> 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - MJRefresh
   - SDAutoLayout
+  - SDCycleScrollView
 
 SPEC CHECKSUMS:
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
+  SDCycleScrollView: d0fd5fe40a80918371fd8939214eb3be81033d83
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 12edbe96ab5930f84c928c9276d4fb3613439b70
+PODFILE CHECKSUM: 3e5b16e29bca8672d5dfb33d3a2085ed3ace7c24
 
 COCOAPODS: 1.2.1
