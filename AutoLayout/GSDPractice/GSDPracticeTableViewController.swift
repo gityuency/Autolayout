@@ -21,6 +21,7 @@ class GSDPracticeTableViewController: UITableViewController {
         ["DemoVC3":"简单 TableView 高度自适应 示例代码"],
         ["DemoVC4":"行间距为 8 的 AttributeString 的 Label"],
         ["DemoVC5":"1.利用普通 View 的内容自适应功能添加 tableViewHeaderView \n2.利用自动布局功能实现 cell 内部图文排布,图片可以根据原始尺寸按比例缩放后展示 \n3.利用 普通版本 TableView 的cell 高度自适应 完成 tableviewcell 的排布 "],
+        ["DemoVC6":"展示 ScrollView 的内容自适应和普通 view 的动态圆角处理"],
 
         ]
     
