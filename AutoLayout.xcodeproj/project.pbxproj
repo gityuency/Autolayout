@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C39568A1F948C3800CF89B2 /* DemoVC8.swift */; };
 		1C426C441F6A523000E40164 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C426C431F6A523000E40164 /* MainViewController.swift */; };
 		1C45ECBB1F72852300C7E2B9 /* DemoVC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECBA1F72852300C7E2B9 /* DemoVC5.swift */; };
 		1C45ECBF1F72855400C7E2B9 /* DemoVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECBD1F72855400C7E2B9 /* DemoVC3.swift */; };
@@ -88,6 +89,7 @@
 
 /* Begin PBXFileReference section */
 		0805AB4D7A682BEF064B8855 /* Pods-AutoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		1C39568A1F948C3800CF89B2 /* DemoVC8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC8.swift; sourceTree = "<group>"; };
 		1C426C431F6A523000E40164 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1C45ECBA1F72852300C7E2B9 /* DemoVC5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5.swift; sourceTree = "<group>"; };
 		1C45ECBD1F72855400C7E2B9 /* DemoVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC3.swift; sourceTree = "<group>"; };
@@ -182,6 +184,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3956891F948C0F00CF89B2 /* DemoVC8 */ = {
+			isa = PBXGroup;
+			children = (
+				1C39568A1F948C3800CF89B2 /* DemoVC8.swift */,
+			);
+			path = DemoVC8;
+			sourceTree = "<group>";
+		};
 		1C45ECB91F72852300C7E2B9 /* DemoVC5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +331,7 @@
 				1C45ECB91F72852300C7E2B9 /* DemoVC5 */,
 				1C45ECCD1F7286BC00C7E2B9 /* DemoVC6 */,
 				1CC996E81F74A27800EE3EC7 /* DemoVC7 */,
+				1C3956891F948C0F00CF89B2 /* DemoVC8 */,
 			);
 			name = "GSD代码练习";
 			path = GSDPractice;
@@ -606,6 +617,7 @@
 				1C45ECC91F7285A200C7E2B9 /* DemoVC1.swift in Sources */,
 				1CC2C2251F6A6563005964C7 /* VCImageButton.swift in Sources */,
 				1C45ECBF1F72855400C7E2B9 /* DemoVC3.swift in Sources */,
+				1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */,
 				1C426C441F6A523000E40164 /* MainViewController.swift in Sources */,
 				1C45ECC61F72858600C7E2B9 /* DemoVC2.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,
