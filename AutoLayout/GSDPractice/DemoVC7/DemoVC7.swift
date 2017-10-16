@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MJRefresh
 
 private let DemoVC7Cell1ID = "DemoVC7Cell1ID"
 
@@ -25,8 +26,34 @@ class DemoVC7: UITableViewController {
         creatModelsWith(count: 10)
         
         tableView.register(DemoVC7Cell1.self, forCellReuseIdentifier: DemoVC7Cell1ID)
-        
         tableView.register(DemoVC7Cell2.self, forCellReuseIdentifier: DemoVC7Cell2ID)
+        tableView.tableFooterView = UIView() //去掉多余的分割线
+        
+        //李明杰上拉加载的正确姿势
+        let header = MJRefreshHeader {
+            let when = DispatchTime.now() + 1
+            DispatchQueue.main.asyncAfter(deadline: when, execute: {
+                self.modelsArray.removeAll()
+                self.creatModelsWith(count: 3)
+                self.tableView.reloadData()
+                self.tableView.mj_header.endRefreshing()
+            })
+        }
+        tableView.mj_header = header;
+        
+        
+        //李明杰下拉加载的正确姿势
+        let footer = MJRefreshAutoNormalFooter {
+            let when = DispatchTime.now() + 1
+            DispatchQueue.main.asyncAfter(deadline: when, execute: {
+                self.creatModelsWith(count: 2)
+                self.tableView.reloadData()
+                self.tableView.mj_footer.endRefreshing()
+            })
+        }
+        tableView.mj_footer = footer
+        footer?.triggerAutomaticallyRefreshPercent = 0.2
+        footer?.isAutomaticallyHidden = true
     }
     
     
