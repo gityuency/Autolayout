@@ -45,7 +45,8 @@ class DemoVC7Cell1: UITableViewCell {
         titleLabel.textColor = UIColor.white
         titleLabel.font = UIFont.systemFont(ofSize: 15)
         titleLabel.numberOfLines = 0
-        titleLabel.backgroundColor = UIColor.brown
+        titleLabel.backgroundColor = UIColor.brown.withAlphaComponent(0.9)
+        
         
         
         contentView.addSubview(iconView)
