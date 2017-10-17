@@ -30,7 +30,7 @@ class DemoVC7: UITableViewController {
         tableView.tableFooterView = UIView() //去掉多余的分割线
         
         //李明杰上拉加载的正确姿势
-        let header = MJRefreshHeader {
+        let header = MJRefreshNormalHeader {
             let when = DispatchTime.now() + 1
             DispatchQueue.main.asyncAfter(deadline: when, execute: {
                 self.modelsArray.removeAll()

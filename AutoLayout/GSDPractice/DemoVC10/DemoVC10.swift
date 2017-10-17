@@ -8,11 +8,19 @@
 
 import UIKit
 import Alamofire
+import MJRefresh
 
 private let ThreeFirstCell_ID = "ThreeFirstCell_ID"
 private let ThreeFourthCell_ID = "ThreeFourthCell_ID"
 
 class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
+    
+    deinit {
+        print("控制器,销毁了. DemoVC10 ")
+    }
+    
+    
+    var myRefreshView = MJRefreshComponent()
     
     ///表格
     lazy var tv: UITableView = {
@@ -23,6 +31,28 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         tvView.backgroundColor = UIColor.brown
         tvView.register(ThreeFirstCell.self, forCellReuseIdentifier: ThreeFirstCell_ID)
         tvView.register(ThreeFourthCell.self, forCellReuseIdentifier: ThreeFourthCell_ID)
+        
+        
+        //下拉刷新
+        tvView.mj_header = MJRefreshNormalHeader { [weak self] in
+            
+            self?.myRefreshView = tvView.mj_header
+            
+            self?.page = 0
+            self?.loadData()
+        }
+        
+        //上拉加载
+        tvView.mj_footer = MJRefreshAutoNormalFooter { [weak self] in
+            
+            self?.myRefreshView = tvView.mj_footer
+            
+            self?.page += 10
+            self?.loadData()
+        }
+        
+        
+        
         return tvView
     }()
     
@@ -34,11 +64,6 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     ///翻页
     var page = 0
-    
-    
-    
-    
-    
     
     
     override func viewDidLoad() {
@@ -71,12 +96,9 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         
         Alamofire.request(urlString).responseJSON { (json) in
             
-            
-            
             switch json.result {
                 
             case .success:  //网络请求成功,解析网络
-                
                 
                 //MARK: -  这绝对是一个重大的姿势调整!!!!!!!!
                 // 顶部结点是一个数组, 从顶部结点拆分这些数据, 遍历数组制造模型
@@ -99,17 +121,15 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
                 }
                 
                 
-                self.tv.reloadData()
+                self.myRefreshView.endRefreshing()
                 
+                self.tv.reloadData()
                 
             case .failure(let error):  //网络请求失败, 解析本地文件
                 
                 print("网络请求失败,解析本地文件 + \(error)")
             }
-            
-            
         }
-        
     }
     
     
