@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 
 private let ThreeFirstCell_ID = "ThreeFirstCell_ID"
+private let ThreeFourthCell_ID = "ThreeFourthCell_ID"
 
 class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
@@ -21,6 +22,7 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         tvView.dataSource = self
         tvView.backgroundColor = UIColor.brown
         tvView.register(ThreeFirstCell.self, forCellReuseIdentifier: ThreeFirstCell_ID)
+        tvView.register(ThreeFourthCell.self, forCellReuseIdentifier: ThreeFourthCell_ID)
         return tvView
     }()
     
@@ -146,9 +148,24 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         //        }
         //
         
+        var cell: ThreeBaseCell;
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: ThreeFirstCell_ID, for: indexPath) as! ThreeFirstCell
-        cell.threeModel = model
+        
+        if model.hasHead == 1 {
+            
+            
+            cell = tableView.dequeueReusableCell(withIdentifier: ThreeFourthCell_ID, for: indexPath) as! ThreeFourthCell
+            cell.threeModel = model
+            
+            
+        } else {
+            
+            
+            cell = tableView.dequeueReusableCell(withIdentifier: ThreeFirstCell_ID, for: indexPath) as! ThreeFirstCell
+            cell.threeModel = model
+            
+        }
+        
         
         
         
@@ -169,13 +186,12 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         
         let model = listArry[indexPath.row]
         
-        return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeFirstCell.self, contentViewWidth: UIScreen.main.bounds.width)
-        
+        if model.hasHead == 1 {
+            return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeFourthCell.self, contentViewWidth: UIScreen.main.bounds.width)
+        } else {
+            return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeFirstCell.self, contentViewWidth: UIScreen.main.bounds.width)
+        }
     }
-    
-    
-    
-    
 }
 
 

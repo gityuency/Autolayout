@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2FFD881F95FD8E00CAF9B4 /* ThreeFourthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */; };
 		1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C39568A1F948C3800CF89B2 /* DemoVC8.swift */; };
 		1C39568E1F94955300CF89B2 /* DemoVC10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C39568D1F94955300CF89B2 /* DemoVC10.swift */; };
 		1C426C441F6A523000E40164 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C426C431F6A523000E40164 /* MainViewController.swift */; };
@@ -95,6 +96,7 @@
 
 /* Begin PBXFileReference section */
 		0805AB4D7A682BEF064B8855 /* Pods-AutoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFourthCell.swift; sourceTree = "<group>"; };
 		1C39568A1F948C3800CF89B2 /* DemoVC8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC8.swift; sourceTree = "<group>"; };
 		1C39568D1F94955300CF89B2 /* DemoVC10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC10.swift; sourceTree = "<group>"; };
 		1C426C431F6A523000E40164 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 			children = (
 				1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */,
 				1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */,
+				1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -673,6 +676,7 @@
 				1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */,
 				1C45ECBB1F72852300C7E2B9 /* DemoVC5.swift in Sources */,
 				1CC2C22E1F6A791B005964C7 /* UIView+Extension.swift in Sources */,
+				1C2FFD881F95FD8E00CAF9B4 /* ThreeFourthCell.swift in Sources */,
 				1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */,
 				1C45ECD31F72876400C7E2B9 /* DemoVC5TableViewCell.swift in Sources */,
 				1C45ECC31F72856D00C7E2B9 /* DemoVC4.swift in Sources */,

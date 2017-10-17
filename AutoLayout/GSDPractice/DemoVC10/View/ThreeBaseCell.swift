@@ -9,7 +9,7 @@
 import UIKit
 import SDCycleScrollView
 
-class ThreeBaseCell: UITableViewCell {
+class ThreeBaseCell: UITableViewCell, SDCycleScrollViewDelegate {
     
     
     /**
