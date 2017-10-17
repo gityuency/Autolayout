@@ -18,6 +18,8 @@ pod 'Alamofire'
 
 pod 'YYModel'
 
+pod 'Kingfisher'
+
 pod 'SDCycleScrollView'
 
   # Pods for AutoLayout
