@@ -12,6 +12,7 @@ import MJRefresh
 
 private let ThreeFirstCell_ID = "ThreeFirstCell_ID"
 private let ThreeFourthCell_ID = "ThreeFourthCell_ID"
+private let ThreeSecondCell_ID = "ThreeSecondCell_ID"
 
 class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
@@ -31,6 +32,7 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         tvView.backgroundColor = UIColor.brown
         tvView.register(ThreeFirstCell.self, forCellReuseIdentifier: ThreeFirstCell_ID)
         tvView.register(ThreeFourthCell.self, forCellReuseIdentifier: ThreeFourthCell_ID)
+        tvView.register(ThreeSecondCell.self, forCellReuseIdentifier: ThreeSecondCell_ID)
         
         
         //下拉刷新
@@ -50,8 +52,6 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
             self?.page += 10
             self?.loadData()
         }
-        
-        
         
         return tvView
     }()
@@ -130,7 +130,14 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
                 print("网络请求失败,解析本地文件 + \(error)")
             }
         }
+        
+        
+//        Alamofire.request(urlString).responseString { (jsonstring) in
+//            print(jsonstring)
+//        }
+
     }
+    
     
     
     
@@ -139,7 +146,6 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         
         
         let model = listArry[indexPath.row]
@@ -170,36 +176,23 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         
         var cell: ThreeBaseCell;
         
-        
         if model.hasHead == 1 {
-            
-            
             cell = tableView.dequeueReusableCell(withIdentifier: ThreeFourthCell_ID, for: indexPath) as! ThreeFourthCell
-            cell.threeModel = model
-            
-            
+        } else if (model.imgextra?.count != nil) {
+            cell = tableView.dequeueReusableCell(withIdentifier: ThreeSecondCell_ID, for: indexPath) as! ThreeSecondCell
         } else {
-            
-            
             cell = tableView.dequeueReusableCell(withIdentifier: ThreeFirstCell_ID, for: indexPath) as! ThreeFirstCell
-            cell.threeModel = model
-            
         }
         
-        
-        
-        
+        cell.threeModel = model
         
         
         ////// 此步设置用于实现cell的frame缓存，可以让tableview滑动更加流畅 //////
         cell.sd_tableView = tableView
         cell.sd_indexPath = indexPath
         
-        
         return cell
     }
-    
-    
     
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -208,6 +201,8 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         
         if model.hasHead == 1 {
             return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeFourthCell.self, contentViewWidth: UIScreen.main.bounds.width)
+        } else if (model.imgextra?.count != nil) {
+            return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeSecondCell.self, contentViewWidth: UIScreen.main.bounds.width)
         } else {
             return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeFirstCell.self, contentViewWidth: UIScreen.main.bounds.width)
         }
