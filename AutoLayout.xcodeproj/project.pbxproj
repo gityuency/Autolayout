@@ -20,6 +20,11 @@
 		1C45ECCF1F7286D900C7E2B9 /* DemoVC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECCE1F7286D900C7E2B9 /* DemoVC6.swift */; };
 		1C45ECD11F7286F900C7E2B9 /* DemoVC5Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECD01F7286F900C7E2B9 /* DemoVC5Model.swift */; };
 		1C45ECD31F72876400C7E2B9 /* DemoVC5TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECD21F72876400C7E2B9 /* DemoVC5TableViewCell.swift */; };
+		1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8778751F94A057004BCD6A /* ThreeModel.swift */; };
+		1C8778781F94B21D004BCD6A /* wangyi.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C8778771F94B21D004BCD6A /* wangyi.json */; };
+		1C87787A1F94B837004BCD6A /* GGG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8778791F94B837004BCD6A /* GGG.swift */; };
+		1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */; };
+		1C87787F1F94BD98004BCD6A /* ThreeFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */; };
 		1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0B2621F347FE000A4B698 /* AppDelegate.swift */; };
 		1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0B2641F347FE000A4B698 /* ViewController.swift */; };
 		1CB0B2681F347FE000A4B698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB0B2661F347FE000A4B698 /* Main.storyboard */; };
@@ -103,6 +108,11 @@
 		1C45ECCE1F7286D900C7E2B9 /* DemoVC6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC6.swift; sourceTree = "<group>"; };
 		1C45ECD01F7286F900C7E2B9 /* DemoVC5Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5Model.swift; sourceTree = "<group>"; };
 		1C45ECD21F72876400C7E2B9 /* DemoVC5TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5TableViewCell.swift; sourceTree = "<group>"; };
+		1C8778751F94A057004BCD6A /* ThreeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeModel.swift; sourceTree = "<group>"; };
+		1C8778771F94B21D004BCD6A /* wangyi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wangyi.json; sourceTree = "<group>"; };
+		1C8778791F94B837004BCD6A /* GGG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGG.swift; sourceTree = "<group>"; };
+		1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBaseCell.swift; sourceTree = "<group>"; };
+		1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFirstCell.swift; sourceTree = "<group>"; };
 		1CB0B25F1F347FE000A4B698 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB0B2621F347FE000A4B698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CB0B2641F347FE000A4B698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -197,7 +207,10 @@
 		1C39568C1F94953300CF89B2 /* DemoVC10 */ = {
 			isa = PBXGroup;
 			children = (
+				1C87787B1F94BB63004BCD6A /* View */,
+				1C8778741F949F87004BCD6A /* Model */,
 				1C39568D1F94955300CF89B2 /* DemoVC10.swift */,
+				1C8778791F94B837004BCD6A /* GGG.swift */,
 			);
 			path = DemoVC10;
 			sourceTree = "<group>";
@@ -259,6 +272,24 @@
 				1C45ECCE1F7286D900C7E2B9 /* DemoVC6.swift */,
 			);
 			path = DemoVC6;
+			sourceTree = "<group>";
+		};
+		1C8778741F949F87004BCD6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C8778751F94A057004BCD6A /* ThreeModel.swift */,
+				1C8778771F94B21D004BCD6A /* wangyi.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C87787B1F94BB63004BCD6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */,
+				1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		1CB0B2561F347FE000A4B698 = {
@@ -553,6 +584,7 @@
 				1CC2C28A1F6BB1C1005964C7 /* icon1.jpg in Resources */,
 				1CC2C29C1F6BB1C1005964C7 /* test3.jpg in Resources */,
 				1CC2C2701F6BB1C1005964C7 /* 1.jpg in Resources */,
+				1C8778781F94B21D004BCD6A /* wangyi.json in Resources */,
 				1CC2C28F1F6BB1C1005964C7 /* pic0.jpg in Resources */,
 				1CC2C2821F6BB1C1005964C7 /* 5.jpg in Resources */,
 				1CC2C2901F6BB1C1005964C7 /* pic1.jpg in Resources */,
@@ -632,6 +664,8 @@
 				1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */,
 				1C426C441F6A523000E40164 /* MainViewController.swift in Sources */,
 				1C45ECC61F72858600C7E2B9 /* DemoVC2.swift in Sources */,
+				1C87787F1F94BD98004BCD6A /* ThreeFirstCell.swift in Sources */,
+				1C87787A1F94B837004BCD6A /* GGG.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,
 				1CC996F01F74A89400EE3EC7 /* DemoVC7Cell2.swift in Sources */,
 				1C45ECCF1F7286D900C7E2B9 /* DemoVC6.swift in Sources */,
@@ -639,11 +673,13 @@
 				1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */,
 				1C45ECBB1F72852300C7E2B9 /* DemoVC5.swift in Sources */,
 				1CC2C22E1F6A791B005964C7 /* UIView+Extension.swift in Sources */,
+				1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */,
 				1C45ECD31F72876400C7E2B9 /* DemoVC5TableViewCell.swift in Sources */,
 				1C45ECC31F72856D00C7E2B9 /* DemoVC4.swift in Sources */,
 				1C45ECCC1F7285C600C7E2B9 /* DemoVC0.swift in Sources */,
 				1C45ECC01F72855400C7E2B9 /* TestCell2.swift in Sources */,
 				1CC996EA1F74A2B500EE3EC7 /* DemoVC7.swift in Sources */,
+				1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */,
 				1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

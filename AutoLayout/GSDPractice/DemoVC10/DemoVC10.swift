@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Alamofire
+
+private let ThreeFirstCell_ID = "ThreeFirstCell_ID"
 
 class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
@@ -16,12 +19,16 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         tvView.separatorColor = UIColor.clear
         tvView.delegate = self
         tvView.dataSource = self
-        tvView.backgroundColor = UIColor.clear
+        tvView.backgroundColor = UIColor.brown
+        tvView.register(ThreeFirstCell.self, forCellReuseIdentifier: ThreeFirstCell_ID)
         return tvView
     }()
     
+    
+    
+    
     ///数据列表
-    var listArry = Array<Any>()
+    var listArry = Array<ThreeModel>()
     
     ///翻页
     var page = 0
@@ -46,33 +53,125 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         //LEETheme 分为两种模式 , 默认设置模式 标识符设置模式 , 朋友圈demo展示的是默认设置模式的使用 , 微信聊天demo和Demo10 展示的是标识符模式的使用
         
         
-        automaticallyAdjustsScrollViewInsets = true
         view.addSubview(tv)
-        tv.sd_layout().spaceToSuperView(UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0))
         
+        
+        //这里请求一次数据
+        loadData()
         
     }
     
     ///请求数据
     private func loadData() {
         
-        let urlString = ""
+        let urlString = "http://c.m.163.com/nc/article/headline/T1348647853363/\(self.page)-20.html"
+        print("接口地址 \(urlString)")
         
+        Alamofire.request(urlString).responseJSON { (json) in
+            
+            
+            
+            switch json.result {
+                
+            case .success:  //网络请求成功,解析网络
+                
+                
+                //MARK: -  这绝对是一个重大的姿势调整!!!!!!!!
+                // 顶部结点是一个数组, 从顶部结点拆分这些数据, 遍历数组制造模型
+                
+                if let topDic = json.result.value as? [String: Any] {
+                    
+                    //首先获取这个顶部结点的 key
+                    let keyName = Array(topDic.keys)[0];
+                    
+                    //然后获取这个数组
+                    let array = topDic[keyName] as? [Any];
+                    
+                    //遍历数组,对模型赋值
+                    for dic in array ?? [] {
+                        guard let model = ThreeModel.yy_model(withJSON: dic) else {
+                            continue
+                        }
+                        self.listArry.append(model)
+                    }
+                }
+                
+                
+                self.tv.reloadData()
+                
+                
+            case .failure(let error):  //网络请求失败, 解析本地文件
+                
+                print("网络请求失败,解析本地文件 + \(error)")
+            }
+            
+            
+        }
         
     }
     
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 100
+        return listArry.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        return UITableViewCell()
+        
+        
+        let model = listArry[indexPath.row]
+        
+        
+        //        if model.hasHead == 1 {
+        //
+        //            return "ThreeFourthCell"
+        //
+        //        } else if (threeModel.imgType == 1) {
+        //
+        //
+        //            return "ThreeThirdCell"
+        //
+        //
+        //        } else if (threeModel.imgextra?.count != nil) {
+        //
+        //
+        //            return "ThreeSecondCell"
+        //
+        //
+        //        } else {
+        //
+        //
+        //            return "ThreeFirstCell"
+        //        }
+        //
+        
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: ThreeFirstCell_ID, for: indexPath) as! ThreeFirstCell
+        cell.threeModel = model
+        
+        
+        
+        
+        
+        ////// 此步设置用于实现cell的frame缓存，可以让tableview滑动更加流畅 //////
+        cell.sd_tableView = tableView
+        cell.sd_indexPath = indexPath
+        
+        
+        return cell
     }
     
     
+    
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        let model = listArry[indexPath.row]
+        
+        return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeFirstCell.self, contentViewWidth: UIScreen.main.bounds.width)
+        
+    }
     
     
     
