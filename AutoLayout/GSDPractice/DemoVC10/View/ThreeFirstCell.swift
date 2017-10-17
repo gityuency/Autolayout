@@ -42,15 +42,11 @@ class ThreeFirstCell: ThreeBaseCell {
     
     
     override var threeModel: ThreeModel? {
-        
         didSet {
-            
             lblTitle.text = threeModel?.title
             lblSubtitle.text = threeModel?.digest
-            
-
+            imgIcon.kf.setImage(with: URL(string: threeModel?.imgsrc ?? ""))
         }
-        
     }
     
     

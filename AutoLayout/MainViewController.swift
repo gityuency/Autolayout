@@ -11,6 +11,8 @@ import SDAutoLayout
 import LEETheme
 import Alamofire
 import YYModel
+import Kingfisher
+
 
 /// cell 重用标示
 let cellid = "shilidaima"
