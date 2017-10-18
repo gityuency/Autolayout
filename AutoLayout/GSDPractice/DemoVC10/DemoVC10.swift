@@ -13,6 +13,7 @@ import MJRefresh
 private let ThreeFirstCell_ID = "ThreeFirstCell_ID"
 private let ThreeFourthCell_ID = "ThreeFourthCell_ID"
 private let ThreeSecondCell_ID = "ThreeSecondCell_ID"
+private let ThreeThirdCell_ID = "ThreeThirdCell_ID"
 
 class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
@@ -30,10 +31,12 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         tvView.delegate = self
         tvView.dataSource = self
         tvView.backgroundColor = UIColor.brown
+        
         tvView.register(ThreeFirstCell.self, forCellReuseIdentifier: ThreeFirstCell_ID)
         tvView.register(ThreeFourthCell.self, forCellReuseIdentifier: ThreeFourthCell_ID)
         tvView.register(ThreeSecondCell.self, forCellReuseIdentifier: ThreeSecondCell_ID)
-        
+        tvView.register(ThreeThirdCell.self, forCellReuseIdentifier: ThreeThirdCell_ID)
+
         
         //下拉刷新
         tvView.mj_header = MJRefreshNormalHeader { [weak self] in
@@ -57,8 +60,6 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
     }()
     
     
-    
-    
     ///数据列表
     var listArry = Array<ThreeModel>()
     
@@ -78,7 +79,6 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
          */
         
         //LEETheme 分为两种模式 , 默认设置模式 标识符设置模式 , 朋友圈demo展示的是默认设置模式的使用 , 微信聊天demo和Demo10 展示的是标识符模式的使用
-        
         
         view.addSubview(tv)
         
@@ -147,32 +147,7 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        
         let model = listArry[indexPath.row]
-        
-        
-        //        if model.hasHead == 1 {
-        //
-        //            return "ThreeFourthCell"
-        //
-        //        } else if (threeModel.imgType == 1) {
-        //
-        //
-        //            return "ThreeThirdCell"
-        //
-        //
-        //        } else if (threeModel.imgextra?.count != nil) {
-        //
-        //
-        //            return "ThreeSecondCell"
-        //
-        //
-        //        } else {
-        //
-        //
-        //            return "ThreeFirstCell"
-        //        }
-        //
         
         var cell: ThreeBaseCell;
         
@@ -180,6 +155,8 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
             cell = tableView.dequeueReusableCell(withIdentifier: ThreeFourthCell_ID, for: indexPath) as! ThreeFourthCell
         } else if (model.imgextra?.count != nil) {
             cell = tableView.dequeueReusableCell(withIdentifier: ThreeSecondCell_ID, for: indexPath) as! ThreeSecondCell
+        } else if (model.imgType == 1) {
+            cell = tableView.dequeueReusableCell(withIdentifier: ThreeThirdCell_ID, for: indexPath) as! ThreeThirdCell
         } else {
             cell = tableView.dequeueReusableCell(withIdentifier: ThreeFirstCell_ID, for: indexPath) as! ThreeFirstCell
         }
@@ -203,6 +180,8 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
             return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeFourthCell.self, contentViewWidth: UIScreen.main.bounds.width)
         } else if (model.imgextra?.count != nil) {
             return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeSecondCell.self, contentViewWidth: UIScreen.main.bounds.width)
+        } else if (model.imgType == 1) {
+            return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeThirdCell.self, contentViewWidth: UIScreen.main.bounds.width)
         } else {
             return tv.cellHeight(for: indexPath, model: model, keyPath: "threeModel", cellClass: ThreeFirstCell.self, contentViewWidth: UIScreen.main.bounds.width)
         }
