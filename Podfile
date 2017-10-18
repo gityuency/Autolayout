@@ -20,6 +20,8 @@ pod 'Kingfisher'
 
 pod 'SDCycleScrollView'
 
+pod 'NightNight'
+
 #pod 'LEETheme'
 
   # Pods for AutoLayout
