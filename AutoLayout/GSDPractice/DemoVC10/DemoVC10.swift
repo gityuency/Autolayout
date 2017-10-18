@@ -88,7 +88,13 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         
         let rightBarButtonItem = UIBarButtonItem(title: "夜间", style: .done, target: self, action: #selector(rightBarButtonItemAction(sender:)))
         self.navigationItem.rightBarButtonItem = rightBarButtonItem
-        self.navigationController?.navigationBar.mixedBarStyle = MixedBarStyle(normal: .default, night: .black)
+        
+        //导航栏整体设置
+        navigationController?.navigationBar.mixedBarStyle = MixedBarStyle(normal: .default, night: .black)
+        //导航栏的颜色
+        navigationController?.navigationBar.mixedBarTintColor = MixedColor(normal: 0xffffff, night: 0xB72712)
+        //设置左右各种 item 文字的颜色  在mixedBarStyle设置之后才会去改变导航栏上所有文字的颜色
+        navigationController?.navigationBar.mixedTintColor = MixedColor(normal: 0x000000, night: 0xFFFFFF)
         
         //这里请求一次数据
         loadData()
