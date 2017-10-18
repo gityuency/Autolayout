@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import MJRefresh
+import NightNight
 
 private let ThreeFirstCell_ID = "ThreeFirstCell_ID"
 private let ThreeFourthCell_ID = "ThreeFourthCell_ID"
@@ -30,13 +31,13 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         tvView.separatorColor = UIColor.clear
         tvView.delegate = self
         tvView.dataSource = self
-        tvView.backgroundColor = UIColor.brown
+        tvView.mixedBackgroundColor = MixedColor(normal: 0xFECD52, night: 0xBDCDD2)
         
         tvView.register(ThreeFirstCell.self, forCellReuseIdentifier: ThreeFirstCell_ID)
         tvView.register(ThreeFourthCell.self, forCellReuseIdentifier: ThreeFourthCell_ID)
         tvView.register(ThreeSecondCell.self, forCellReuseIdentifier: ThreeSecondCell_ID)
         tvView.register(ThreeThirdCell.self, forCellReuseIdentifier: ThreeThirdCell_ID)
-
+        
         
         //下拉刷新
         tvView.mj_header = MJRefreshNormalHeader { [weak self] in
@@ -44,6 +45,7 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
             self?.myRefreshView = tvView.mj_header
             
             self?.page = 0
+            self?.listArry.removeAll()
             self?.loadData()
         }
         
@@ -84,24 +86,24 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         
         view.addSubview(tv)
         
-        
-        
-        
-        
-        let rightBarButtonItem = UIBarButtonItem(title: "日间", style: .done, target: self, action: #selector(rightBarButtonItemAction(sender:)))
-        
+        let rightBarButtonItem = UIBarButtonItem(title: "夜间", style: .done, target: self, action: #selector(rightBarButtonItemAction(sender:)))
         self.navigationItem.rightBarButtonItem = rightBarButtonItem
-
+        self.navigationController?.navigationBar.mixedBarStyle = MixedBarStyle(normal: .default, night: .black)
         
         //这里请求一次数据
         loadData()
-        
     }
     
     
     @objc private func rightBarButtonItemAction(sender: UIBarButtonItem) {
-    
-    
+        
+        if NightNight.theme == .night {
+            NightNight.theme = .normal
+            sender.title = "夜间"
+        } else {
+            NightNight.theme = .night
+            sender.title = "日间"
+        }
     }
     
     
@@ -149,10 +151,9 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         }
         
         
-//        Alamofire.request(urlString).responseString { (jsonstring) in
-//            print(jsonstring)
-//        }
-
+        // Alamofire.request(urlString).responseString { (jsonstring) in
+        //      print(jsonstring)
+        // }
     }
     
     
