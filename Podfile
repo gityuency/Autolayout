@@ -12,8 +12,6 @@ pod 'SDAutoLayout'
 
 pod 'MJRefresh'
 
-pod 'LEETheme'
-
 pod 'Alamofire'
 
 pod 'YYModel'
@@ -21,6 +19,8 @@ pod 'YYModel'
 pod 'Kingfisher'
 
 pod 'SDCycleScrollView'
+
+#pod 'LEETheme'
 
   # Pods for AutoLayout
 
