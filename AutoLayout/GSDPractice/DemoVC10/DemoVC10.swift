@@ -70,6 +70,8 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "网易新闻 DemoVC10"
+        
         /*
          本demo由SDAutoLayout库的使用者“李西亚”提供，感谢“李西亚”对本库的关注与支持！
          */
@@ -83,10 +85,25 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         view.addSubview(tv)
         
         
+        
+        
+        
+        let rightBarButtonItem = UIBarButtonItem(title: "日间", style: .done, target: self, action: #selector(rightBarButtonItemAction(sender:)))
+        
+        self.navigationItem.rightBarButtonItem = rightBarButtonItem
+
+        
         //这里请求一次数据
         loadData()
         
     }
+    
+    
+    @objc private func rightBarButtonItemAction(sender: UIBarButtonItem) {
+    
+    
+    }
+    
     
     ///请求数据
     private func loadData() {
@@ -196,14 +213,4 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
 
 
 
-
-
-//@objc private func rightBarButtonItemAction(sender: UIBarButtonItem) {
-//
-//
-//}
-
-//let rightBarButtonItem = UIBarButtonItem(title: "日间", style: .done, target: self, action: #selector(rightBarButtonItemAction(sender:)))
-//
-//self.navigationItem.rightBarButtonItem = rightBarButtonItem
 

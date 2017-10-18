@@ -9,6 +9,7 @@
 import UIKit
 import SDCycleScrollView
 
+
 class ThreeBaseCell: UITableViewCell, SDCycleScrollViewDelegate {
     
     
@@ -55,26 +56,6 @@ class ThreeBaseCell: UITableViewCell, SDCycleScrollViewDelegate {
     
     // 数据模型
     var threeModel: ThreeModel?
-    
-    
-    static func cellIdentifierForRow(threeModel: ThreeModel) -> String {
-        
-        
-        return "ThreeFirstCell"
-
-//        if threeModel.hasHead == 1 {
-//            
-//            return "ThreeFourthCell"
-//            
-//        } else if (threeModel.imgType == 1) {
-//            return "ThreeThirdCell"
-//        } else if (threeModel.imgextra?.count != nil) {
-//            return "ThreeSecondCell"
-//        } else {
-//            return "ThreeFirstCell"
-//        }
-    }
-    
     
     
     required override init(style: UITableViewCellStyle, reuseIdentifier: String?) {

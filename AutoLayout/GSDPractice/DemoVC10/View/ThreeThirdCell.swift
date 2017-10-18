@@ -50,7 +50,7 @@ class ThreeThirdCell: ThreeBaseCell {
         didSet{
             
             lblTitle.text = threeModel?.title
-            lblSubtitle.text = threeModel?.digest  //副标题有就显示,没有就隐藏 
+            lblSubtitle.text = threeModel?.digest  //副标题有就显示,没有就隐藏
             imgIcon.kf.setImage(with: URL(string: threeModel?.imgsrc ?? ""), placeholder: UIImage(named: "303"))
         }
     }
