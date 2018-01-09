@@ -25,6 +25,7 @@ class GSDPracticeTableViewController: UITableViewController {
         ["DemoVC7":"利用普通版 tableview 的 <多 cell> 高度自适应 2 步完成 tableview 的排布 "],
         ["DemoVC8":"利用升级版的 tableviewcell 多 cell 高度自适应, 1步 完成tableview的排布, 注意, 这个升级版方法适用于 cell 的 model 有多个的情况下使用, 性能比普通版的稍微差一些,不建议在数据量大的 tableview 中使用, (cell 数量尽量少于100个) 如果有大量的 cell 或者 cell 界面复杂渲染消耗性能较大则推荐使用普通方法简化版 \"cellHeightForIndexPath:model:keyPath:cellClass:contentViewWidth:\" 方法同样是一步设置即可完成"],
         ["DemoVC10":"模仿网易新闻页面"],
+        ["DemoVC11":"仿微信聊天界面 1.纯文本消息 2.图片消息"],
 
         ]
     

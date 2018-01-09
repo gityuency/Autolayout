@@ -10,6 +10,10 @@
 		1C2FFD881F95FD8E00CAF9B4 /* ThreeFourthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */; };
 		1C2FFD8A1F9609BB00CAF9B4 /* ThreeSecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */; };
 		1C2FFD8C1F96F65300CAF9B4 /* ThreeThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */; };
+		1C2FFD911F97295500CAF9B4 /* DemoVC11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD901F97295500CAF9B4 /* DemoVC11.swift */; };
+		1C2FFD931F97298700CAF9B4 /* SDChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD921F97298700CAF9B4 /* SDChatModel.swift */; };
+		1C2FFD951F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD941F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift */; };
+		1C2FFD971F97315700CAF9B4 /* SDChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD961F97315700CAF9B4 /* SDChatTableViewCell.swift */; };
 		1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C39568A1F948C3800CF89B2 /* DemoVC8.swift */; };
 		1C39568E1F94955300CF89B2 /* DemoVC10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C39568D1F94955300CF89B2 /* DemoVC10.swift */; };
 		1C426C441F6A523000E40164 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C426C431F6A523000E40164 /* MainViewController.swift */; };
@@ -101,6 +105,10 @@
 		1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFourthCell.swift; sourceTree = "<group>"; };
 		1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSecondCell.swift; sourceTree = "<group>"; };
 		1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeThirdCell.swift; sourceTree = "<group>"; };
+		1C2FFD901F97295500CAF9B4 /* DemoVC11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC11.swift; sourceTree = "<group>"; };
+		1C2FFD921F97298700CAF9B4 /* SDChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDChatModel.swift; sourceTree = "<group>"; };
+		1C2FFD941F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAnalogDataGenerator.swift; sourceTree = "<group>"; };
+		1C2FFD961F97315700CAF9B4 /* SDChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDChatTableViewCell.swift; sourceTree = "<group>"; };
 		1C39568A1F948C3800CF89B2 /* DemoVC8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC8.swift; sourceTree = "<group>"; };
 		1C39568D1F94955300CF89B2 /* DemoVC10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC10.swift; sourceTree = "<group>"; };
 		1C426C431F6A523000E40164 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -202,6 +210,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C2FFD8F1F9726E200CAF9B4 /* DemoVC11 */ = {
+			isa = PBXGroup;
+			children = (
+				1C2FFD901F97295500CAF9B4 /* DemoVC11.swift */,
+				1C2FFD921F97298700CAF9B4 /* SDChatModel.swift */,
+				1C2FFD961F97315700CAF9B4 /* SDChatTableViewCell.swift */,
+				1C2FFD941F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift */,
+			);
+			path = DemoVC11;
+			sourceTree = "<group>";
+		};
 		1C3956891F948C0F00CF89B2 /* DemoVC8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -383,6 +402,7 @@
 				1CC996E81F74A27800EE3EC7 /* DemoVC7 */,
 				1C3956891F948C0F00CF89B2 /* DemoVC8 */,
 				1C39568C1F94953300CF89B2 /* DemoVC10 */,
+				1C2FFD8F1F9726E200CAF9B4 /* DemoVC11 */,
 			);
 			name = "GSD代码练习";
 			path = GSDPractice;
@@ -658,6 +678,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2FFD931F97298700CAF9B4 /* SDChatModel.swift in Sources */,
 				1C39568E1F94955300CF89B2 /* DemoVC10.swift in Sources */,
 				1C45ECD11F7286F900C7E2B9 /* DemoVC5Model.swift in Sources */,
 				1C2FFD8A1F9609BB00CAF9B4 /* ThreeSecondCell.swift in Sources */,
@@ -673,7 +694,9 @@
 				1C45ECBF1F72855400C7E2B9 /* DemoVC3.swift in Sources */,
 				1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */,
 				1C426C441F6A523000E40164 /* MainViewController.swift in Sources */,
+				1C2FFD951F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift in Sources */,
 				1C45ECC61F72858600C7E2B9 /* DemoVC2.swift in Sources */,
+				1C2FFD971F97315700CAF9B4 /* SDChatTableViewCell.swift in Sources */,
 				1C87787F1F94BD98004BCD6A /* ThreeFirstCell.swift in Sources */,
 				1C87787A1F94B837004BCD6A /* GGG.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,
@@ -683,6 +706,7 @@
 				1CC996EE1F74A88600EE3EC7 /* DemoVC7Cell1.swift in Sources */,
 				1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */,
 				1C45ECBB1F72852300C7E2B9 /* DemoVC5.swift in Sources */,
+				1C2FFD911F97295500CAF9B4 /* DemoVC11.swift in Sources */,
 				1CC2C22E1F6A791B005964C7 /* UIView+Extension.swift in Sources */,
 				1C2FFD881F95FD8E00CAF9B4 /* ThreeFourthCell.swift in Sources */,
 				1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */,
