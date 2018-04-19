@@ -10,7 +10,7 @@ import UIKit
 import SDAutoLayout
 import Alamofire
 import YYModel
-//import Kingfisher
+import Kingfisher
 //import NightNight
 
 /// cell 重用标示

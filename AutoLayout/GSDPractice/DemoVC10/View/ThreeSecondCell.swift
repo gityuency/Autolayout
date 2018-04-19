@@ -59,14 +59,14 @@ class ThreeSecondCell: ThreeBaseCell {
             
             lblTitle.text = threeModel?.title
             
-//            imgIcon.kf.setImage(with: URL(string: (threeModel?.imgsrc) ?? ""))
+            imgIcon.kf.setImage(with: URL(string: (threeModel?.imgsrc) ?? ""))
             
             guard let imgArray = threeModel?.imgextra else {
                 return
             }
             
-//            imgOther1.kf.setImage(with: URL(string: imgArray[0].imgsrc ?? ""))
-//            imgOther2.kf.setImage(with: URL(string: imgArray[1].imgsrc ?? ""))
+            imgOther1.kf.setImage(with: URL(string: imgArray[0].imgsrc ?? ""))
+            imgOther2.kf.setImage(with: URL(string: imgArray[1].imgsrc ?? ""))
         }
         
     }

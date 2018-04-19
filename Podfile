@@ -17,7 +17,7 @@ pod 'Alamofire'
 
 pod 'YYModel'
 
-#pod 'Kingfisher'
+pod 'Kingfisher'
 
 pod 'SDCycleScrollView'
 
