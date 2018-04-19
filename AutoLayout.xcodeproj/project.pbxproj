@@ -33,6 +33,11 @@
 		1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */; };
 		1C87787F1F94BD98004BCD6A /* ThreeFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */; };
 		1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */; };
+		1C9993CD208837180091D293 /* SnpKitDemoVC0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993CC208837180091D293 /* SnpKitDemoVC0.swift */; };
+		1C9993CF208837A50091D293 /* EFPAFamilyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993CE208837A50091D293 /* EFPAFamilyCell.swift */; };
+		1C9993D12088397E0091D293 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993D02088397E0091D293 /* UILabel+Extensions.swift */; };
+		1C9993D320883DD60091D293 /* SnpKitDemoVC0ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993D220883DD60091D293 /* SnpKitDemoVC0ViewModel.swift */; };
+		1C9993D7208850F70091D293 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993D6208850F70091D293 /* UIColor+Extension.swift */; };
 		1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0B2621F347FE000A4B698 /* AppDelegate.swift */; };
 		1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0B2641F347FE000A4B698 /* ViewController.swift */; };
 		1CB0B2681F347FE000A4B698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB0B2661F347FE000A4B698 /* Main.storyboard */; };
@@ -129,6 +134,11 @@
 		1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBaseCell.swift; sourceTree = "<group>"; };
 		1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFirstCell.swift; sourceTree = "<group>"; };
 		1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoTableViewController.swift; sourceTree = "<group>"; };
+		1C9993CC208837180091D293 /* SnpKitDemoVC0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC0.swift; sourceTree = "<group>"; };
+		1C9993CE208837A50091D293 /* EFPAFamilyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFPAFamilyCell.swift; sourceTree = "<group>"; };
+		1C9993D02088397E0091D293 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		1C9993D220883DD60091D293 /* SnpKitDemoVC0ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC0ViewModel.swift; sourceTree = "<group>"; };
+		1C9993D6208850F70091D293 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		1CB0B25F1F347FE000A4B698 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB0B2621F347FE000A4B698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CB0B2641F347FE000A4B698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -326,8 +336,20 @@
 			isa = PBXGroup;
 			children = (
 				1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */,
+				1C9993C9208836CD0091D293 /* DemoVC0 */,
 			);
 			path = "SnapKit 常用代码";
+			sourceTree = "<group>";
+		};
+		1C9993C9208836CD0091D293 /* DemoVC0 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9993CC208837180091D293 /* SnpKitDemoVC0.swift */,
+				1C9993CE208837A50091D293 /* EFPAFamilyCell.swift */,
+				1C9993D02088397E0091D293 /* UILabel+Extensions.swift */,
+				1C9993D220883DD60091D293 /* SnpKitDemoVC0ViewModel.swift */,
+			);
+			path = DemoVC0;
 			sourceTree = "<group>";
 		};
 		1CB0B2561F347FE000A4B698 = {
@@ -383,6 +405,7 @@
 			isa = PBXGroup;
 			children = (
 				1CC2C2221F6A5FB4005964C7 /* Bundle+Extension.swift */,
+				1C9993D6208850F70091D293 /* UIColor+Extension.swift */,
 				1CC2C22D1F6A791B005964C7 /* UIView+Extension.swift */,
 			);
 			name = "工具类";
@@ -700,6 +723,7 @@
 				1C2FFD8A1F9609BB00CAF9B4 /* ThreeSecondCell.swift in Sources */,
 				1CC2C2271F6A6B45005964C7 /* VCUnderLineButton.swift in Sources */,
 				1CC2C2381F6B84C5005964C7 /* GSDPracticeTableViewController.swift in Sources */,
+				1C9993D320883DD60091D293 /* SnpKitDemoVC0ViewModel.swift in Sources */,
 				1CC996EC1F74A7FC00EE3EC7 /* DemoVC7Model.swift in Sources */,
 				1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */,
 				1CC2C2201F6A58CA005964C7 /* ViewControllerButtonList.swift in Sources */,
@@ -711,6 +735,7 @@
 				1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */,
 				1C426C441F6A523000E40164 /* MainViewController.swift in Sources */,
 				1C2FFD951F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift in Sources */,
+				1C9993CF208837A50091D293 /* EFPAFamilyCell.swift in Sources */,
 				1C45ECC61F72858600C7E2B9 /* DemoVC2.swift in Sources */,
 				1C2FFD971F97315700CAF9B4 /* SDChatTableViewCell.swift in Sources */,
 				1C87787F1F94BD98004BCD6A /* ThreeFirstCell.swift in Sources */,
@@ -728,12 +753,15 @@
 				1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */,
 				1C45ECD31F72876400C7E2B9 /* DemoVC5TableViewCell.swift in Sources */,
 				1C45ECC31F72856D00C7E2B9 /* DemoVC4.swift in Sources */,
+				1C9993CD208837180091D293 /* SnpKitDemoVC0.swift in Sources */,
 				1C45ECCC1F7285C600C7E2B9 /* DemoVC0.swift in Sources */,
 				1C45ECC01F72855400C7E2B9 /* TestCell2.swift in Sources */,
+				1C9993D7208850F70091D293 /* UIColor+Extension.swift in Sources */,
 				1CC996EA1F74A2B500EE3EC7 /* DemoVC7.swift in Sources */,
 				1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */,
 				1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */,
 				1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */,
+				1C9993D12088397E0091D293 /* UILabel+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

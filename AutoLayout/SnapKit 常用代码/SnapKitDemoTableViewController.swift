@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SnapKit
 /// cell 重用标示
 private let cellidSnapKitPracticeList = "SnapKitDemoTableViewController"
 
@@ -15,7 +15,7 @@ class SnapKitDemoTableViewController: UITableViewController {
     
     
     let listArray = [
-        ["DemoVC0":"VC0 自动布局的动画,修改一个 View 布局的约束,其他的 View 会自动重新排布"],
+        ["SnpKitDemoVC0":"1. 头像始终在 cell 纵向居中 \n2. 标题标签始终在纵向中心线的上方 \n3.标签始终在纵向中心线的下方 \n4. Section的高度是固定高度"],
         ["DemoVC1":"VC1 设置 View1的高度根据子 View 而适应,(在 View1中加入两个子 View, testLabel和 testView 然后色设置 view1高度根据子 view 内容自适应) \n2.高度自适应 Label \n3.宽度自适应 Label"],
         ["DemoVC2":"VC2 1.自定义 Button 内部 Label 和 imageVie 的位置, \n2.设置间距固定自动调整宽度的一组子 View \n3.设置宽度固定自动调整间距的一组子 View"],
         ["DemoVC3":"简单 TableView 高度自适应 示例代码"],
@@ -48,10 +48,8 @@ class SnapKitDemoTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellidSnapKitPracticeList, for: indexPath)
         
         //使用字典的值作为标题
-        cell.textLabel?.text = "\(indexPath.row): \(Array(listArray[indexPath.row].values)[0])"
+        cell.textLabel?.text = "\(indexPath.row) ->\n\(Array(listArray[indexPath.row].values)[0])"
         cell.textLabel?.numberOfLines = 0
-        cell.imageView?.image = UIImage(named: "a06")
-        
         return cell
     }
     
