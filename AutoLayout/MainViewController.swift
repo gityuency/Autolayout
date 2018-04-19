@@ -26,6 +26,7 @@ class MainViewController: UIViewController {
         ["ViewControllerButtonList":"按钮组"],
         ["ViewControllerLabelList":"标签组"],
         ["GSDPracticeTableViewController": "GSD 自动布局练习"],
+        ["SnapKitDemoTableViewController": "SnapKit 自动布局练习"],
         ]
     
     

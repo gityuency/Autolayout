@@ -32,6 +32,7 @@
 		1C87787A1F94B837004BCD6A /* GGG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8778791F94B837004BCD6A /* GGG.swift */; };
 		1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */; };
 		1C87787F1F94BD98004BCD6A /* ThreeFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */; };
+		1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */; };
 		1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0B2621F347FE000A4B698 /* AppDelegate.swift */; };
 		1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0B2641F347FE000A4B698 /* ViewController.swift */; };
 		1CB0B2681F347FE000A4B698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB0B2661F347FE000A4B698 /* Main.storyboard */; };
@@ -127,6 +128,7 @@
 		1C8778791F94B837004BCD6A /* GGG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGG.swift; sourceTree = "<group>"; };
 		1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBaseCell.swift; sourceTree = "<group>"; };
 		1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFirstCell.swift; sourceTree = "<group>"; };
+		1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoTableViewController.swift; sourceTree = "<group>"; };
 		1CB0B25F1F347FE000A4B698 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB0B2621F347FE000A4B698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CB0B2641F347FE000A4B698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -320,6 +322,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1C9993C220882B3D0091D293 /* SnapKit 常用代码 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */,
+			);
+			path = "SnapKit 常用代码";
+			sourceTree = "<group>";
+		};
 		1CB0B2561F347FE000A4B698 = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +354,7 @@
 				1CB0B2621F347FE000A4B698 /* AppDelegate.swift */,
 				1CB0B2641F347FE000A4B698 /* ViewController.swift */,
 				1C426C431F6A523000E40164 /* MainViewController.swift */,
+				1C9993C220882B3D0091D293 /* SnapKit 常用代码 */,
 				1CC2C22F1F6A7A65005964C7 /* GSD代码练习 */,
 				1CC2C2211F6A5FA8005964C7 /* 工具类 */,
 				1CC2C2281F6A6D15005964C7 /* Label */,
@@ -715,6 +726,7 @@
 				1C45ECCC1F7285C600C7E2B9 /* DemoVC0.swift in Sources */,
 				1C45ECC01F72855400C7E2B9 /* TestCell2.swift in Sources */,
 				1CC996EA1F74A2B500EE3EC7 /* DemoVC7.swift in Sources */,
+				1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */,
 				1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */,
 				1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */,
 			);
