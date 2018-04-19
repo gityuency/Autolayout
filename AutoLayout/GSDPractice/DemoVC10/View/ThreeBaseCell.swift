@@ -8,7 +8,7 @@
 
 import UIKit
 import SDCycleScrollView
-import NightNight
+//import NightNight
 
 class ThreeBaseCell: UITableViewCell, SDCycleScrollViewDelegate {
     
@@ -82,10 +82,10 @@ class ThreeBaseCell: UITableViewCell, SDCycleScrollViewDelegate {
         
         //设置主题
 
-        lblTitle.mixedTextColor =  MixedColor(normal: day_demovc11_textcolor, night: night_demovc11_textcolor)
-        lblSubtitle.mixedTextColor =  MixedColor(normal: day_demovc10_cell_summarycolor, night: night_demovc10_cell_summarycolor)
-        lineView.mixedBackgroundColor = MixedColor(normal: day_demovc10_cell_separatorcolor, night: night_demovc10_cell_separatorcolor)
-        contentView.mixedBackgroundColor = MixedColor(normal: day_demovc10_cell_backgroundcolor, night: night_demovc10_cell_backgroundcolor)
+//        lblTitle.mixedTextColor =  MixedColor(normal: day_demovc11_textcolor, night: night_demovc11_textcolor)
+//        lblSubtitle.mixedTextColor =  MixedColor(normal: day_demovc10_cell_summarycolor, night: night_demovc10_cell_summarycolor)
+//        lineView.mixedBackgroundColor = MixedColor(normal: day_demovc10_cell_separatorcolor, night: night_demovc10_cell_separatorcolor)
+//        contentView.mixedBackgroundColor = MixedColor(normal: day_demovc10_cell_backgroundcolor, night: night_demovc10_cell_backgroundcolor)
     
     }
     

@@ -10,8 +10,8 @@ import UIKit
 import SDAutoLayout
 import Alamofire
 import YYModel
-import Kingfisher
-import NightNight
+//import Kingfisher
+//import NightNight
 
 /// cell 重用标示
 let cellid = "shilidaima"

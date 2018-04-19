@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7B9964A506A2E6040AD0B9D811D6C571"
+               BlueprintIdentifier = "DACC10F847B1EC329B7366D1A873A0AD"
                BuildableName = "Pods_AutoLayout.framework"
                BlueprintName = "Pods-AutoLayout"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7B9964A506A2E6040AD0B9D811D6C571"
+            BlueprintIdentifier = "DACC10F847B1EC329B7366D1A873A0AD"
             BuildableName = "Pods_AutoLayout.framework"
             BlueprintName = "Pods-AutoLayout"
             ReferencedContainer = "container:Pods.xcodeproj">

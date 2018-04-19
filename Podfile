@@ -17,11 +17,11 @@ pod 'Alamofire'
 
 pod 'YYModel'
 
-pod 'Kingfisher'
+#pod 'Kingfisher'
 
 pod 'SDCycleScrollView'
 
-pod 'NightNight'
+#pod 'NightNight'
 
 #pod 'LEETheme'
 

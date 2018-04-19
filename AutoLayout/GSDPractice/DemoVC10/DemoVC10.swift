@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 import MJRefresh
-import NightNight
+//import NightNight
 
 private let ThreeFirstCell_ID = "ThreeFirstCell_ID"
 private let ThreeFourthCell_ID = "ThreeFourthCell_ID"
@@ -31,7 +31,7 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         tvView.separatorColor = UIColor.clear
         tvView.delegate = self
         tvView.dataSource = self
-        tvView.mixedBackgroundColor = MixedColor(normal: 0xFECD52, night: 0xBDCDD2)
+//        tvView.mixedBackgroundColor = MixedColor(normal: 0xFECD52, night: 0xBDCDD2)
         
         tvView.register(ThreeFirstCell.self, forCellReuseIdentifier: ThreeFirstCell_ID)
         tvView.register(ThreeFourthCell.self, forCellReuseIdentifier: ThreeFourthCell_ID)
@@ -90,11 +90,11 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
         self.navigationItem.rightBarButtonItem = rightBarButtonItem
         
         //导航栏整体设置
-        navigationController?.navigationBar.mixedBarStyle = MixedBarStyle(normal: .default, night: .black)
+//        navigationController?.navigationBar.mixedBarStyle = MixedBarStyle(normal: .default, night: .black)
         //导航栏的颜色
-        navigationController?.navigationBar.mixedBarTintColor = MixedColor(normal: 0xffffff, night: 0xB72712)
+//        navigationController?.navigationBar.mixedBarTintColor = MixedColor(normal: 0xffffff, night: 0xB72712)
         //设置左右各种 item 文字的颜色  在mixedBarStyle设置之后才会去改变导航栏上所有文字的颜色
-        navigationController?.navigationBar.mixedTintColor = MixedColor(normal: 0x000000, night: 0xFFFFFF)
+//        navigationController?.navigationBar.mixedTintColor = MixedColor(normal: 0x000000, night: 0xFFFFFF)
         
         //这里请求一次数据
         loadData()
@@ -103,13 +103,13 @@ class DemoVC10: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     @objc private func rightBarButtonItemAction(sender: UIBarButtonItem) {
         
-        if NightNight.theme == .night {
-            NightNight.theme = .normal
-            sender.title = "夜间"
-        } else {
-            NightNight.theme = .night
-            sender.title = "日间"
-        }
+//        if NightNight.theme == .night {
+//            NightNight.theme = .normal
+//            sender.title = "夜间"
+//        } else {
+//            NightNight.theme = .night
+//            sender.title = "日间"
+//        }
     }
     
     
