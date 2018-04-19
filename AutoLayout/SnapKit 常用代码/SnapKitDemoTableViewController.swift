@@ -16,6 +16,7 @@ class SnapKitDemoTableViewController: UITableViewController {
     
     let listArray = [
         ["SnpKitDemoVC0":"1. 头像始终在 cell 纵向居中 \n2. 标题标签始终在纵向中心线的上方 \n3.标签始终在纵向中心线的下方 \n4. Section的高度是固定高度"],
+        ["SnpKitDemoVC1":"1. 两个 Label 在 cell 中水平居中 \n2. 两个 Label 的宽度都随文字长短变化 \n3.右边的 Label 优先完整显示内容, 不能被压缩, 不能被拉伸"],
         
         ]
     
@@ -34,6 +35,7 @@ class SnapKitDemoTableViewController: UITableViewController {
         //使用字典的值作为标题
         cell.textLabel?.text = "\(indexPath.row) ->\n\(Array(listArray[indexPath.row].values)[0])"
         cell.textLabel?.numberOfLines = 0
+        cell.imageView?.image = UIImage.init(named: "jinshuo")
         return cell
     }
     //MARK: - 事件

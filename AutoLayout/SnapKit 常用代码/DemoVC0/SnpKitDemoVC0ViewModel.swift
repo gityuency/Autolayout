@@ -10,7 +10,7 @@ import Foundation
 
 class SnpKitDemoVC0ViewModel {
     
-    let dataArray: [[SnpKitDemoVC0Model]]!
+    let dataArray: [[SnpKitDemoCellModel]]!
     
     let nameArray = [
         "小浣熊干脆面",
@@ -19,11 +19,11 @@ class SnpKitDemoVC0ViewModel {
         ]
     
     init() {
-        var a1 = [Array<SnpKitDemoVC0Model>]()
+        var a1 = [Array<SnpKitDemoCellModel>]()
         for _ in 0..<3 {
-            var a2 = [SnpKitDemoVC0Model]()
+            var a2 = [SnpKitDemoCellModel]()
             for _ in 0..<20 {
-                let m = SnpKitDemoVC0Model()
+                let m = SnpKitDemoCellModel()
                 m.name = nameArray[nameArray.randomIndex]
                 a2.append(m)
             }
@@ -34,21 +34,13 @@ class SnpKitDemoVC0ViewModel {
 }
 
 
-class SnpKitDemoVC0Model {
+class SnpKitDemoCellModel {
     var name = ""
     var tag = ""
+    var leftTitle = ""
+    var rightTitle = ""
+    var timeString = ""
+    var contentString = ""
 }
-
-
-extension Array {
-    /// 给定一个数组,获得随机的索引
-    var randomIndex: Int {
-        let index = Int(arc4random_uniform(UInt32(self.count)))
-        return index
-    }
-}
-
-
-
 
 
