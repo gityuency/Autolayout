@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDCycleScrollView
 
 private let IDDemoVC5 = "dfsjakljdsaklfjdklsajfkldas"
 
@@ -42,9 +43,42 @@ class DemoVC5: UITableViewController {
         tableView.register(DemoVC5TableViewCell.self, forCellReuseIdentifier: IDDemoVC5)
     }
     
-    
+    //MARK: -  给表格添加轮播图
     func setupHeaderView() {
         
+        let header = UIView()
+        let picImageNamesArray = ["pic1.jpg",
+                                  "pic2.jpg",
+                                  "pic3.jpg",
+                                  "pic4.jpg",
+                                  ]
+        
+        let scrollView = SDCycleScrollView()
+        scrollView.localizationImageNamesGroup = picImageNamesArray
+        header.addSubview(scrollView)
+        
+        let tagLabel = UILabel()
+        tagLabel.font = UIFont.systemFont(ofSize: 13)
+        tagLabel.textColor = UIColor.lightGray
+        tagLabel.text = "不在意的样子是我最后的表演"
+        header.addSubview(tagLabel)
+        
+        let bottomLine = UIView()
+        bottomLine.backgroundColor = UIColor.lightGray.withAlphaComponent(0.3)
+        header.addSubview(bottomLine)
+        
+        
+        _ = scrollView.sd_layout().leftSpaceToView(header, 0)?.topSpaceToView(header, 0)?.rightSpaceToView(header, 0)?.heightIs(150)
+        
+        _ = tagLabel.sd_layout().leftSpaceToView(header, 10)?.topSpaceToView(scrollView, 0)?.heightIs(25)?.rightSpaceToView(header, 0)
+        
+        _ = bottomLine.sd_layout().topSpaceToView(tagLabel, 0)?.leftSpaceToView(header, 0)?.rightSpaceToView(header, 0)?.heightIs(1);
+        
+        //使用这句话来让 header 内部的元素进行自动适应
+        header.setupAutoHeight(withBottomView: bottomLine, bottomMargin: 0)
+        header.layoutSubviews()
+        
+        tableView.tableHeaderView = header
         
     }
     

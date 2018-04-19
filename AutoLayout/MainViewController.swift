@@ -8,6 +8,10 @@
 
 import UIKit
 import SDAutoLayout
+import Alamofire
+import YYModel
+import Kingfisher
+import NightNight
 
 /// cell 重用标示
 let cellid = "shilidaima"
@@ -22,6 +26,7 @@ class MainViewController: UIViewController {
         ["ViewControllerButtonList":"按钮组"],
         ["ViewControllerLabelList":"标签组"],
         ["GSDPracticeTableViewController": "GSD 自动布局练习"],
+        ["SnapKitDemoTableViewController": "SnapKit 自动布局练习"],
         ]
     
     
@@ -86,12 +91,6 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     
 }
-
-
-
-
-
-
 
 
 

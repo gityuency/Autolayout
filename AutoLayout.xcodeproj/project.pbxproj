@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2FFD881F95FD8E00CAF9B4 /* ThreeFourthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */; };
+		1C2FFD8A1F9609BB00CAF9B4 /* ThreeSecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */; };
+		1C2FFD8C1F96F65300CAF9B4 /* ThreeThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */; };
+		1C2FFD911F97295500CAF9B4 /* DemoVC11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD901F97295500CAF9B4 /* DemoVC11.swift */; };
+		1C2FFD931F97298700CAF9B4 /* SDChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD921F97298700CAF9B4 /* SDChatModel.swift */; };
+		1C2FFD951F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD941F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift */; };
+		1C2FFD971F97315700CAF9B4 /* SDChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD961F97315700CAF9B4 /* SDChatTableViewCell.swift */; };
+		1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C39568A1F948C3800CF89B2 /* DemoVC8.swift */; };
+		1C39568E1F94955300CF89B2 /* DemoVC10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C39568D1F94955300CF89B2 /* DemoVC10.swift */; };
 		1C426C441F6A523000E40164 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C426C431F6A523000E40164 /* MainViewController.swift */; };
 		1C45ECBB1F72852300C7E2B9 /* DemoVC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECBA1F72852300C7E2B9 /* DemoVC5.swift */; };
 		1C45ECBF1F72855400C7E2B9 /* DemoVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECBD1F72855400C7E2B9 /* DemoVC3.swift */; };
@@ -18,6 +27,12 @@
 		1C45ECCF1F7286D900C7E2B9 /* DemoVC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECCE1F7286D900C7E2B9 /* DemoVC6.swift */; };
 		1C45ECD11F7286F900C7E2B9 /* DemoVC5Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECD01F7286F900C7E2B9 /* DemoVC5Model.swift */; };
 		1C45ECD31F72876400C7E2B9 /* DemoVC5TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECD21F72876400C7E2B9 /* DemoVC5TableViewCell.swift */; };
+		1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8778751F94A057004BCD6A /* ThreeModel.swift */; };
+		1C8778781F94B21D004BCD6A /* wangyi.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C8778771F94B21D004BCD6A /* wangyi.json */; };
+		1C87787A1F94B837004BCD6A /* GGG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8778791F94B837004BCD6A /* GGG.swift */; };
+		1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */; };
+		1C87787F1F94BD98004BCD6A /* ThreeFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */; };
+		1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */; };
 		1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0B2621F347FE000A4B698 /* AppDelegate.swift */; };
 		1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0B2641F347FE000A4B698 /* ViewController.swift */; };
 		1CB0B2681F347FE000A4B698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB0B2661F347FE000A4B698 /* Main.storyboard */; };
@@ -79,11 +94,24 @@
 		1CC2C29B1F6BB1C1005964C7 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2C26C1F6BB1C1005964C7 /* test2.jpg */; };
 		1CC2C29C1F6BB1C1005964C7 /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2C26D1F6BB1C1005964C7 /* test3.jpg */; };
 		1CC2C29D1F6BB1C1005964C7 /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2C26E1F6BB1C1005964C7 /* test4.jpg */; };
+		1CC996EA1F74A2B500EE3EC7 /* DemoVC7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC996E91F74A2B500EE3EC7 /* DemoVC7.swift */; };
+		1CC996EC1F74A7FC00EE3EC7 /* DemoVC7Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC996EB1F74A7FC00EE3EC7 /* DemoVC7Model.swift */; };
+		1CC996EE1F74A88600EE3EC7 /* DemoVC7Cell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC996ED1F74A88600EE3EC7 /* DemoVC7Cell1.swift */; };
+		1CC996F01F74A89400EE3EC7 /* DemoVC7Cell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC996EF1F74A89400EE3EC7 /* DemoVC7Cell2.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0805AB4D7A682BEF064B8855 /* Pods-AutoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFourthCell.swift; sourceTree = "<group>"; };
+		1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSecondCell.swift; sourceTree = "<group>"; };
+		1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeThirdCell.swift; sourceTree = "<group>"; };
+		1C2FFD901F97295500CAF9B4 /* DemoVC11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC11.swift; sourceTree = "<group>"; };
+		1C2FFD921F97298700CAF9B4 /* SDChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDChatModel.swift; sourceTree = "<group>"; };
+		1C2FFD941F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAnalogDataGenerator.swift; sourceTree = "<group>"; };
+		1C2FFD961F97315700CAF9B4 /* SDChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDChatTableViewCell.swift; sourceTree = "<group>"; };
+		1C39568A1F948C3800CF89B2 /* DemoVC8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC8.swift; sourceTree = "<group>"; };
+		1C39568D1F94955300CF89B2 /* DemoVC10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC10.swift; sourceTree = "<group>"; };
 		1C426C431F6A523000E40164 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1C45ECBA1F72852300C7E2B9 /* DemoVC5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5.swift; sourceTree = "<group>"; };
 		1C45ECBD1F72855400C7E2B9 /* DemoVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC3.swift; sourceTree = "<group>"; };
@@ -95,6 +123,12 @@
 		1C45ECCE1F7286D900C7E2B9 /* DemoVC6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC6.swift; sourceTree = "<group>"; };
 		1C45ECD01F7286F900C7E2B9 /* DemoVC5Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5Model.swift; sourceTree = "<group>"; };
 		1C45ECD21F72876400C7E2B9 /* DemoVC5TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5TableViewCell.swift; sourceTree = "<group>"; };
+		1C8778751F94A057004BCD6A /* ThreeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeModel.swift; sourceTree = "<group>"; };
+		1C8778771F94B21D004BCD6A /* wangyi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wangyi.json; sourceTree = "<group>"; };
+		1C8778791F94B837004BCD6A /* GGG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGG.swift; sourceTree = "<group>"; };
+		1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBaseCell.swift; sourceTree = "<group>"; };
+		1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFirstCell.swift; sourceTree = "<group>"; };
+		1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoTableViewController.swift; sourceTree = "<group>"; };
 		1CB0B25F1F347FE000A4B698 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB0B2621F347FE000A4B698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CB0B2641F347FE000A4B698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +192,10 @@
 		1CC2C26C1F6BB1C1005964C7 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
 		1CC2C26D1F6BB1C1005964C7 /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpg; sourceTree = "<group>"; };
 		1CC2C26E1F6BB1C1005964C7 /* test4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test4.jpg; sourceTree = "<group>"; };
+		1CC996E91F74A2B500EE3EC7 /* DemoVC7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC7.swift; sourceTree = "<group>"; };
+		1CC996EB1F74A7FC00EE3EC7 /* DemoVC7Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC7Model.swift; sourceTree = "<group>"; };
+		1CC996ED1F74A88600EE3EC7 /* DemoVC7Cell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC7Cell1.swift; sourceTree = "<group>"; };
+		1CC996EF1F74A89400EE3EC7 /* DemoVC7Cell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC7Cell2.swift; sourceTree = "<group>"; };
 		9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +212,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C2FFD8F1F9726E200CAF9B4 /* DemoVC11 */ = {
+			isa = PBXGroup;
+			children = (
+				1C2FFD901F97295500CAF9B4 /* DemoVC11.swift */,
+				1C2FFD921F97298700CAF9B4 /* SDChatModel.swift */,
+				1C2FFD961F97315700CAF9B4 /* SDChatTableViewCell.swift */,
+				1C2FFD941F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift */,
+			);
+			path = DemoVC11;
+			sourceTree = "<group>";
+		};
+		1C3956891F948C0F00CF89B2 /* DemoVC8 */ = {
+			isa = PBXGroup;
+			children = (
+				1C39568A1F948C3800CF89B2 /* DemoVC8.swift */,
+			);
+			path = DemoVC8;
+			sourceTree = "<group>";
+		};
+		1C39568C1F94953300CF89B2 /* DemoVC10 */ = {
+			isa = PBXGroup;
+			children = (
+				1C87787B1F94BB63004BCD6A /* View */,
+				1C8778741F949F87004BCD6A /* Model */,
+				1C39568D1F94955300CF89B2 /* DemoVC10.swift */,
+				1C8778791F94B837004BCD6A /* GGG.swift */,
+			);
+			path = DemoVC10;
+			sourceTree = "<group>";
+		};
 		1C45ECB91F72852300C7E2B9 /* DemoVC5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +301,35 @@
 			path = DemoVC6;
 			sourceTree = "<group>";
 		};
+		1C8778741F949F87004BCD6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C8778751F94A057004BCD6A /* ThreeModel.swift */,
+				1C8778771F94B21D004BCD6A /* wangyi.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C87787B1F94BB63004BCD6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */,
+				1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */,
+				1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */,
+				1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */,
+				1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C9993C220882B3D0091D293 /* SnapKit 常用代码 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */,
+			);
+			path = "SnapKit 常用代码";
+			sourceTree = "<group>";
+		};
 		1CB0B2561F347FE000A4B698 = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +354,7 @@
 				1CB0B2621F347FE000A4B698 /* AppDelegate.swift */,
 				1CB0B2641F347FE000A4B698 /* ViewController.swift */,
 				1C426C431F6A523000E40164 /* MainViewController.swift */,
+				1C9993C220882B3D0091D293 /* SnapKit 常用代码 */,
 				1CC2C22F1F6A7A65005964C7 /* GSD代码练习 */,
 				1CC2C2211F6A5FA8005964C7 /* 工具类 */,
 				1CC2C2281F6A6D15005964C7 /* Label */,
@@ -312,6 +410,10 @@
 				1C45ECC11F72856D00C7E2B9 /* DemoVC4 */,
 				1C45ECB91F72852300C7E2B9 /* DemoVC5 */,
 				1C45ECCD1F7286BC00C7E2B9 /* DemoVC6 */,
+				1CC996E81F74A27800EE3EC7 /* DemoVC7 */,
+				1C3956891F948C0F00CF89B2 /* DemoVC8 */,
+				1C39568C1F94953300CF89B2 /* DemoVC10 */,
+				1C2FFD8F1F9726E200CAF9B4 /* DemoVC11 */,
 			);
 			name = "GSD代码练习";
 			path = GSDPractice;
@@ -385,6 +487,17 @@
 				1CC2C26E1F6BB1C1005964C7 /* test4.jpg */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		1CC996E81F74A27800EE3EC7 /* DemoVC7 */ = {
+			isa = PBXGroup;
+			children = (
+				1CC996E91F74A2B500EE3EC7 /* DemoVC7.swift */,
+				1CC996ED1F74A88600EE3EC7 /* DemoVC7Cell1.swift */,
+				1CC996EF1F74A89400EE3EC7 /* DemoVC7Cell2.swift */,
+				1CC996EB1F74A7FC00EE3EC7 /* DemoVC7Model.swift */,
+			);
+			path = DemoVC7;
 			sourceTree = "<group>";
 		};
 		57F676B89FD1004B0855BAE2 /* Pods */ = {
@@ -512,6 +625,7 @@
 				1CC2C28A1F6BB1C1005964C7 /* icon1.jpg in Resources */,
 				1CC2C29C1F6BB1C1005964C7 /* test3.jpg in Resources */,
 				1CC2C2701F6BB1C1005964C7 /* 1.jpg in Resources */,
+				1C8778781F94B21D004BCD6A /* wangyi.json in Resources */,
 				1CC2C28F1F6BB1C1005964C7 /* pic0.jpg in Resources */,
 				1CC2C2821F6BB1C1005964C7 /* 5.jpg in Resources */,
 				1CC2C2901F6BB1C1005964C7 /* pic1.jpg in Resources */,
@@ -576,9 +690,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2FFD931F97298700CAF9B4 /* SDChatModel.swift in Sources */,
+				1C39568E1F94955300CF89B2 /* DemoVC10.swift in Sources */,
 				1C45ECD11F7286F900C7E2B9 /* DemoVC5Model.swift in Sources */,
+				1C2FFD8A1F9609BB00CAF9B4 /* ThreeSecondCell.swift in Sources */,
 				1CC2C2271F6A6B45005964C7 /* VCUnderLineButton.swift in Sources */,
 				1CC2C2381F6B84C5005964C7 /* GSDPracticeTableViewController.swift in Sources */,
+				1CC996EC1F74A7FC00EE3EC7 /* DemoVC7Model.swift in Sources */,
 				1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */,
 				1CC2C2201F6A58CA005964C7 /* ViewControllerButtonList.swift in Sources */,
 				1CC2C2231F6A5FB4005964C7 /* Bundle+Extension.swift in Sources */,
@@ -586,17 +704,31 @@
 				1C45ECC91F7285A200C7E2B9 /* DemoVC1.swift in Sources */,
 				1CC2C2251F6A6563005964C7 /* VCImageButton.swift in Sources */,
 				1C45ECBF1F72855400C7E2B9 /* DemoVC3.swift in Sources */,
+				1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */,
 				1C426C441F6A523000E40164 /* MainViewController.swift in Sources */,
+				1C2FFD951F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift in Sources */,
 				1C45ECC61F72858600C7E2B9 /* DemoVC2.swift in Sources */,
+				1C2FFD971F97315700CAF9B4 /* SDChatTableViewCell.swift in Sources */,
+				1C87787F1F94BD98004BCD6A /* ThreeFirstCell.swift in Sources */,
+				1C87787A1F94B837004BCD6A /* GGG.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,
+				1C2FFD8C1F96F65300CAF9B4 /* ThreeThirdCell.swift in Sources */,
+				1CC996F01F74A89400EE3EC7 /* DemoVC7Cell2.swift in Sources */,
 				1C45ECCF1F7286D900C7E2B9 /* DemoVC6.swift in Sources */,
+				1CC996EE1F74A88600EE3EC7 /* DemoVC7Cell1.swift in Sources */,
 				1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */,
 				1C45ECBB1F72852300C7E2B9 /* DemoVC5.swift in Sources */,
+				1C2FFD911F97295500CAF9B4 /* DemoVC11.swift in Sources */,
 				1CC2C22E1F6A791B005964C7 /* UIView+Extension.swift in Sources */,
+				1C2FFD881F95FD8E00CAF9B4 /* ThreeFourthCell.swift in Sources */,
+				1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */,
 				1C45ECD31F72876400C7E2B9 /* DemoVC5TableViewCell.swift in Sources */,
 				1C45ECC31F72856D00C7E2B9 /* DemoVC4.swift in Sources */,
 				1C45ECCC1F7285C600C7E2B9 /* DemoVC0.swift in Sources */,
 				1C45ECC01F72855400C7E2B9 /* TestCell2.swift in Sources */,
+				1CC996EA1F74A2B500EE3EC7 /* DemoVC7.swift in Sources */,
+				1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */,
+				1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */,
 				1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

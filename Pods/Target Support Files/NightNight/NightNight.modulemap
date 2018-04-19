@@ -1,0 +1,6 @@
+framework module NightNight {
+  umbrella header "NightNight-umbrella.h"
+
+  export *
+  module * { export * }
+}
