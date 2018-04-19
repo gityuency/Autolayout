@@ -8,6 +8,7 @@ PODS:
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - SnapKit (4.0.0)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -16,6 +17,7 @@ DEPENDENCIES:
   - MJRefresh
   - SDAutoLayout
   - SDCycleScrollView
+  - SnapKit (~> 4.0.0)
   - YYModel
 
 SPEC REPOS:
@@ -26,6 +28,7 @@ SPEC REPOS:
     - SDAutoLayout
     - SDCycleScrollView
     - SDWebImage
+    - SnapKit
     - YYModel
 
 SPEC CHECKSUMS:
@@ -35,8 +38,9 @@ SPEC CHECKSUMS:
   SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
   SDCycleScrollView: d0fd5fe40a80918371fd8939214eb3be81033d83
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: fd9e1be48c020d227c3d9a8044550dbf8c06e818
+PODFILE CHECKSUM: 83e5f9ebce6298cc165ef7aef836434cb2d192c2
 
 COCOAPODS: 1.5.0.beta.1

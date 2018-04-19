@@ -21,6 +21,8 @@ pod 'Kingfisher'
 
 pod 'SDCycleScrollView'
 
+pod 'SnapKit', '~> 4.0.0'
+
 #pod 'NightNight'
 
 #pod 'LEETheme'
