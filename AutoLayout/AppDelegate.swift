@@ -18,19 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         
         setUpRootViewController()
-
-        
-        var arrr = [String]()
-        arrr.append("fdsafds")
-        
-        let b = UIViewController.self
-        print(b)
-        
-        let c = "fdasf"
-        
-        let name = type(of: c)
-
-        print(name)
         
         return true
     }
