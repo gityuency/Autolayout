@@ -10,6 +10,7 @@
 		1C2C901220898952008F0580 /* SnpKitDemoVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C901120898952008F0580 /* SnpKitDemoVC2.swift */; };
 		1C2C90142089896B008F0580 /* SnpKit_DemoVC_2_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C90132089896B008F0580 /* SnpKit_DemoVC_2_Cell.swift */; };
 		1C2C901620898A76008F0580 /* SnpKitDemoVC2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C901520898A76008F0580 /* SnpKitDemoVC2ViewModel.swift */; };
+		1C2C90192089D1BB008F0580 /* FPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C90182089D1BB008F0580 /* FPSLabel.swift */; };
 		1C2FFD881F95FD8E00CAF9B4 /* ThreeFourthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */; };
 		1C2FFD8A1F9609BB00CAF9B4 /* ThreeSecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */; };
 		1C2FFD8C1F96F65300CAF9B4 /* ThreeThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */; };
@@ -118,6 +119,7 @@
 		1C2C901120898952008F0580 /* SnpKitDemoVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC2.swift; sourceTree = "<group>"; };
 		1C2C90132089896B008F0580 /* SnpKit_DemoVC_2_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKit_DemoVC_2_Cell.swift; sourceTree = "<group>"; };
 		1C2C901520898A76008F0580 /* SnpKitDemoVC2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC2ViewModel.swift; sourceTree = "<group>"; };
+		1C2C90182089D1BB008F0580 /* FPSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSLabel.swift; sourceTree = "<group>"; };
 		1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFourthCell.swift; sourceTree = "<group>"; };
 		1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSecondCell.swift; sourceTree = "<group>"; };
 		1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeThirdCell.swift; sourceTree = "<group>"; };
@@ -244,6 +246,14 @@
 				1C2C901520898A76008F0580 /* SnpKitDemoVC2ViewModel.swift */,
 			);
 			path = DemoVC2;
+			sourceTree = "<group>";
+		};
+		1C2C90172089D1A9008F0580 /* 特殊类 */ = {
+			isa = PBXGroup;
+			children = (
+				1C2C90182089D1BB008F0580 /* FPSLabel.swift */,
+			);
+			path = "特殊类";
 			sourceTree = "<group>";
 		};
 		1C2FFD8F1F9726E200CAF9B4 /* DemoVC11 */ = {
@@ -414,6 +424,7 @@
 				1C426C431F6A523000E40164 /* MainViewController.swift */,
 				1C9993C220882B3D0091D293 /* SnapKit 代码练习 */,
 				1CC2C22F1F6A7A65005964C7 /* GSD代码练习 */,
+				1C2C90172089D1A9008F0580 /* 特殊类 */,
 				1CC2C2211F6A5FA8005964C7 /* 工具类 */,
 				1CC2C2281F6A6D15005964C7 /* Label */,
 				1CC2C21E1F6A5874005964C7 /* 按钮 */,
@@ -755,6 +766,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C5C66802088912C003003C9 /* SnpKitDemoVC1.swift in Sources */,
+				1C2C90192089D1BB008F0580 /* FPSLabel.swift in Sources */,
 				1C2FFD931F97298700CAF9B4 /* SDChatModel.swift in Sources */,
 				1C39568E1F94955300CF89B2 /* DemoVC10.swift in Sources */,
 				1C45ECD11F7286F900C7E2B9 /* DemoVC5Model.swift in Sources */,

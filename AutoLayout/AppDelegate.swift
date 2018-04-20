@@ -52,6 +52,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.white
         window?.rootViewController = navi
         window?.makeKeyAndVisible()
+        
+        /// 添加帧数检查
+        let v = FPSLabel(frame: CGRect(x: 85, y: 0, width: 80, height: 20))
+        window?.addSubview(v)
     }
     
     

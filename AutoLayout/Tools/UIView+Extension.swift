@@ -16,5 +16,12 @@ extension UIView {
         self.init()
         backgroundColor = backColor
     }
+        
+    /// 创建一个带有随机色的背景的 View
+    convenience init(randomColorDark: Bool) {
+        self.init()
+        let alpha: CGFloat = randomColorDark == true ? 1 : 0.2
+        backgroundColor = UIColor.randomColor.withAlphaComponent(alpha)
+    }
     
 }
