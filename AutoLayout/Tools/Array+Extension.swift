@@ -16,6 +16,14 @@ extension Array {
         let index = Int(arc4random_uniform(UInt32(self.count)))
         return index
     }
+    
+    /// 获取这个数组的随机元素
+    func randomItem() -> Element {
+        let index = Int(arc4random_uniform(UInt32(self.count)))
+        let item =  self[index]
+        return item
+    }
+    
 }
 
 

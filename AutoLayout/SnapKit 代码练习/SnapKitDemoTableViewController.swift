@@ -34,7 +34,7 @@ class SnapKitDemoTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellidSnapKitPracticeList, for: indexPath)
         //使用字典的值作为标题
-        cell.textLabel?.text = "\(indexPath.row) ->\n\(Array(listArray[indexPath.row].values)[0])"
+        cell.textLabel?.text = "介绍 ->\n\(Array(listArray[indexPath.row].values)[0])"
         cell.textLabel?.numberOfLines = 0
         cell.imageView?.image = UIImage.init(named: "jinshuo")
         return cell

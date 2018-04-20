@@ -24,7 +24,7 @@ class SnpKitDemoVC0ViewModel {
             var a2 = [SnpKitDemoCellModel]()
             for _ in 0..<20 {
                 let m = SnpKitDemoCellModel()
-                m.name = nameArray[nameArray.randomIndex]
+                m.name = nameArray.randomItem()
                 a2.append(m)
             }
             a1.append(a2)

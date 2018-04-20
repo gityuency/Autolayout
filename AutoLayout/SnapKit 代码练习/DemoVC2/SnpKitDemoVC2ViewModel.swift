@@ -36,9 +36,9 @@ class SnpKitDemoVC2ViewModel {
         var array = [SnpKitDemoCellModel]()
         for _ in 0..<100 {
             let m = SnpKitDemoCellModel()
-            m.imageString = imageStringArray[imageStringArray.randomIndex]
-            m.leftTitle = nameStringArray[nameStringArray.randomIndex]
-            m.rightTitle = contentStringArray[contentStringArray.randomIndex]
+            m.imageString = imageStringArray.randomItem()
+            m.leftTitle = nameStringArray.randomItem()
+            m.rightTitle = contentStringArray.randomItem()
             array.append(m)
         }
         
