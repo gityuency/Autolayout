@@ -35,6 +35,7 @@ class SnpKitDemoVC0ViewModel {
 
 
 class SnpKitDemoCellModel {
+    var imageString = ""
     var name = ""
     var tag = ""
     var leftTitle = ""

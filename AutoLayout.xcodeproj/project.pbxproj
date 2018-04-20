@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2C901220898952008F0580 /* SnpKitDemoVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C901120898952008F0580 /* SnpKitDemoVC2.swift */; };
+		1C2C90142089896B008F0580 /* SnpKit_DemoVC_2_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C90132089896B008F0580 /* SnpKit_DemoVC_2_Cell.swift */; };
+		1C2C901620898A76008F0580 /* SnpKitDemoVC2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C901520898A76008F0580 /* SnpKitDemoVC2ViewModel.swift */; };
 		1C2FFD881F95FD8E00CAF9B4 /* ThreeFourthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */; };
 		1C2FFD8A1F9609BB00CAF9B4 /* ThreeSecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */; };
 		1C2FFD8C1F96F65300CAF9B4 /* ThreeThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */; };
@@ -112,6 +115,9 @@
 
 /* Begin PBXFileReference section */
 		0805AB4D7A682BEF064B8855 /* Pods-AutoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		1C2C901120898952008F0580 /* SnpKitDemoVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC2.swift; sourceTree = "<group>"; };
+		1C2C90132089896B008F0580 /* SnpKit_DemoVC_2_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKit_DemoVC_2_Cell.swift; sourceTree = "<group>"; };
+		1C2C901520898A76008F0580 /* SnpKitDemoVC2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC2ViewModel.swift; sourceTree = "<group>"; };
 		1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFourthCell.swift; sourceTree = "<group>"; };
 		1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSecondCell.swift; sourceTree = "<group>"; };
 		1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeThirdCell.swift; sourceTree = "<group>"; };
@@ -230,6 +236,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C2C90102089893D008F0580 /* DemoVC2 */ = {
+			isa = PBXGroup;
+			children = (
+				1C2C901120898952008F0580 /* SnpKitDemoVC2.swift */,
+				1C2C90132089896B008F0580 /* SnpKit_DemoVC_2_Cell.swift */,
+				1C2C901520898A76008F0580 /* SnpKitDemoVC2ViewModel.swift */,
+			);
+			path = DemoVC2;
+			sourceTree = "<group>";
+		};
 		1C2FFD8F1F9726E200CAF9B4 /* DemoVC11 */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,6 +370,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */,
+				1C2C90102089893D008F0580 /* DemoVC2 */,
 				1C5C667E20889114003003C9 /* DemoVC1 */,
 				1C9993C9208836CD0091D293 /* DemoVC0 */,
 			);
@@ -757,6 +774,7 @@
 				1C426C441F6A523000E40164 /* MainViewController.swift in Sources */,
 				1C2FFD951F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift in Sources */,
 				1C9993CF208837A50091D293 /* EFPAFamilyCell.swift in Sources */,
+				1C2C901620898A76008F0580 /* SnpKitDemoVC2ViewModel.swift in Sources */,
 				1C45ECC61F72858600C7E2B9 /* DemoVC2.swift in Sources */,
 				1C5C6682208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift in Sources */,
 				1C2FFD971F97315700CAF9B4 /* SDChatTableViewCell.swift in Sources */,
@@ -767,6 +785,7 @@
 				1C2FFD8C1F96F65300CAF9B4 /* ThreeThirdCell.swift in Sources */,
 				1CC996F01F74A89400EE3EC7 /* DemoVC7Cell2.swift in Sources */,
 				1C45ECCF1F7286D900C7E2B9 /* DemoVC6.swift in Sources */,
+				1C2C90142089896B008F0580 /* SnpKit_DemoVC_2_Cell.swift in Sources */,
 				1CC996EE1F74A88600EE3EC7 /* DemoVC7Cell1.swift in Sources */,
 				1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */,
 				1C45ECBB1F72852300C7E2B9 /* DemoVC5.swift in Sources */,
@@ -786,6 +805,7 @@
 				1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */,
 				1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */,
 				1C9993D12088397E0091D293 /* UILabel+Extensions.swift in Sources */,
+				1C2C901220898952008F0580 /* SnpKitDemoVC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
