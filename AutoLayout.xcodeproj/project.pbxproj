@@ -36,6 +36,7 @@
 		1C5C6682208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C6681208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift */; };
 		1C5C6684208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C6683208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift */; };
 		1C5C668620889B24003003C9 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C668520889B24003003C9 /* Array+Extension.swift */; };
+		1C612CF22093206000992DD3 /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C612CF12093206000992DD3 /* PlistManager.swift */; };
 		1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8778751F94A057004BCD6A /* ThreeModel.swift */; };
 		1C8778781F94B21D004BCD6A /* wangyi.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C8778771F94B21D004BCD6A /* wangyi.json */; };
 		1C87787A1F94B837004BCD6A /* GGG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8778791F94B837004BCD6A /* GGG.swift */; };
@@ -146,6 +147,7 @@
 		1C5C6681208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC1ViewModel.swift; sourceTree = "<group>"; };
 		1C5C6683208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKit_DemoVC_1_Cell.swift; sourceTree = "<group>"; };
 		1C5C668520889B24003003C9 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		1C612CF12093206000992DD3 /* PlistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
 		1C8778751F94A057004BCD6A /* ThreeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeModel.swift; sourceTree = "<group>"; };
 		1C8778771F94B21D004BCD6A /* wangyi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wangyi.json; sourceTree = "<group>"; };
 		1C8778791F94B837004BCD6A /* GGG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGG.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				1C2C90182089D1BB008F0580 /* FPSLabel.swift */,
+				1C612CF12093206000992DD3 /* PlistManager.swift */,
 			);
 			path = "特殊类";
 			sourceTree = "<group>";
@@ -825,6 +828,7 @@
 				1C9993D7208850F70091D293 /* UIColor+Extension.swift in Sources */,
 				1C5C6684208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift in Sources */,
 				1CC996EA1F74A2B500EE3EC7 /* DemoVC7.swift in Sources */,
+				1C612CF22093206000992DD3 /* PlistManager.swift in Sources */,
 				1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */,
 				1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */,
 				1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */,
