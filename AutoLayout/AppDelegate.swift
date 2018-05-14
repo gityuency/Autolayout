@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         setUpRootViewController()
         
+
+        
         return true
     }
 
