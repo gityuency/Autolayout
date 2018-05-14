@@ -12,37 +12,13 @@
 		1C2C901620898A76008F0580 /* SnpKitDemoVC2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C901520898A76008F0580 /* SnpKitDemoVC2ViewModel.swift */; };
 		1C2C90192089D1BB008F0580 /* FPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C90182089D1BB008F0580 /* FPSLabel.swift */; };
 		1C2C9020208D6E2B008F0580 /* NameList_Unfamiliar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C2C901F208D6E2B008F0580 /* NameList_Unfamiliar.plist */; };
-		1C2FFD881F95FD8E00CAF9B4 /* ThreeFourthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */; };
-		1C2FFD8A1F9609BB00CAF9B4 /* ThreeSecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */; };
-		1C2FFD8C1F96F65300CAF9B4 /* ThreeThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */; };
-		1C2FFD911F97295500CAF9B4 /* DemoVC11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD901F97295500CAF9B4 /* DemoVC11.swift */; };
-		1C2FFD931F97298700CAF9B4 /* SDChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD921F97298700CAF9B4 /* SDChatModel.swift */; };
-		1C2FFD951F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD941F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift */; };
-		1C2FFD971F97315700CAF9B4 /* SDChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FFD961F97315700CAF9B4 /* SDChatTableViewCell.swift */; };
-		1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C39568A1F948C3800CF89B2 /* DemoVC8.swift */; };
-		1C39568E1F94955300CF89B2 /* DemoVC10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C39568D1F94955300CF89B2 /* DemoVC10.swift */; };
 		1C426C441F6A523000E40164 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C426C431F6A523000E40164 /* MainViewController.swift */; };
-		1C45ECBB1F72852300C7E2B9 /* DemoVC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECBA1F72852300C7E2B9 /* DemoVC5.swift */; };
-		1C45ECBF1F72855400C7E2B9 /* DemoVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECBD1F72855400C7E2B9 /* DemoVC3.swift */; };
-		1C45ECC01F72855400C7E2B9 /* TestCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECBE1F72855400C7E2B9 /* TestCell2.swift */; };
-		1C45ECC31F72856D00C7E2B9 /* DemoVC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECC21F72856D00C7E2B9 /* DemoVC4.swift */; };
-		1C45ECC61F72858600C7E2B9 /* DemoVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECC51F72858600C7E2B9 /* DemoVC2.swift */; };
-		1C45ECC91F7285A200C7E2B9 /* DemoVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECC81F7285A200C7E2B9 /* DemoVC1.swift */; };
-		1C45ECCC1F7285C600C7E2B9 /* DemoVC0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECCB1F7285C600C7E2B9 /* DemoVC0.swift */; };
-		1C45ECCF1F7286D900C7E2B9 /* DemoVC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECCE1F7286D900C7E2B9 /* DemoVC6.swift */; };
-		1C45ECD11F7286F900C7E2B9 /* DemoVC5Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECD01F7286F900C7E2B9 /* DemoVC5Model.swift */; };
-		1C45ECD31F72876400C7E2B9 /* DemoVC5TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45ECD21F72876400C7E2B9 /* DemoVC5TableViewCell.swift */; };
 		1C5C66802088912C003003C9 /* SnpKitDemoVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C667F2088912C003003C9 /* SnpKitDemoVC1.swift */; };
 		1C5C6682208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C6681208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift */; };
 		1C5C6684208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C6683208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift */; };
 		1C5C668620889B24003003C9 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C668520889B24003003C9 /* Array+Extension.swift */; };
 		1C612CF22093206000992DD3 /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C612CF12093206000992DD3 /* PlistManager.swift */; };
 		1C612CF62094378D00992DD3 /* RunAwayAtEF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C612CF52094378D00992DD3 /* RunAwayAtEF.swift */; };
-		1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8778751F94A057004BCD6A /* ThreeModel.swift */; };
-		1C8778781F94B21D004BCD6A /* wangyi.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C8778771F94B21D004BCD6A /* wangyi.json */; };
-		1C87787A1F94B837004BCD6A /* GGG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8778791F94B837004BCD6A /* GGG.swift */; };
-		1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */; };
-		1C87787F1F94BD98004BCD6A /* ThreeFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */; };
 		1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */; };
 		1C9993CD208837180091D293 /* SnpKitDemoVC0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993CC208837180091D293 /* SnpKitDemoVC0.swift */; };
 		1C9993CF208837A50091D293 /* EFPAFamilyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993CE208837A50091D293 /* EFPAFamilyCell.swift */; };
@@ -61,8 +37,6 @@
 		1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2291F6A6D31005964C7 /* VCAutoSizeLabel.swift */; };
 		1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C22B1F6A6DDA005964C7 /* ViewControllerLabelList.swift */; };
 		1CC2C22E1F6A791B005964C7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C22D1F6A791B005964C7 /* UIView+Extension.swift */; };
-		1CC2C2341F6B8189005964C7 /* ViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2331F6B8189005964C7 /* ViewsViewController.swift */; };
-		1CC2C2381F6B84C5005964C7 /* GSDPracticeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2C2371F6B84C5005964C7 /* GSDPracticeTableViewController.swift */; };
 		1CC2C26F1F6BB1C1005964C7 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2C23F1F6BB1C1005964C7 /* 0.jpg */; };
 		1CC2C2701F6BB1C1005964C7 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2C2401F6BB1C1005964C7 /* 1.jpg */; };
 		1CC2C2711F6BB1C1005964C7 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2C2411F6BB1C1005964C7 /* 10.jpg */; };
@@ -110,11 +84,42 @@
 		1CC2C29B1F6BB1C1005964C7 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2C26C1F6BB1C1005964C7 /* test2.jpg */; };
 		1CC2C29C1F6BB1C1005964C7 /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2C26D1F6BB1C1005964C7 /* test3.jpg */; };
 		1CC2C29D1F6BB1C1005964C7 /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2C26E1F6BB1C1005964C7 /* test4.jpg */; };
-		1CC996EA1F74A2B500EE3EC7 /* DemoVC7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC996E91F74A2B500EE3EC7 /* DemoVC7.swift */; };
-		1CC996EC1F74A7FC00EE3EC7 /* DemoVC7Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC996EB1F74A7FC00EE3EC7 /* DemoVC7Model.swift */; };
-		1CC996EE1F74A88600EE3EC7 /* DemoVC7Cell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC996ED1F74A88600EE3EC7 /* DemoVC7Cell1.swift */; };
-		1CC996F01F74A89400EE3EC7 /* DemoVC7Cell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC996EF1F74A89400EE3EC7 /* DemoVC7Cell2.swift */; };
 		1CD9B69E20A924D800DA7CE1 /* PrintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B69D20A924D800DA7CE1 /* PrintConfig.swift */; };
+		1CD9B6A120A929EC00DA7CE1 /* ViewLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6A020A929EC00DA7CE1 /* ViewLayoutViewController.swift */; };
+		1CD9B6CE20A92ABC00DA7CE1 /* DemoVC0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6A420A92ABC00DA7CE1 /* DemoVC0.swift */; };
+		1CD9B6CF20A92ABC00DA7CE1 /* DemoVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6A620A92ABC00DA7CE1 /* DemoVC1.swift */; };
+		1CD9B6D020A92ABC00DA7CE1 /* DemoVC10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6A820A92ABC00DA7CE1 /* DemoVC10.swift */; };
+		1CD9B6D120A92ABC00DA7CE1 /* GGG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6A920A92ABC00DA7CE1 /* GGG.swift */; };
+		1CD9B6D220A92ABC00DA7CE1 /* ThreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6AB20A92ABC00DA7CE1 /* ThreeModel.swift */; };
+		1CD9B6D320A92ABC00DA7CE1 /* wangyi.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CD9B6AC20A92ABC00DA7CE1 /* wangyi.json */; };
+		1CD9B6D420A92ABC00DA7CE1 /* ThreeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6AE20A92ABC00DA7CE1 /* ThreeBaseCell.swift */; };
+		1CD9B6D520A92ABC00DA7CE1 /* ThreeFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6AF20A92ABC00DA7CE1 /* ThreeFirstCell.swift */; };
+		1CD9B6D620A92ABC00DA7CE1 /* ThreeFourthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6B020A92ABC00DA7CE1 /* ThreeFourthCell.swift */; };
+		1CD9B6D720A92ABC00DA7CE1 /* ThreeSecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6B120A92ABC00DA7CE1 /* ThreeSecondCell.swift */; };
+		1CD9B6D820A92ABC00DA7CE1 /* ThreeThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6B220A92ABC00DA7CE1 /* ThreeThirdCell.swift */; };
+		1CD9B6D920A92ABC00DA7CE1 /* DemoVC11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6B420A92ABC00DA7CE1 /* DemoVC11.swift */; };
+		1CD9B6DA20A92ABC00DA7CE1 /* SDAnalogDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6B520A92ABC00DA7CE1 /* SDAnalogDataGenerator.swift */; };
+		1CD9B6DB20A92ABC00DA7CE1 /* SDChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6B620A92ABC00DA7CE1 /* SDChatModel.swift */; };
+		1CD9B6DC20A92ABC00DA7CE1 /* SDChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6B720A92ABC00DA7CE1 /* SDChatTableViewCell.swift */; };
+		1CD9B6DD20A92ABC00DA7CE1 /* DemoVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6B920A92ABC00DA7CE1 /* DemoVC2.swift */; };
+		1CD9B6DE20A92ABC00DA7CE1 /* DemoVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6BB20A92ABC00DA7CE1 /* DemoVC3.swift */; };
+		1CD9B6DF20A92ABC00DA7CE1 /* TestCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6BC20A92ABC00DA7CE1 /* TestCell2.swift */; };
+		1CD9B6E020A92ABC00DA7CE1 /* DemoVC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6BE20A92ABC00DA7CE1 /* DemoVC4.swift */; };
+		1CD9B6E120A92ABC00DA7CE1 /* DemoVC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6C020A92ABC00DA7CE1 /* DemoVC5.swift */; };
+		1CD9B6E220A92ABC00DA7CE1 /* DemoVC5Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6C120A92ABC00DA7CE1 /* DemoVC5Model.swift */; };
+		1CD9B6E320A92ABC00DA7CE1 /* DemoVC5TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6C220A92ABC00DA7CE1 /* DemoVC5TableViewCell.swift */; };
+		1CD9B6E420A92ABC00DA7CE1 /* DemoVC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6C420A92ABC00DA7CE1 /* DemoVC6.swift */; };
+		1CD9B6E520A92ABC00DA7CE1 /* DemoVC7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6C620A92ABC00DA7CE1 /* DemoVC7.swift */; };
+		1CD9B6E620A92ABC00DA7CE1 /* DemoVC7Cell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6C720A92ABC00DA7CE1 /* DemoVC7Cell1.swift */; };
+		1CD9B6E720A92ABC00DA7CE1 /* DemoVC7Cell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6C820A92ABC00DA7CE1 /* DemoVC7Cell2.swift */; };
+		1CD9B6E820A92ABC00DA7CE1 /* DemoVC7Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6C920A92ABC00DA7CE1 /* DemoVC7Model.swift */; };
+		1CD9B6E920A92ABC00DA7CE1 /* DemoVC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6CB20A92ABC00DA7CE1 /* DemoVC8.swift */; };
+		1CD9B6EA20A92ABC00DA7CE1 /* GSDPracticeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6CC20A92ABC00DA7CE1 /* GSDPracticeTableViewController.swift */; };
+		1CD9B6EB20A92ABC00DA7CE1 /* ViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6CD20A92ABC00DA7CE1 /* ViewsViewController.swift */; };
+		1CD9B6EF20A92B4F00DA7CE1 /* SearchResultDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6ED20A92B4F00DA7CE1 /* SearchResultDisplayViewController.swift */; };
+		1CD9B6F020A92B4F00DA7CE1 /* SearchResultDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD9B6EE20A92B4F00DA7CE1 /* SearchResultDisplayViewController.xib */; };
+		1CD9B6F220A92D8700DA7CE1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6F120A92D8700DA7CE1 /* String+Extension.swift */; };
+		1CD9B6F420A92DB900DA7CE1 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 /* End PBXBuildFile section */
 
@@ -125,37 +130,13 @@
 		1C2C901520898A76008F0580 /* SnpKitDemoVC2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC2ViewModel.swift; sourceTree = "<group>"; };
 		1C2C90182089D1BB008F0580 /* FPSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSLabel.swift; sourceTree = "<group>"; };
 		1C2C901F208D6E2B008F0580 /* NameList_Unfamiliar.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NameList_Unfamiliar.plist; sourceTree = "<group>"; };
-		1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFourthCell.swift; sourceTree = "<group>"; };
-		1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSecondCell.swift; sourceTree = "<group>"; };
-		1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeThirdCell.swift; sourceTree = "<group>"; };
-		1C2FFD901F97295500CAF9B4 /* DemoVC11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC11.swift; sourceTree = "<group>"; };
-		1C2FFD921F97298700CAF9B4 /* SDChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDChatModel.swift; sourceTree = "<group>"; };
-		1C2FFD941F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAnalogDataGenerator.swift; sourceTree = "<group>"; };
-		1C2FFD961F97315700CAF9B4 /* SDChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDChatTableViewCell.swift; sourceTree = "<group>"; };
-		1C39568A1F948C3800CF89B2 /* DemoVC8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC8.swift; sourceTree = "<group>"; };
-		1C39568D1F94955300CF89B2 /* DemoVC10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC10.swift; sourceTree = "<group>"; };
 		1C426C431F6A523000E40164 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		1C45ECBA1F72852300C7E2B9 /* DemoVC5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5.swift; sourceTree = "<group>"; };
-		1C45ECBD1F72855400C7E2B9 /* DemoVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC3.swift; sourceTree = "<group>"; };
-		1C45ECBE1F72855400C7E2B9 /* TestCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCell2.swift; sourceTree = "<group>"; };
-		1C45ECC21F72856D00C7E2B9 /* DemoVC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC4.swift; sourceTree = "<group>"; };
-		1C45ECC51F72858600C7E2B9 /* DemoVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC2.swift; sourceTree = "<group>"; };
-		1C45ECC81F7285A200C7E2B9 /* DemoVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC1.swift; sourceTree = "<group>"; };
-		1C45ECCB1F7285C600C7E2B9 /* DemoVC0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC0.swift; sourceTree = "<group>"; };
-		1C45ECCE1F7286D900C7E2B9 /* DemoVC6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC6.swift; sourceTree = "<group>"; };
-		1C45ECD01F7286F900C7E2B9 /* DemoVC5Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5Model.swift; sourceTree = "<group>"; };
-		1C45ECD21F72876400C7E2B9 /* DemoVC5TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5TableViewCell.swift; sourceTree = "<group>"; };
 		1C5C667F2088912C003003C9 /* SnpKitDemoVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC1.swift; sourceTree = "<group>"; };
 		1C5C6681208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC1ViewModel.swift; sourceTree = "<group>"; };
 		1C5C6683208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKit_DemoVC_1_Cell.swift; sourceTree = "<group>"; };
 		1C5C668520889B24003003C9 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		1C612CF12093206000992DD3 /* PlistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
 		1C612CF52094378D00992DD3 /* RunAwayAtEF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunAwayAtEF.swift; sourceTree = "<group>"; };
-		1C8778751F94A057004BCD6A /* ThreeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeModel.swift; sourceTree = "<group>"; };
-		1C8778771F94B21D004BCD6A /* wangyi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wangyi.json; sourceTree = "<group>"; };
-		1C8778791F94B837004BCD6A /* GGG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGG.swift; sourceTree = "<group>"; };
-		1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBaseCell.swift; sourceTree = "<group>"; };
-		1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFirstCell.swift; sourceTree = "<group>"; };
 		1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoTableViewController.swift; sourceTree = "<group>"; };
 		1C9993CC208837180091D293 /* SnpKitDemoVC0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC0.swift; sourceTree = "<group>"; };
 		1C9993CE208837A50091D293 /* EFPAFamilyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFPAFamilyCell.swift; sourceTree = "<group>"; };
@@ -176,8 +157,6 @@
 		1CC2C2291F6A6D31005964C7 /* VCAutoSizeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCAutoSizeLabel.swift; sourceTree = "<group>"; };
 		1CC2C22B1F6A6DDA005964C7 /* ViewControllerLabelList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerLabelList.swift; sourceTree = "<group>"; };
 		1CC2C22D1F6A791B005964C7 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		1CC2C2331F6B8189005964C7 /* ViewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsViewController.swift; sourceTree = "<group>"; };
-		1CC2C2371F6B84C5005964C7 /* GSDPracticeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSDPracticeTableViewController.swift; sourceTree = "<group>"; };
 		1CC2C23F1F6BB1C1005964C7 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		1CC2C2401F6BB1C1005964C7 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		1CC2C2411F6BB1C1005964C7 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
@@ -225,11 +204,42 @@
 		1CC2C26C1F6BB1C1005964C7 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
 		1CC2C26D1F6BB1C1005964C7 /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpg; sourceTree = "<group>"; };
 		1CC2C26E1F6BB1C1005964C7 /* test4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test4.jpg; sourceTree = "<group>"; };
-		1CC996E91F74A2B500EE3EC7 /* DemoVC7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC7.swift; sourceTree = "<group>"; };
-		1CC996EB1F74A7FC00EE3EC7 /* DemoVC7Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC7Model.swift; sourceTree = "<group>"; };
-		1CC996ED1F74A88600EE3EC7 /* DemoVC7Cell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC7Cell1.swift; sourceTree = "<group>"; };
-		1CC996EF1F74A89400EE3EC7 /* DemoVC7Cell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC7Cell2.swift; sourceTree = "<group>"; };
 		1CD9B69D20A924D800DA7CE1 /* PrintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintConfig.swift; sourceTree = "<group>"; };
+		1CD9B6A020A929EC00DA7CE1 /* ViewLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayoutViewController.swift; sourceTree = "<group>"; };
+		1CD9B6A420A92ABC00DA7CE1 /* DemoVC0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC0.swift; sourceTree = "<group>"; };
+		1CD9B6A620A92ABC00DA7CE1 /* DemoVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC1.swift; sourceTree = "<group>"; };
+		1CD9B6A820A92ABC00DA7CE1 /* DemoVC10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC10.swift; sourceTree = "<group>"; };
+		1CD9B6A920A92ABC00DA7CE1 /* GGG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGG.swift; sourceTree = "<group>"; };
+		1CD9B6AB20A92ABC00DA7CE1 /* ThreeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeModel.swift; sourceTree = "<group>"; };
+		1CD9B6AC20A92ABC00DA7CE1 /* wangyi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wangyi.json; sourceTree = "<group>"; };
+		1CD9B6AE20A92ABC00DA7CE1 /* ThreeBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeBaseCell.swift; sourceTree = "<group>"; };
+		1CD9B6AF20A92ABC00DA7CE1 /* ThreeFirstCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeFirstCell.swift; sourceTree = "<group>"; };
+		1CD9B6B020A92ABC00DA7CE1 /* ThreeFourthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeFourthCell.swift; sourceTree = "<group>"; };
+		1CD9B6B120A92ABC00DA7CE1 /* ThreeSecondCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeSecondCell.swift; sourceTree = "<group>"; };
+		1CD9B6B220A92ABC00DA7CE1 /* ThreeThirdCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeThirdCell.swift; sourceTree = "<group>"; };
+		1CD9B6B420A92ABC00DA7CE1 /* DemoVC11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC11.swift; sourceTree = "<group>"; };
+		1CD9B6B520A92ABC00DA7CE1 /* SDAnalogDataGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAnalogDataGenerator.swift; sourceTree = "<group>"; };
+		1CD9B6B620A92ABC00DA7CE1 /* SDChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChatModel.swift; sourceTree = "<group>"; };
+		1CD9B6B720A92ABC00DA7CE1 /* SDChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDChatTableViewCell.swift; sourceTree = "<group>"; };
+		1CD9B6B920A92ABC00DA7CE1 /* DemoVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC2.swift; sourceTree = "<group>"; };
+		1CD9B6BB20A92ABC00DA7CE1 /* DemoVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC3.swift; sourceTree = "<group>"; };
+		1CD9B6BC20A92ABC00DA7CE1 /* TestCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCell2.swift; sourceTree = "<group>"; };
+		1CD9B6BE20A92ABC00DA7CE1 /* DemoVC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC4.swift; sourceTree = "<group>"; };
+		1CD9B6C020A92ABC00DA7CE1 /* DemoVC5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5.swift; sourceTree = "<group>"; };
+		1CD9B6C120A92ABC00DA7CE1 /* DemoVC5Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5Model.swift; sourceTree = "<group>"; };
+		1CD9B6C220A92ABC00DA7CE1 /* DemoVC5TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC5TableViewCell.swift; sourceTree = "<group>"; };
+		1CD9B6C420A92ABC00DA7CE1 /* DemoVC6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC6.swift; sourceTree = "<group>"; };
+		1CD9B6C620A92ABC00DA7CE1 /* DemoVC7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC7.swift; sourceTree = "<group>"; };
+		1CD9B6C720A92ABC00DA7CE1 /* DemoVC7Cell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC7Cell1.swift; sourceTree = "<group>"; };
+		1CD9B6C820A92ABC00DA7CE1 /* DemoVC7Cell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC7Cell2.swift; sourceTree = "<group>"; };
+		1CD9B6C920A92ABC00DA7CE1 /* DemoVC7Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC7Model.swift; sourceTree = "<group>"; };
+		1CD9B6CB20A92ABC00DA7CE1 /* DemoVC8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC8.swift; sourceTree = "<group>"; };
+		1CD9B6CC20A92ABC00DA7CE1 /* GSDPracticeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSDPracticeTableViewController.swift; sourceTree = "<group>"; };
+		1CD9B6CD20A92ABC00DA7CE1 /* ViewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsViewController.swift; sourceTree = "<group>"; };
+		1CD9B6ED20A92B4F00DA7CE1 /* SearchResultDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultDisplayViewController.swift; sourceTree = "<group>"; };
+		1CD9B6EE20A92B4F00DA7CE1 /* SearchResultDisplayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultDisplayViewController.xib; sourceTree = "<group>"; };
+		1CD9B6F120A92D8700DA7CE1 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -275,95 +285,6 @@
 			path = "无关紧要的东西";
 			sourceTree = "<group>";
 		};
-		1C2FFD8F1F9726E200CAF9B4 /* DemoVC11 */ = {
-			isa = PBXGroup;
-			children = (
-				1C2FFD901F97295500CAF9B4 /* DemoVC11.swift */,
-				1C2FFD921F97298700CAF9B4 /* SDChatModel.swift */,
-				1C2FFD961F97315700CAF9B4 /* SDChatTableViewCell.swift */,
-				1C2FFD941F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift */,
-			);
-			path = DemoVC11;
-			sourceTree = "<group>";
-		};
-		1C3956891F948C0F00CF89B2 /* DemoVC8 */ = {
-			isa = PBXGroup;
-			children = (
-				1C39568A1F948C3800CF89B2 /* DemoVC8.swift */,
-			);
-			path = DemoVC8;
-			sourceTree = "<group>";
-		};
-		1C39568C1F94953300CF89B2 /* DemoVC10 */ = {
-			isa = PBXGroup;
-			children = (
-				1C87787B1F94BB63004BCD6A /* View */,
-				1C8778741F949F87004BCD6A /* Model */,
-				1C39568D1F94955300CF89B2 /* DemoVC10.swift */,
-				1C8778791F94B837004BCD6A /* GGG.swift */,
-			);
-			path = DemoVC10;
-			sourceTree = "<group>";
-		};
-		1C45ECB91F72852300C7E2B9 /* DemoVC5 */ = {
-			isa = PBXGroup;
-			children = (
-				1C45ECBA1F72852300C7E2B9 /* DemoVC5.swift */,
-				1C45ECD21F72876400C7E2B9 /* DemoVC5TableViewCell.swift */,
-				1C45ECD01F7286F900C7E2B9 /* DemoVC5Model.swift */,
-			);
-			path = DemoVC5;
-			sourceTree = "<group>";
-		};
-		1C45ECBC1F72855400C7E2B9 /* DemoVC3 */ = {
-			isa = PBXGroup;
-			children = (
-				1C45ECBD1F72855400C7E2B9 /* DemoVC3.swift */,
-				1C45ECBE1F72855400C7E2B9 /* TestCell2.swift */,
-			);
-			path = DemoVC3;
-			sourceTree = "<group>";
-		};
-		1C45ECC11F72856D00C7E2B9 /* DemoVC4 */ = {
-			isa = PBXGroup;
-			children = (
-				1C45ECC21F72856D00C7E2B9 /* DemoVC4.swift */,
-			);
-			path = DemoVC4;
-			sourceTree = "<group>";
-		};
-		1C45ECC41F72858600C7E2B9 /* DemoVC2 */ = {
-			isa = PBXGroup;
-			children = (
-				1C45ECC51F72858600C7E2B9 /* DemoVC2.swift */,
-			);
-			path = DemoVC2;
-			sourceTree = "<group>";
-		};
-		1C45ECC71F7285A200C7E2B9 /* DemoVC1 */ = {
-			isa = PBXGroup;
-			children = (
-				1C45ECC81F7285A200C7E2B9 /* DemoVC1.swift */,
-			);
-			path = DemoVC1;
-			sourceTree = "<group>";
-		};
-		1C45ECCA1F7285C600C7E2B9 /* DemoVC0 */ = {
-			isa = PBXGroup;
-			children = (
-				1C45ECCB1F7285C600C7E2B9 /* DemoVC0.swift */,
-			);
-			path = DemoVC0;
-			sourceTree = "<group>";
-		};
-		1C45ECCD1F7286BC00C7E2B9 /* DemoVC6 */ = {
-			isa = PBXGroup;
-			children = (
-				1C45ECCE1F7286D900C7E2B9 /* DemoVC6.swift */,
-			);
-			path = DemoVC6;
-			sourceTree = "<group>";
-		};
 		1C5C667E20889114003003C9 /* DemoVC1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,28 +295,7 @@
 			path = DemoVC1;
 			sourceTree = "<group>";
 		};
-		1C8778741F949F87004BCD6A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1C8778751F94A057004BCD6A /* ThreeModel.swift */,
-				1C8778771F94B21D004BCD6A /* wangyi.json */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1C87787B1F94BB63004BCD6A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1C87787C1F94BC4E004BCD6A /* ThreeBaseCell.swift */,
-				1C87787E1F94BD98004BCD6A /* ThreeFirstCell.swift */,
-				1C2FFD891F9609BB00CAF9B4 /* ThreeSecondCell.swift */,
-				1C2FFD8B1F96F65300CAF9B4 /* ThreeThirdCell.swift */,
-				1C2FFD871F95FD8E00CAF9B4 /* ThreeFourthCell.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1C9993C220882B3D0091D293 /* SnapKit 代码练习 */ = {
+		1C9993C220882B3D0091D293 /* SnapKit 自动布局练习 */ = {
 			isa = PBXGroup;
 			children = (
 				1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */,
@@ -403,7 +303,7 @@
 				1C5C667E20889114003003C9 /* DemoVC1 */,
 				1C9993C9208836CD0091D293 /* DemoVC0 */,
 			);
-			path = "SnapKit 代码练习";
+			path = "SnapKit 自动布局练习";
 			sourceTree = "<group>";
 		};
 		1C9993C9208836CD0091D293 /* DemoVC0 */ = {
@@ -445,10 +345,11 @@
 				1CB0B2621F347FE000A4B698 /* AppDelegate.swift */,
 				1CB0B2641F347FE000A4B698 /* ViewController.swift */,
 				1C426C431F6A523000E40164 /* MainViewController.swift */,
-				1C9993C220882B3D0091D293 /* SnapKit 代码练习 */,
-				1CC2C22F1F6A7A65005964C7 /* GSD代码练习 */,
+				1CD9B69F20A9298900DA7CE1 /* iOS 布局控件 */,
+				1C9993C220882B3D0091D293 /* SnapKit 自动布局练习 */,
+				1CD9B6A220A92ABC00DA7CE1 /* GSD 自动布局练习 */,
 				1C2C90172089D1A9008F0580 /* 特殊类 */,
-				1CC2C2211F6A5FA8005964C7 /* 工具类 */,
+				1CC2C2211F6A5FA8005964C7 /* 扩展类 */,
 				1CC2C2281F6A6D15005964C7 /* Label */,
 				1CC2C21E1F6A5874005964C7 /* 按钮 */,
 				1C2C901E208D6DDE008F0580 /* 无关紧要的东西 */,
@@ -468,15 +369,17 @@
 			path = ButtonLayout;
 			sourceTree = "<group>";
 		};
-		1CC2C2211F6A5FA8005964C7 /* 工具类 */ = {
+		1CC2C2211F6A5FA8005964C7 /* 扩展类 */ = {
 			isa = PBXGroup;
 			children = (
 				1CC2C2221F6A5FB4005964C7 /* Bundle+Extension.swift */,
 				1C9993D6208850F70091D293 /* UIColor+Extension.swift */,
 				1CC2C22D1F6A791B005964C7 /* UIView+Extension.swift */,
 				1C5C668520889B24003003C9 /* Array+Extension.swift */,
+				1CD9B6F120A92D8700DA7CE1 /* String+Extension.swift */,
+				1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */,
 			);
-			name = "工具类";
+			name = "扩展类";
 			path = Tools;
 			sourceTree = "<group>";
 		};
@@ -487,27 +390,6 @@
 				1CC2C2291F6A6D31005964C7 /* VCAutoSizeLabel.swift */,
 			);
 			path = Label;
-			sourceTree = "<group>";
-		};
-		1CC2C22F1F6A7A65005964C7 /* GSD代码练习 */ = {
-			isa = PBXGroup;
-			children = (
-				1CC2C2371F6B84C5005964C7 /* GSDPracticeTableViewController.swift */,
-				1CC2C2331F6B8189005964C7 /* ViewsViewController.swift */,
-				1C45ECCA1F7285C600C7E2B9 /* DemoVC0 */,
-				1C45ECC71F7285A200C7E2B9 /* DemoVC1 */,
-				1C45ECC41F72858600C7E2B9 /* DemoVC2 */,
-				1C45ECBC1F72855400C7E2B9 /* DemoVC3 */,
-				1C45ECC11F72856D00C7E2B9 /* DemoVC4 */,
-				1C45ECB91F72852300C7E2B9 /* DemoVC5 */,
-				1C45ECCD1F7286BC00C7E2B9 /* DemoVC6 */,
-				1CC996E81F74A27800EE3EC7 /* DemoVC7 */,
-				1C3956891F948C0F00CF89B2 /* DemoVC8 */,
-				1C39568C1F94953300CF89B2 /* DemoVC10 */,
-				1C2FFD8F1F9726E200CAF9B4 /* DemoVC11 */,
-			);
-			name = "GSD代码练习";
-			path = GSDPractice;
 			sourceTree = "<group>";
 		};
 		1CC2C23D1F6BB1C1005964C7 /* Images */ = {
@@ -580,15 +462,163 @@
 			path = test;
 			sourceTree = "<group>";
 		};
-		1CC996E81F74A27800EE3EC7 /* DemoVC7 */ = {
+		1CD9B69F20A9298900DA7CE1 /* iOS 布局控件 */ = {
 			isa = PBXGroup;
 			children = (
-				1CC996E91F74A2B500EE3EC7 /* DemoVC7.swift */,
-				1CC996ED1F74A88600EE3EC7 /* DemoVC7Cell1.swift */,
-				1CC996EF1F74A89400EE3EC7 /* DemoVC7Cell2.swift */,
-				1CC996EB1F74A7FC00EE3EC7 /* DemoVC7Model.swift */,
+				1CD9B6A020A929EC00DA7CE1 /* ViewLayoutViewController.swift */,
+				1CD9B6EC20A92B2D00DA7CE1 /* 搜索文本的显示 */,
+			);
+			path = "iOS 布局控件";
+			sourceTree = "<group>";
+		};
+		1CD9B6A220A92ABC00DA7CE1 /* GSD 自动布局练习 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6A320A92ABC00DA7CE1 /* DemoVC0 */,
+				1CD9B6A520A92ABC00DA7CE1 /* DemoVC1 */,
+				1CD9B6A720A92ABC00DA7CE1 /* DemoVC10 */,
+				1CD9B6B320A92ABC00DA7CE1 /* DemoVC11 */,
+				1CD9B6B820A92ABC00DA7CE1 /* DemoVC2 */,
+				1CD9B6BA20A92ABC00DA7CE1 /* DemoVC3 */,
+				1CD9B6BD20A92ABC00DA7CE1 /* DemoVC4 */,
+				1CD9B6BF20A92ABC00DA7CE1 /* DemoVC5 */,
+				1CD9B6C320A92ABC00DA7CE1 /* DemoVC6 */,
+				1CD9B6C520A92ABC00DA7CE1 /* DemoVC7 */,
+				1CD9B6CA20A92ABC00DA7CE1 /* DemoVC8 */,
+				1CD9B6CC20A92ABC00DA7CE1 /* GSDPracticeTableViewController.swift */,
+				1CD9B6CD20A92ABC00DA7CE1 /* ViewsViewController.swift */,
+			);
+			path = "GSD 自动布局练习";
+			sourceTree = "<group>";
+		};
+		1CD9B6A320A92ABC00DA7CE1 /* DemoVC0 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6A420A92ABC00DA7CE1 /* DemoVC0.swift */,
+			);
+			path = DemoVC0;
+			sourceTree = "<group>";
+		};
+		1CD9B6A520A92ABC00DA7CE1 /* DemoVC1 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6A620A92ABC00DA7CE1 /* DemoVC1.swift */,
+			);
+			path = DemoVC1;
+			sourceTree = "<group>";
+		};
+		1CD9B6A720A92ABC00DA7CE1 /* DemoVC10 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6A820A92ABC00DA7CE1 /* DemoVC10.swift */,
+				1CD9B6A920A92ABC00DA7CE1 /* GGG.swift */,
+				1CD9B6AA20A92ABC00DA7CE1 /* Model */,
+				1CD9B6AD20A92ABC00DA7CE1 /* View */,
+			);
+			path = DemoVC10;
+			sourceTree = "<group>";
+		};
+		1CD9B6AA20A92ABC00DA7CE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6AB20A92ABC00DA7CE1 /* ThreeModel.swift */,
+				1CD9B6AC20A92ABC00DA7CE1 /* wangyi.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CD9B6AD20A92ABC00DA7CE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6AE20A92ABC00DA7CE1 /* ThreeBaseCell.swift */,
+				1CD9B6AF20A92ABC00DA7CE1 /* ThreeFirstCell.swift */,
+				1CD9B6B020A92ABC00DA7CE1 /* ThreeFourthCell.swift */,
+				1CD9B6B120A92ABC00DA7CE1 /* ThreeSecondCell.swift */,
+				1CD9B6B220A92ABC00DA7CE1 /* ThreeThirdCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CD9B6B320A92ABC00DA7CE1 /* DemoVC11 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6B420A92ABC00DA7CE1 /* DemoVC11.swift */,
+				1CD9B6B520A92ABC00DA7CE1 /* SDAnalogDataGenerator.swift */,
+				1CD9B6B620A92ABC00DA7CE1 /* SDChatModel.swift */,
+				1CD9B6B720A92ABC00DA7CE1 /* SDChatTableViewCell.swift */,
+			);
+			path = DemoVC11;
+			sourceTree = "<group>";
+		};
+		1CD9B6B820A92ABC00DA7CE1 /* DemoVC2 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6B920A92ABC00DA7CE1 /* DemoVC2.swift */,
+			);
+			path = DemoVC2;
+			sourceTree = "<group>";
+		};
+		1CD9B6BA20A92ABC00DA7CE1 /* DemoVC3 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6BB20A92ABC00DA7CE1 /* DemoVC3.swift */,
+				1CD9B6BC20A92ABC00DA7CE1 /* TestCell2.swift */,
+			);
+			path = DemoVC3;
+			sourceTree = "<group>";
+		};
+		1CD9B6BD20A92ABC00DA7CE1 /* DemoVC4 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6BE20A92ABC00DA7CE1 /* DemoVC4.swift */,
+			);
+			path = DemoVC4;
+			sourceTree = "<group>";
+		};
+		1CD9B6BF20A92ABC00DA7CE1 /* DemoVC5 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6C020A92ABC00DA7CE1 /* DemoVC5.swift */,
+				1CD9B6C120A92ABC00DA7CE1 /* DemoVC5Model.swift */,
+				1CD9B6C220A92ABC00DA7CE1 /* DemoVC5TableViewCell.swift */,
+			);
+			path = DemoVC5;
+			sourceTree = "<group>";
+		};
+		1CD9B6C320A92ABC00DA7CE1 /* DemoVC6 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6C420A92ABC00DA7CE1 /* DemoVC6.swift */,
+			);
+			path = DemoVC6;
+			sourceTree = "<group>";
+		};
+		1CD9B6C520A92ABC00DA7CE1 /* DemoVC7 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6C620A92ABC00DA7CE1 /* DemoVC7.swift */,
+				1CD9B6C720A92ABC00DA7CE1 /* DemoVC7Cell1.swift */,
+				1CD9B6C820A92ABC00DA7CE1 /* DemoVC7Cell2.swift */,
+				1CD9B6C920A92ABC00DA7CE1 /* DemoVC7Model.swift */,
 			);
 			path = DemoVC7;
+			sourceTree = "<group>";
+		};
+		1CD9B6CA20A92ABC00DA7CE1 /* DemoVC8 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6CB20A92ABC00DA7CE1 /* DemoVC8.swift */,
+			);
+			path = DemoVC8;
+			sourceTree = "<group>";
+		};
+		1CD9B6EC20A92B2D00DA7CE1 /* 搜索文本的显示 */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9B6ED20A92B4F00DA7CE1 /* SearchResultDisplayViewController.swift */,
+				1CD9B6EE20A92B4F00DA7CE1 /* SearchResultDisplayViewController.xib */,
+			);
+			path = "搜索文本的显示";
 			sourceTree = "<group>";
 		};
 		57F676B89FD1004B0855BAE2 /* Pods */ = {
@@ -697,6 +727,7 @@
 				1CC2C2881F6BB1C1005964C7 /* Home.xcassets in Resources */,
 				1CC2C28C1F6BB1C1005964C7 /* icon3.jpg in Resources */,
 				1CB0B2681F347FE000A4B698 /* Main.storyboard in Resources */,
+				1CD9B6F020A92B4F00DA7CE1 /* SearchResultDisplayViewController.xib in Resources */,
 				1CC2C2871F6BB1C1005964C7 /* Discover.xcassets in Resources */,
 				1CC2C29B1F6BB1C1005964C7 /* test2.jpg in Resources */,
 				1CC2C28B1F6BB1C1005964C7 /* icon2.jpg in Resources */,
@@ -715,13 +746,13 @@
 				1CC2C28A1F6BB1C1005964C7 /* icon1.jpg in Resources */,
 				1CC2C29C1F6BB1C1005964C7 /* test3.jpg in Resources */,
 				1CC2C2701F6BB1C1005964C7 /* 1.jpg in Resources */,
-				1C8778781F94B21D004BCD6A /* wangyi.json in Resources */,
 				1CC2C28F1F6BB1C1005964C7 /* pic0.jpg in Resources */,
 				1CC2C2821F6BB1C1005964C7 /* 5.jpg in Resources */,
 				1CC2C2901F6BB1C1005964C7 /* pic1.jpg in Resources */,
 				1CC2C2791F6BB1C1005964C7 /* 18.jpg in Resources */,
 				1C2C9020208D6E2B008F0580 /* NameList_Unfamiliar.plist in Resources */,
 				1CC2C27D1F6BB1C1005964C7 /* 21.jpg in Resources */,
+				1CD9B6D320A92ABC00DA7CE1 /* wangyi.json in Resources */,
 				1CC2C2761F6BB1C1005964C7 /* 15.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -786,60 +817,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD9B6D620A92ABC00DA7CE1 /* ThreeFourthCell.swift in Sources */,
+				1CD9B6E720A92ABC00DA7CE1 /* DemoVC7Cell2.swift in Sources */,
 				1C5C66802088912C003003C9 /* SnpKitDemoVC1.swift in Sources */,
+				1CD9B6E820A92ABC00DA7CE1 /* DemoVC7Model.swift in Sources */,
 				1C2C90192089D1BB008F0580 /* FPSLabel.swift in Sources */,
-				1C2FFD931F97298700CAF9B4 /* SDChatModel.swift in Sources */,
-				1C39568E1F94955300CF89B2 /* DemoVC10.swift in Sources */,
-				1C45ECD11F7286F900C7E2B9 /* DemoVC5Model.swift in Sources */,
-				1C2FFD8A1F9609BB00CAF9B4 /* ThreeSecondCell.swift in Sources */,
+				1CD9B6DB20A92ABC00DA7CE1 /* SDChatModel.swift in Sources */,
+				1CD9B6CE20A92ABC00DA7CE1 /* DemoVC0.swift in Sources */,
+				1CD9B6D020A92ABC00DA7CE1 /* DemoVC10.swift in Sources */,
+				1CD9B6EF20A92B4F00DA7CE1 /* SearchResultDisplayViewController.swift in Sources */,
 				1CC2C2271F6A6B45005964C7 /* VCUnderLineButton.swift in Sources */,
-				1CC2C2381F6B84C5005964C7 /* GSDPracticeTableViewController.swift in Sources */,
+				1CD9B6D820A92ABC00DA7CE1 /* ThreeThirdCell.swift in Sources */,
+				1CD9B6D520A92ABC00DA7CE1 /* ThreeFirstCell.swift in Sources */,
 				1C9993D320883DD60091D293 /* SnpKitDemoVC0ViewModel.swift in Sources */,
-				1CC996EC1F74A7FC00EE3EC7 /* DemoVC7Model.swift in Sources */,
 				1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */,
+				1CD9B6D720A92ABC00DA7CE1 /* ThreeSecondCell.swift in Sources */,
+				1CD9B6E320A92ABC00DA7CE1 /* DemoVC5TableViewCell.swift in Sources */,
+				1CD9B6D220A92ABC00DA7CE1 /* ThreeModel.swift in Sources */,
 				1CC2C2201F6A58CA005964C7 /* ViewControllerButtonList.swift in Sources */,
+				1CD9B6E920A92ABC00DA7CE1 /* DemoVC8.swift in Sources */,
 				1CC2C2231F6A5FB4005964C7 /* Bundle+Extension.swift in Sources */,
-				1CC2C2341F6B8189005964C7 /* ViewsViewController.swift in Sources */,
-				1C45ECC91F7285A200C7E2B9 /* DemoVC1.swift in Sources */,
+				1CD9B6DD20A92ABC00DA7CE1 /* DemoVC2.swift in Sources */,
+				1CD9B6F220A92D8700DA7CE1 /* String+Extension.swift in Sources */,
 				1CC2C2251F6A6563005964C7 /* VCImageButton.swift in Sources */,
-				1C45ECBF1F72855400C7E2B9 /* DemoVC3.swift in Sources */,
-				1C39568B1F948C3800CF89B2 /* DemoVC8.swift in Sources */,
 				1C612CF62094378D00992DD3 /* RunAwayAtEF.swift in Sources */,
+				1CD9B6DA20A92ABC00DA7CE1 /* SDAnalogDataGenerator.swift in Sources */,
 				1C426C441F6A523000E40164 /* MainViewController.swift in Sources */,
-				1C2FFD951F972CAC00CAF9B4 /* SDAnalogDataGenerator.swift in Sources */,
+				1CD9B6E120A92ABC00DA7CE1 /* DemoVC5.swift in Sources */,
 				1C9993CF208837A50091D293 /* EFPAFamilyCell.swift in Sources */,
 				1C2C901620898A76008F0580 /* SnpKitDemoVC2ViewModel.swift in Sources */,
-				1C45ECC61F72858600C7E2B9 /* DemoVC2.swift in Sources */,
 				1C5C6682208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift in Sources */,
-				1C2FFD971F97315700CAF9B4 /* SDChatTableViewCell.swift in Sources */,
-				1C87787F1F94BD98004BCD6A /* ThreeFirstCell.swift in Sources */,
-				1C87787A1F94B837004BCD6A /* GGG.swift in Sources */,
 				1C5C668620889B24003003C9 /* Array+Extension.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,
-				1C2FFD8C1F96F65300CAF9B4 /* ThreeThirdCell.swift in Sources */,
 				1CD9B69E20A924D800DA7CE1 /* PrintConfig.swift in Sources */,
-				1CC996F01F74A89400EE3EC7 /* DemoVC7Cell2.swift in Sources */,
-				1C45ECCF1F7286D900C7E2B9 /* DemoVC6.swift in Sources */,
+				1CD9B6EB20A92ABC00DA7CE1 /* ViewsViewController.swift in Sources */,
+				1CD9B6CF20A92ABC00DA7CE1 /* DemoVC1.swift in Sources */,
 				1C2C90142089896B008F0580 /* SnpKit_DemoVC_2_Cell.swift in Sources */,
-				1CC996EE1F74A88600EE3EC7 /* DemoVC7Cell1.swift in Sources */,
+				1CD9B6D920A92ABC00DA7CE1 /* DemoVC11.swift in Sources */,
 				1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */,
-				1C45ECBB1F72852300C7E2B9 /* DemoVC5.swift in Sources */,
-				1C2FFD911F97295500CAF9B4 /* DemoVC11.swift in Sources */,
+				1CD9B6E420A92ABC00DA7CE1 /* DemoVC6.swift in Sources */,
 				1CC2C22E1F6A791B005964C7 /* UIView+Extension.swift in Sources */,
-				1C2FFD881F95FD8E00CAF9B4 /* ThreeFourthCell.swift in Sources */,
-				1C87787D1F94BC4E004BCD6A /* ThreeBaseCell.swift in Sources */,
-				1C45ECD31F72876400C7E2B9 /* DemoVC5TableViewCell.swift in Sources */,
-				1C45ECC31F72856D00C7E2B9 /* DemoVC4.swift in Sources */,
+				1CD9B6DF20A92ABC00DA7CE1 /* TestCell2.swift in Sources */,
+				1CD9B6E220A92ABC00DA7CE1 /* DemoVC5Model.swift in Sources */,
+				1CD9B6EA20A92ABC00DA7CE1 /* GSDPracticeTableViewController.swift in Sources */,
 				1C9993CD208837180091D293 /* SnpKitDemoVC0.swift in Sources */,
-				1C45ECCC1F7285C600C7E2B9 /* DemoVC0.swift in Sources */,
-				1C45ECC01F72855400C7E2B9 /* TestCell2.swift in Sources */,
+				1CD9B6A120A929EC00DA7CE1 /* ViewLayoutViewController.swift in Sources */,
+				1CD9B6E520A92ABC00DA7CE1 /* DemoVC7.swift in Sources */,
+				1CD9B6DE20A92ABC00DA7CE1 /* DemoVC3.swift in Sources */,
 				1C9993D7208850F70091D293 /* UIColor+Extension.swift in Sources */,
+				1CD9B6D120A92ABC00DA7CE1 /* GGG.swift in Sources */,
 				1C5C6684208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift in Sources */,
-				1CC996EA1F74A2B500EE3EC7 /* DemoVC7.swift in Sources */,
+				1CD9B6E620A92ABC00DA7CE1 /* DemoVC7Cell1.swift in Sources */,
 				1C612CF22093206000992DD3 /* PlistManager.swift in Sources */,
+				1CD9B6DC20A92ABC00DA7CE1 /* SDChatTableViewCell.swift in Sources */,
 				1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */,
-				1C8778761F94A057004BCD6A /* ThreeModel.swift in Sources */,
 				1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */,
+				1CD9B6E020A92ABC00DA7CE1 /* DemoVC4.swift in Sources */,
+				1CD9B6D420A92ABC00DA7CE1 /* ThreeBaseCell.swift in Sources */,
+				1CD9B6F420A92DB900DA7CE1 /* NSAttributedString+Extension.swift in Sources */,
 				1C9993D12088397E0091D293 /* UILabel+Extensions.swift in Sources */,
 				1C2C901220898952008F0580 /* SnpKitDemoVC2.swift in Sources */,
 			);
@@ -981,7 +1016,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9X3RT5648E;
 				INFOPLIST_FILE = AutoLayout/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuency.AutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -997,7 +1032,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9X3RT5648E;
 				INFOPLIST_FILE = AutoLayout/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuency.AutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
