@@ -35,5 +35,5 @@ func measure(f: ()->()) {
     let start = CACurrentMediaTime()
     f()
     let end = CACurrentMediaTime()
-    print("\n⚡️ Measure Time：\(end - start)")
+    print("\n⚡️ Measure Time：\(end - start) 秒")
 }

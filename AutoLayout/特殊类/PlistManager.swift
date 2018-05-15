@@ -21,5 +21,22 @@ class PlistManager {
         return namelist
     }
     
+    
+    /// 找出数组里面重复出现的字符串
+    static func duplicateFinde(array: [String]) {
+        let set: Set = Set(array)
+        for key in set {
+            var count = 0
+            for s in array {
+                if key == s {
+                    count += 1
+                }
+            }
+            if count > 1 {
+                print("元素: \"\(key)\" 出现次数 \(count)")
+            }
+        }
+    }
+    
 }
 
