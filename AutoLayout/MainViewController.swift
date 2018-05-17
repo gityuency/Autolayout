@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
     let tableView = UITableView()
     
     let listArray = [
+        ["MagicTrickViewController": "iOS 奇技淫巧"],
         ["ViewLayoutViewController": "iOS 布局控件"],
         ["ViewControllerButtonList":"按钮组"],
         ["ViewControllerLabelList":"标签组"],
