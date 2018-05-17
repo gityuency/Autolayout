@@ -22,7 +22,7 @@ class Magic_0_ViewController: UIViewController {
         
         /// 示例 获得指定的字符串
         let regex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"  //邮箱正则
-        let resArray =  ori.regexGetSub(pattern: regex)
+        let resArray = ori.regexGetSubString(pattern: regex)
         print(resArray)
         
     }

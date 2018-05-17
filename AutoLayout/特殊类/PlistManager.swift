@@ -11,16 +11,15 @@ import Foundation
 /// Plist 文件管理器
 class PlistManager {
     
-    /// 获得本项目中的 plist 文件内容 中文名数组
-    static func needAllChineseName() -> [String] {
+    /// 获得本项目中的 plist 文件内容 中文名数组 懒加载
+    static let needAllChineseName: [String] = {
         guard let path = Bundle.main.path(forResource: "NameList_Unfamiliar", ofType: "plist"),
             let array = NSArray(contentsOfFile: path),
             let namelist = array as? [String] else {
                 return ["姬友大人"]
         }
         return namelist
-    }
-    
+    }()
     
     /// 找出数组里面重复出现的字符串
     static func duplicateFinde(array: [String]) {

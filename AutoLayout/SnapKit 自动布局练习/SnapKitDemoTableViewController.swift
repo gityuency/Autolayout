@@ -15,6 +15,7 @@ class SnapKitDemoTableViewController: UITableViewController {
     
     
     let listArray = [
+        ["SnpKitCellOptimizationViewController": "这个表格我们聊一聊 cell 优化"],
         ["SnpKitDemoVC0":"1. 头像始终在 cell 纵向居中 \n2. 标题标签始终在纵向中心线的上方 \n3.标签始终在纵向中心线的下方 \n4. Section的高度是固定高度"],
         ["SnpKitDemoVC1":"1. 两个 Label 在 cell 中水平居中 \n2. 两个 Label 的宽度都随文字长短变化 \n3.右边的 Label 优先完整显示内容, 不能被压缩, 不能被拉伸"],
         ["SnpKitDemoVC2":"1. 一个ImageView, 两个 Label \n2. 头像宽高固定, 左,上距离固定 \n3. NameLabel 只显示一行 宽度随文字变化 \n4. ContentLabel 显示多行 宽度和高度都随着文字变化 \n5. 无论是否有 Content, cell 底部距离最靠近它的高度的控件(可能是ImageView, 可能是ContentLabel)为 20"],

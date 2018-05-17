@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class SnpKitDemoVC0ViewModel {
     
@@ -42,6 +43,7 @@ class SnpKitDemoCellModel {
     var rightTitle = ""
     var timeString = ""
     var contentString = ""
+    var image: UIImage?
 }
 
 

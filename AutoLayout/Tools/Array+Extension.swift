@@ -19,6 +19,7 @@ extension Array {
     
     /// 获取这个数组的随机元素
     func randomItem() -> Element {
+        assert(self.count != 0, "数组里面没有元素!")
         let index = Int(arc4random_uniform(UInt32(self.count)))
         let item = self[index]
         return item

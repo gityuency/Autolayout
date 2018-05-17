@@ -12,13 +12,6 @@ class SnpKitDemoVC2ViewModel {
     
     let dataArray: [SnpKitDemoCellModel]!
     
-    let imageStringArray = [
-        "a01",
-        "a02",
-        "a03",
-        "a04",
-        ]
-    
     let nameStringArray = [
         "",
         "标题可能没有",
@@ -36,7 +29,7 @@ class SnpKitDemoVC2ViewModel {
         var array = [SnpKitDemoCellModel]()
         for _ in 0..<100 {
             let m = SnpKitDemoCellModel()
-            m.imageString = imageStringArray.randomItem()
+            m.image = BundleImageManager.needAllHeadImage.randomItem()
             m.leftTitle = nameStringArray.randomItem()
             m.rightTitle = contentStringArray.randomItem()
             array.append(m)
