@@ -22,7 +22,7 @@ class SnpKitCellOptimizationViewModel {
     
     init() {
         var array = [SnpKitDemoCellModel]()
-        for _ in 0..<100 {
+        for _ in 0..<PlistManager.needAllChineseName.count {
             let m = SnpKitDemoCellModel()
             m.image = BundleImageManager.needAllImage.randomItem()
             m.leftTitle = PlistManager.needAllChineseName.randomItem()
