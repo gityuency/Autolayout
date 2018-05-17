@@ -19,6 +19,8 @@
 		1C5C668620889B24003003C9 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C668520889B24003003C9 /* Array+Extension.swift */; };
 		1C612CF22093206000992DD3 /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C612CF12093206000992DD3 /* PlistManager.swift */; };
 		1C612CF62094378D00992DD3 /* RunAwayAtEF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C612CF52094378D00992DD3 /* RunAwayAtEF.swift */; };
+		1C9051BA20AD38F3008C7C0E /* SizeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9051B920AD38F3008C7C0E /* SizeConfig.swift */; };
+		1C9051BC20AD3C64008C7C0E /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9051BB20AD3C63008C7C0E /* UIImage+Extensions.swift */; };
 		1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */; };
 		1C9993CD208837180091D293 /* SnpKitDemoVC0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993CC208837180091D293 /* SnpKitDemoVC0.swift */; };
 		1C9993CF208837A50091D293 /* EFPAFamilyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993CE208837A50091D293 /* EFPAFamilyCell.swift */; };
@@ -137,6 +139,8 @@
 		1C5C668520889B24003003C9 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		1C612CF12093206000992DD3 /* PlistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
 		1C612CF52094378D00992DD3 /* RunAwayAtEF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunAwayAtEF.swift; sourceTree = "<group>"; };
+		1C9051B920AD38F3008C7C0E /* SizeConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConfig.swift; sourceTree = "<group>"; };
+		1C9051BB20AD3C63008C7C0E /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoTableViewController.swift; sourceTree = "<group>"; };
 		1C9993CC208837180091D293 /* SnpKitDemoVC0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC0.swift; sourceTree = "<group>"; };
 		1C9993CE208837A50091D293 /* EFPAFamilyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFPAFamilyCell.swift; sourceTree = "<group>"; };
@@ -269,6 +273,7 @@
 		1C2C90172089D1A9008F0580 /* 特殊类 */ = {
 			isa = PBXGroup;
 			children = (
+				1C9051B920AD38F3008C7C0E /* SizeConfig.swift */,
 				1CD9B69D20A924D800DA7CE1 /* PrintConfig.swift */,
 				1C2C90182089D1BB008F0580 /* FPSLabel.swift */,
 				1C612CF12093206000992DD3 /* PlistManager.swift */,
@@ -372,6 +377,7 @@
 		1CC2C2211F6A5FA8005964C7 /* 扩展类 */ = {
 			isa = PBXGroup;
 			children = (
+				1C9051BB20AD3C63008C7C0E /* UIImage+Extensions.swift */,
 				1CC2C2221F6A5FB4005964C7 /* Bundle+Extension.swift */,
 				1C9993D6208850F70091D293 /* UIColor+Extension.swift */,
 				1CC2C22D1F6A791B005964C7 /* UIView+Extension.swift */,
@@ -871,6 +877,8 @@
 				1C612CF22093206000992DD3 /* PlistManager.swift in Sources */,
 				1CD9B6DC20A92ABC00DA7CE1 /* SDChatTableViewCell.swift in Sources */,
 				1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */,
+				1C9051BA20AD38F3008C7C0E /* SizeConfig.swift in Sources */,
+				1C9051BC20AD3C64008C7C0E /* UIImage+Extensions.swift in Sources */,
 				1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */,
 				1CD9B6E020A92ABC00DA7CE1 /* DemoVC4.swift in Sources */,
 				1CD9B6D420A92ABC00DA7CE1 /* ThreeBaseCell.swift in Sources */,

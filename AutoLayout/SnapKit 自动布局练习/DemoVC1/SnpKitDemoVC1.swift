@@ -22,11 +22,19 @@ class SnpKitDemoVC1: UIViewController {
     }
 
     private func setUpTableView() {
+
+        self.automaticallyAdjustsScrollViewInsets = false
+
         view.addSubview(tableview)
         tableview.tableFooterView = UIView()
         tableview.register(SnpKit_DemoVC_1_Cell.self, forCellReuseIdentifier: SnpKit_DemoVC_1_Cell.resuseId)
+
+        tableview.estimatedRowHeight = 130;
+        tableview.rowHeight = UITableViewAutomaticDimension;
+        
         tableview.delegate = self
         tableview.dataSource = self
+        
         tableview.snp.makeConstraints({ make in
             make.top.equalTo(topLayoutGuide.snp.bottom)
             make.bottom.equalTo(bottomLayoutGuide.snp.top)

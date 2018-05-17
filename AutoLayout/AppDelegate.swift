@@ -56,7 +56,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         /// 添加帧数检查
-        let v = FPSLabel(frame: CGRect(x: 85, y: 0, width: 80, height: 20))
+        
+        let v = FPSLabel(frame: CGRect(x: ScreenWidth / 2 + 20, y: 0, width: 80, height: 20))
         window?.addSubview(v)
     }
     

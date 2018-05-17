@@ -21,11 +21,23 @@ class SnpKitDemoVC2: UIViewController {
     }
     
     private func setUpTableView() {
+        
+        self.automaticallyAdjustsScrollViewInsets = false
+        
         view.addSubview(tableview)
         tableview.tableFooterView = UIView()
         tableview.register(SnpKit_DemoVC_2_Cell.self, forCellReuseIdentifier: SnpKit_DemoVC_2_Cell.resuseId)
+        
+        tableview.estimatedRowHeight = 130;
+        
+        /*
+         在 iOS 11不写下面这句代码是可以的, 但是在 iOS 9 / iOS 10 不写这个代码布局就会错乱
+         */
+        tableview.rowHeight = UITableViewAutomaticDimension;
+        
         tableview.delegate = self
         tableview.dataSource = self
+        
         tableview.snp.makeConstraints({ make in
             make.top.equalTo(topLayoutGuide.snp.bottom)
             make.bottom.equalTo(bottomLayoutGuide.snp.top)
@@ -49,5 +61,7 @@ extension SnpKitDemoVC2: UITableViewDataSource, UITableViewDelegate{
         cell.headImageView.image = UIImage.init(named: model.imageString)
         return cell
     }
+    
+ 
 }
 

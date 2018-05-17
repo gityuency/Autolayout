@@ -24,6 +24,10 @@ class SnapKitDemoTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "SnapKit 三方库的练习"
+        
+        self.tableView.estimatedRowHeight = 150;
+        self.tableView.rowHeight = UITableViewAutomaticDimension;
+        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellidSnapKitPracticeList)
     }
     
@@ -34,8 +38,8 @@ class SnapKitDemoTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellidSnapKitPracticeList, for: indexPath)
         //使用字典的值作为标题
-        cell.textLabel?.text = "介绍 ->\n\(Array(listArray[indexPath.row].values)[0])"
         cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.text = "介绍 ->\n\(Array(listArray[indexPath.row].values)[0])"
         cell.imageView?.image = UIImage.init(named: "jinshuo")
         return cell
     }

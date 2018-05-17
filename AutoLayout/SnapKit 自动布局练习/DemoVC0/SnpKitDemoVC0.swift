@@ -24,11 +24,17 @@ class SnpKitDemoVC0: UIViewController {
     }
     
     private func setUpTableView() {
+        
+        self.automaticallyAdjustsScrollViewInsets = false
+        
         view.addSubview(tableview)
         tableview.tableFooterView = UIView()
         tableview.register(EFPAFamilyCell.self, forCellReuseIdentifier: EFPAFamilyCell.resuseId)
         tableview.register(EFPAFamilyHeader.self, forHeaderFooterViewReuseIdentifier: EFPAFamilyHeader.resuseId)
         
+        tableview.estimatedRowHeight = 130;
+        tableview.rowHeight = UITableViewAutomaticDimension;
+
         tableview.delegate = self
         tableview.dataSource = self
         

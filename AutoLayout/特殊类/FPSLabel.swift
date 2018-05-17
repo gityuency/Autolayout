@@ -27,8 +27,8 @@ class FPSLabel: UILabel {
         self.textAlignment = .center
         self.isUserInteractionEnabled = false
         self.textColor = UIColor.white
-        self.backgroundColor = UIColor(white: 0, alpha: 0.7)
-        self.font = UIFont(name: "Menlo", size: 14)
+        //self.backgroundColor = UIColor(white: 0, alpha: 0.7)
+        self.font = UIFont(name: "Menlo", size: 12)
         weak var weakSelf = self
         _link = CADisplayLink(target: weakSelf!, selector:#selector(FPSLabel.tick(_:)) );
         _link!.add(to: RunLoop.main, forMode:RunLoopMode.commonModes)
@@ -52,7 +52,7 @@ class FPSLabel: UILabel {
         _count = 0
         
         let progress = fps / 60.0;
-        self.textColor = UIColor(hue: CGFloat(0.27 * ( progress - 0.2 )) , saturation: 1, brightness: 0.9, alpha: 1)
+        self.textColor = UIColor(hue: CGFloat(1 * ( progress - 0.2 )) , saturation: 1, brightness: 1, alpha: 1)
         self.text = "\(Int(fps+0.5))FPS"
     }
 }
