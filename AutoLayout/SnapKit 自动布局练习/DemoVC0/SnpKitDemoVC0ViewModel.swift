@@ -26,6 +26,8 @@ class SnpKitDemoVC0ViewModel {
             for _ in 0..<20 {
                 let m = SnpKitDemoCellModel()
                 m.name = nameArray.randomItem()
+                m.image = BundleImageManager.needAllHeadImage.randomItem()
+                m.tag = PlistManager.needAllChineseName.randomItem()
                 a2.append(m)
             }
             a1.append(a2)

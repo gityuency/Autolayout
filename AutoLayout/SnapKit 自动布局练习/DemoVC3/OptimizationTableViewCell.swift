@@ -86,7 +86,7 @@ class OptimizationTableViewCell: UITableViewCell {
         
         contentLabel.snp.makeConstraints { make in
             make.left.equalTo(nameLabel)
-            make.top.equalTo(nameLabel.snp.bottom).offset(20)
+            make.top.equalTo(nameLabel.snp.bottom).offset(5)
             make.right.lessThanOrEqualToSuperview().offset(-20)
             make.bottom.lessThanOrEqualToSuperview().offset(-20)
         }

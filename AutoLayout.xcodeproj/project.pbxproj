@@ -27,6 +27,8 @@
 		1C9051C720AD55AC008C7C0E /* SnpKitCellOptimizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9051C620AD55AC008C7C0E /* SnpKitCellOptimizationViewModel.swift */; };
 		1C9051C920AD569A008C7C0E /* BundleImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9051C820AD569A008C7C0E /* BundleImageManager.swift */; };
 		1C9051CB20AD6445008C7C0E /* OptimizationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9051CA20AD6445008C7C0E /* OptimizationTableViewCell.swift */; };
+		1C9051D420AE692D008C7C0E /* NameList_Unfamiliar_2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C9051D320AE692D008C7C0E /* NameList_Unfamiliar_2.plist */; };
+		1C9051D620AE6D71008C7C0E /* OptimizationPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9051D520AE6D71008C7C0E /* OptimizationPictureView.swift */; };
 		1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */; };
 		1C9993CD208837180091D293 /* SnpKitDemoVC0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993CC208837180091D293 /* SnpKitDemoVC0.swift */; };
 		1C9993CF208837A50091D293 /* EFPAFamilyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9993CE208837A50091D293 /* EFPAFamilyCell.swift */; };
@@ -153,6 +155,8 @@
 		1C9051C620AD55AC008C7C0E /* SnpKitCellOptimizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitCellOptimizationViewModel.swift; sourceTree = "<group>"; };
 		1C9051C820AD569A008C7C0E /* BundleImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleImageManager.swift; sourceTree = "<group>"; };
 		1C9051CA20AD6445008C7C0E /* OptimizationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizationTableViewCell.swift; sourceTree = "<group>"; };
+		1C9051D320AE692D008C7C0E /* NameList_Unfamiliar_2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NameList_Unfamiliar_2.plist; sourceTree = "<group>"; };
+		1C9051D520AE6D71008C7C0E /* OptimizationPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizationPictureView.swift; sourceTree = "<group>"; };
 		1C9993C720882BA70091D293 /* SnapKitDemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoTableViewController.swift; sourceTree = "<group>"; };
 		1C9993CC208837180091D293 /* SnpKitDemoVC0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnpKitDemoVC0.swift; sourceTree = "<group>"; };
 		1C9993CE208837A50091D293 /* EFPAFamilyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFPAFamilyCell.swift; sourceTree = "<group>"; };
@@ -298,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				1C2C901F208D6E2B008F0580 /* NameList_Unfamiliar.plist */,
+				1C9051D320AE692D008C7C0E /* NameList_Unfamiliar_2.plist */,
 				1C612CF52094378D00992DD3 /* RunAwayAtEF.swift */,
 			);
 			path = "无关紧要的东西";
@@ -336,6 +341,7 @@
 				1C9051C420AD554A008C7C0E /* SnpKitCellOptimizationViewController.swift */,
 				1C9051C620AD55AC008C7C0E /* SnpKitCellOptimizationViewModel.swift */,
 				1C9051CA20AD6445008C7C0E /* OptimizationTableViewCell.swift */,
+				1C9051D520AE6D71008C7C0E /* OptimizationPictureView.swift */,
 			);
 			path = DemoVC3;
 			sourceTree = "<group>";
@@ -759,6 +765,7 @@
 				1CC2C2941F6BB1C1005964C7 /* pic5.jpg in Resources */,
 				1CC2C2891F6BB1C1005964C7 /* icon0.jpg in Resources */,
 				1CC2C2911F6BB1C1005964C7 /* pic2.jpg in Resources */,
+				1C9051D420AE692D008C7C0E /* NameList_Unfamiliar_2.plist in Resources */,
 				1CC2C2731F6BB1C1005964C7 /* 12.jpg in Resources */,
 				1CC2C2961F6BB1C1005964C7 /* pic7.jpg in Resources */,
 				1CC2C2741F6BB1C1005964C7 /* 13.jpg in Resources */,
@@ -916,6 +923,7 @@
 				1CD9B6A120A929EC00DA7CE1 /* ViewLayoutViewController.swift in Sources */,
 				1CD9B6E520A92ABC00DA7CE1 /* DemoVC7.swift in Sources */,
 				1CD9B6DE20A92ABC00DA7CE1 /* DemoVC3.swift in Sources */,
+				1C9051D620AE6D71008C7C0E /* OptimizationPictureView.swift in Sources */,
 				1C9993D7208850F70091D293 /* UIColor+Extension.swift in Sources */,
 				1CD9B6D120A92ABC00DA7CE1 /* GGG.swift in Sources */,
 				1C5C6684208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift in Sources */,

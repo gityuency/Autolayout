@@ -60,11 +60,9 @@ extension SnpKitDemoVC0: UITableViewDataSource {
         let model = viewModel.dataArray[indexPath.section][indexPath.row]
         
         let cell = tableView.dequeueReusableCell(withIdentifier: EFPAFamilyCell.resuseId, for: indexPath) as! EFPAFamilyCell
-        
-        let image = UIImage(named: "a02")
-        cell.headImageView.kf.setImage(with: nil, placeholder: image)
+        cell.headImageView.image = model.image
         cell.nameLabel.text = model.name
-        cell.tipLabel.text = "标签"
+        cell.tipLabel.text = model.tag
         return cell
     }
     
