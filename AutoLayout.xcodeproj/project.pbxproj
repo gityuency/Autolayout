@@ -131,6 +131,7 @@
 		1CD9B6F220A92D8700DA7CE1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6F120A92D8700DA7CE1 /* String+Extension.swift */; };
 		1CD9B6F420A92DB900DA7CE1 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
+		E166C167214610A600F8EA87 /* DynamicUILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166C166214610A600F8EA87 /* DynamicUILabelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -262,6 +263,7 @@
 		1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
+		E166C166214610A600F8EA87 /* DynamicUILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicUILabelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -520,6 +522,7 @@
 			isa = PBXGroup;
 			children = (
 				1CD9B6A020A929EC00DA7CE1 /* ViewLayoutViewController.swift */,
+				E166C1632146106800F8EA87 /* iOS10UILabel动态字体 */,
 				1CD9B6EC20A92B2D00DA7CE1 /* 搜索文本的显示 */,
 			);
 			path = "iOS 布局控件";
@@ -682,6 +685,14 @@
 				ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E166C1632146106800F8EA87 /* iOS10UILabel动态字体 */ = {
+			isa = PBXGroup;
+			children = (
+				E166C166214610A600F8EA87 /* DynamicUILabelViewController.swift */,
+			);
+			path = "iOS10UILabel动态字体";
 			sourceTree = "<group>";
 		};
 		FF32813925B99DAA35A84D46 /* Frameworks */ = {
@@ -881,6 +892,7 @@
 				1CD9B6DB20A92ABC00DA7CE1 /* SDChatModel.swift in Sources */,
 				1CD9B6CE20A92ABC00DA7CE1 /* DemoVC0.swift in Sources */,
 				1CD9B6D020A92ABC00DA7CE1 /* DemoVC10.swift in Sources */,
+				E166C167214610A600F8EA87 /* DynamicUILabelViewController.swift in Sources */,
 				1CD9B6EF20A92B4F00DA7CE1 /* SearchResultDisplayViewController.swift in Sources */,
 				1CC2C2271F6A6B45005964C7 /* VCUnderLineButton.swift in Sources */,
 				1CD9B6D820A92ABC00DA7CE1 /* ThreeThirdCell.swift in Sources */,

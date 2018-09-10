@@ -17,6 +17,7 @@ class ViewLayoutViewController: UITableViewController {
     
     let listArray = [
         ["SearchResultDisplayViewController": "将搜索文本在一个 Label 上动态显示"],
+        ["DynamicUILabelViewController": "iOS10 字体大小随系统调整"],
         ]
     
     override func viewDidLoad() {
