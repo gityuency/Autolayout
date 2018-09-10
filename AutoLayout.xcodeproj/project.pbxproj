@@ -137,6 +137,7 @@
 		E166C16F21461A3E00F8EA87 /* iOS10PullRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166C16E21461A3E00F8EA87 /* iOS10PullRefreshViewController.swift */; };
 		E166C17221461D6200F8EA87 /* iOS10SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166C17121461D6200F8EA87 /* iOS10SpeechViewController.swift */; };
 		E166C17421461E4000F8EA87 /* voice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E166C17321461E4000F8EA87 /* voice.mp3 */; };
+		E166C1772146384400F8EA87 /* iOS10TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166C1762146384400F8EA87 /* iOS10TabbarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -274,6 +275,7 @@
 		E166C16E21461A3E00F8EA87 /* iOS10PullRefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10PullRefreshViewController.swift; sourceTree = "<group>"; };
 		E166C17121461D6200F8EA87 /* iOS10SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10SpeechViewController.swift; sourceTree = "<group>"; };
 		E166C17321461E4000F8EA87 /* voice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voice.mp3; sourceTree = "<group>"; };
+		E166C1762146384400F8EA87 /* iOS10TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10TabbarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,6 +336,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9051BE20AD4E23008C7C0E /* MagicTrickViewController.swift */,
+				E166C175214636C100F8EA87 /* iOS10Tabbar定制 */,
 				E166C17021461D1800F8EA87 /* iOS10语音识别 */,
 				E166C16D21461A2E00F8EA87 /* iOS10下拉刷新控件 */,
 				E166C1682146155C00F8EA87 /* iOS10动画新特性 */,
@@ -734,6 +737,14 @@
 			path = "iOS10语音识别";
 			sourceTree = "<group>";
 		};
+		E166C175214636C100F8EA87 /* iOS10Tabbar定制 */ = {
+			isa = PBXGroup;
+			children = (
+				E166C1762146384400F8EA87 /* iOS10TabbarViewController.swift */,
+			);
+			path = "iOS10Tabbar定制";
+			sourceTree = "<group>";
+		};
 		FF32813925B99DAA35A84D46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -943,6 +954,7 @@
 				1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */,
 				1CD9B6D720A92ABC00DA7CE1 /* ThreeSecondCell.swift in Sources */,
 				1CD9B6E320A92ABC00DA7CE1 /* DemoVC5TableViewCell.swift in Sources */,
+				E166C1772146384400F8EA87 /* iOS10TabbarViewController.swift in Sources */,
 				1CD9B6D220A92ABC00DA7CE1 /* ThreeModel.swift in Sources */,
 				1CC2C2201F6A58CA005964C7 /* ViewControllerButtonList.swift in Sources */,
 				1CD9B6E920A92ABC00DA7CE1 /* DemoVC8.swift in Sources */,

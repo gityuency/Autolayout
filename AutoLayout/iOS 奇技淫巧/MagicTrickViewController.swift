@@ -14,6 +14,7 @@ private let cellidMagicTrickViewController = "cellidMagicTrickViewController"
 class MagicTrickViewController: UITableViewController {
 
     let listArray = [
+        ["iOS10TabbarViewController": "iOS 10 Tabbar 定制"],
         ["iOS10SpeechViewController": "iOS 10 新特性 语音识别"],
         ["iOS10PullRefreshViewController": "iOS 10 新特性 下拉刷新控件 支持 UIScrollView 以及其所有子类"],
         ["iOS10AnimationViewController": "iOS 10 新特性 属性动画器"],
