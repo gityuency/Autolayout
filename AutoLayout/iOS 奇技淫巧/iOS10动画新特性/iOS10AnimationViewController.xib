@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="iOS10AnimationViewController" customModule="AutoLayout" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mW9-in-Bms">
+                    <rect key="frame" x="0.0" y="607" width="94" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="pbU-Nf-6Dp"/>
+                    </constraints>
+                    <state key="normal" title="开始动画"/>
+                    <connections>
+                        <action selector="startAnim:" destination="-1" eventType="touchUpInside" id="sTq-sZ-bPl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gma-0H-u5N">
+                    <rect key="frame" x="94" y="607" width="93.5" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="7Gz-be-LfY"/>
+                    </constraints>
+                    <state key="normal" title="暂停动画"/>
+                    <connections>
+                        <action selector="pauseAnim:" destination="-1" eventType="touchUpInside" id="Nsb-tU-Jzb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khJ-3u-dya">
+                    <rect key="frame" x="187.5" y="607" width="94" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="DLn-3K-Jtf"/>
+                    </constraints>
+                    <state key="normal" title="继续动画"/>
+                    <connections>
+                        <action selector="continueAnim:" destination="-1" eventType="touchUpInside" id="Y9L-fS-38W"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWW-Yr-dd0">
+                    <rect key="frame" x="281.5" y="607" width="93.5" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="guD-pa-See"/>
+                    </constraints>
+                    <state key="normal" title="停止动画"/>
+                    <connections>
+                        <action selector="stopAnim:" destination="-1" eventType="touchUpInside" id="dVx-pW-JfC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JWW-Yr-dd0" secondAttribute="bottom" id="1l7-HY-eK4"/>
+                <constraint firstItem="khJ-3u-dya" firstAttribute="leading" secondItem="Gma-0H-u5N" secondAttribute="trailing" id="6Yj-pb-Fpo"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Gma-0H-u5N" secondAttribute="bottom" id="SLz-GW-ZYu"/>
+                <constraint firstItem="mW9-in-Bms" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="W0R-96-EfM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="khJ-3u-dya" secondAttribute="bottom" id="WoO-iS-eWv"/>
+                <constraint firstItem="Gma-0H-u5N" firstAttribute="leading" secondItem="mW9-in-Bms" secondAttribute="trailing" id="YJV-JX-XB5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="mW9-in-Bms" secondAttribute="bottom" id="eH4-Id-Fgz"/>
+                <constraint firstItem="Gma-0H-u5N" firstAttribute="width" secondItem="mW9-in-Bms" secondAttribute="width" id="fj7-FT-0Az"/>
+                <constraint firstItem="JWW-Yr-dd0" firstAttribute="width" secondItem="mW9-in-Bms" secondAttribute="width" id="jvi-uO-JeN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JWW-Yr-dd0" secondAttribute="trailing" id="lmu-3a-NfY"/>
+                <constraint firstItem="JWW-Yr-dd0" firstAttribute="leading" secondItem="khJ-3u-dya" secondAttribute="trailing" id="oRo-Sq-YOM"/>
+                <constraint firstItem="khJ-3u-dya" firstAttribute="width" secondItem="mW9-in-Bms" secondAttribute="width" id="vjo-Ro-z3T"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-36" y="-38"/>
+        </view>
+    </objects>
+</document>

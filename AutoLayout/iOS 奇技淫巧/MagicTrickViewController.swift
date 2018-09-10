@@ -14,6 +14,9 @@ private let cellidMagicTrickViewController = "cellidMagicTrickViewController"
 class MagicTrickViewController: UITableViewController {
 
     let listArray = [
+        ["iOS10SpeechViewController": "iOS 10 新特性 语音识别"],
+        ["iOS10PullRefreshViewController": "iOS 10 新特性 下拉刷新控件 支持 UIScrollView 以及其所有子类"],
+        ["iOS10AnimationViewController": "iOS 10 新特性 属性动画器"],
         ["Magic_0_ViewController": "在字符串中提取汉字, 相邻的汉字不拆分, 把这些汉字放到数组"],
         ]
     
