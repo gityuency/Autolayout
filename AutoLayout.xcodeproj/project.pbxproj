@@ -138,6 +138,7 @@
 		E166C17221461D6200F8EA87 /* iOS10SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166C17121461D6200F8EA87 /* iOS10SpeechViewController.swift */; };
 		E166C17421461E4000F8EA87 /* voice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E166C17321461E4000F8EA87 /* voice.mp3 */; };
 		E166C1772146384400F8EA87 /* iOS10TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166C1762146384400F8EA87 /* iOS10TabbarViewController.swift */; };
+		E166C1982146598F00F8EA87 /* iOS10UserNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166C1972146598F00F8EA87 /* iOS10UserNotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -276,6 +277,7 @@
 		E166C17121461D6200F8EA87 /* iOS10SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10SpeechViewController.swift; sourceTree = "<group>"; };
 		E166C17321461E4000F8EA87 /* voice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voice.mp3; sourceTree = "<group>"; };
 		E166C1762146384400F8EA87 /* iOS10TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10TabbarViewController.swift; sourceTree = "<group>"; };
+		E166C1972146598F00F8EA87 /* iOS10UserNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10UserNotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,6 +338,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9051BE20AD4E23008C7C0E /* MagicTrickViewController.swift */,
+				E166C1962146596C00F8EA87 /* iOS10本地通知 */,
 				E166C175214636C100F8EA87 /* iOS10Tabbar定制 */,
 				E166C17021461D1800F8EA87 /* iOS10语音识别 */,
 				E166C16D21461A2E00F8EA87 /* iOS10下拉刷新控件 */,
@@ -745,6 +748,14 @@
 			path = "iOS10Tabbar定制";
 			sourceTree = "<group>";
 		};
+		E166C1962146596C00F8EA87 /* iOS10本地通知 */ = {
+			isa = PBXGroup;
+			children = (
+				E166C1972146598F00F8EA87 /* iOS10UserNotificationViewController.swift */,
+			);
+			path = "iOS10本地通知";
+			sourceTree = "<group>";
+		};
 		FF32813925B99DAA35A84D46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -949,6 +960,7 @@
 				1CC2C2271F6A6B45005964C7 /* VCUnderLineButton.swift in Sources */,
 				1CD9B6D820A92ABC00DA7CE1 /* ThreeThirdCell.swift in Sources */,
 				1C9051CB20AD6445008C7C0E /* OptimizationTableViewCell.swift in Sources */,
+				E166C1982146598F00F8EA87 /* iOS10UserNotificationViewController.swift in Sources */,
 				1CD9B6D520A92ABC00DA7CE1 /* ThreeFirstCell.swift in Sources */,
 				1C9993D320883DD60091D293 /* SnpKitDemoVC0ViewModel.swift in Sources */,
 				1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */,
