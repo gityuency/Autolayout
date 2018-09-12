@@ -23,6 +23,8 @@ class ViewLayoutViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "iOS 布局控件"
+        tableView.estimatedRowHeight = 150;
+        tableView.rowHeight = UITableViewAutomaticDimension;
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellidViewLayoutViewController)
     }
     
@@ -34,7 +36,7 @@ class ViewLayoutViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellidViewLayoutViewController, for: indexPath)
         cell.textLabel?.text = "\(Array(listArray[indexPath.row].values)[0])"
         cell.textLabel?.numberOfLines = 0
-        cell.imageView?.image = UIImage.init(named: "jinshuo")
+        cell.imageView?.image = UIImage.init(named: "liulu")
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

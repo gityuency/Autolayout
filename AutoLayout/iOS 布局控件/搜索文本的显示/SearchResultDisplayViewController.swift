@@ -19,6 +19,12 @@ class SearchResultDisplayViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if #available(iOS 11.0, *) {
+            textview.contentInsetAdjustmentBehavior = .never
+        } else {
+            automaticallyAdjustsScrollViewInsets = false
+        }
+        
         oriString = textview.text
         NotificationCenter.default.addObserver(self, selector: #selector(searchAction), name: NSNotification.Name.UITextFieldTextDidChange, object: searchfield)
     }

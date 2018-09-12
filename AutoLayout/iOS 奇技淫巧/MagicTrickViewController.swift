@@ -25,6 +25,8 @@ class MagicTrickViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "iOS 奇技淫巧"
+        tableView.estimatedRowHeight = 150;
+        tableView.rowHeight = UITableViewAutomaticDimension;
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellidMagicTrickViewController)
     }
     
