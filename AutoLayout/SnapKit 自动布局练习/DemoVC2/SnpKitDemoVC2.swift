@@ -33,7 +33,7 @@ class SnpKitDemoVC2: UIViewController {
         /*
          在 iOS 11不写下面这句代码是可以的, 但是在 iOS 9 / iOS 10 不写这个代码布局就会错乱
          */
-        tableview.rowHeight = UITableViewAutomaticDimension;
+        tableview.rowHeight = UITableView.automaticDimension;
         
         tableview.delegate = self
         tableview.dataSource = self

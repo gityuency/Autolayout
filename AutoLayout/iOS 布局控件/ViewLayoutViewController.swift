@@ -24,7 +24,7 @@ class ViewLayoutViewController: UITableViewController {
         super.viewDidLoad()
         self.title = "iOS 布局控件"
         tableView.estimatedRowHeight = 150;
-        tableView.rowHeight = UITableViewAutomaticDimension;
+        tableView.rowHeight = UITableView.automaticDimension;
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellidViewLayoutViewController)
     }
     

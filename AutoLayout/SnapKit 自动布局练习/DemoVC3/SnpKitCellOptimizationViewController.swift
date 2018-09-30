@@ -25,7 +25,7 @@ class SnpKitCellOptimizationViewController: UIViewController {
         tableview.tableFooterView = UIView()
         tableview.register(OptimizationTableViewCell.self, forCellReuseIdentifier: OptimizationTableViewCell.resuseId)
         tableview.estimatedRowHeight = 130;
-        tableview.rowHeight = UITableViewAutomaticDimension;
+        tableview.rowHeight = UITableView.automaticDimension;
         tableview.delegate = self
         tableview.dataSource = self
         tableview.snp.makeConstraints({ make in

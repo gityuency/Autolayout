@@ -12,7 +12,8 @@ import UIKit
 class UILabelPadding: UILabel {
     let padding = UIEdgeInsets(top: 2, left: 4, bottom: 2, right: 4)
     override func drawText(in rect: CGRect) {
-        super.drawText(in: UIEdgeInsetsInsetRect(rect, padding))
+        
+        super.drawText(in: rect.inset(by: padding))
     }
 
     override var intrinsicContentSize: CGSize {

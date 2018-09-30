@@ -36,7 +36,7 @@ class iOS10PullRefreshViewController: UIViewController {
         
         // 添加下拉刷新控件
         let refreshControl = UIRefreshControl()
-        refreshControl.addTarget(self, action: #selector(refresh), for: UIControlEvents.valueChanged)
+        refreshControl.addTarget(self, action: #selector(refresh), for: UIControl.Event.valueChanged)
         scrollView.refreshControl = refreshControl
     }
     

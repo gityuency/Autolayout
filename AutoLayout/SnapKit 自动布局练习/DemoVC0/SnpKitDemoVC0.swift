@@ -33,7 +33,7 @@ class SnpKitDemoVC0: UIViewController {
         tableview.register(EFPAFamilyHeader.self, forHeaderFooterViewReuseIdentifier: EFPAFamilyHeader.resuseId)
         
         tableview.estimatedRowHeight = 130;
-        tableview.rowHeight = UITableViewAutomaticDimension;
+        tableview.rowHeight = UITableView.automaticDimension;
 
         tableview.delegate = self
         tableview.dataSource = self

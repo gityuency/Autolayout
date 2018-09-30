@@ -65,7 +65,7 @@ class iOS10UserNotificationViewController: UIViewController, UNUserNotificationC
         content.badge = 1;
         
         // 设置声音
-        content.sound = UNNotificationSound.default()
+        content.sound = UNNotificationSound.default
         
         // 设置内容
         content.title = "小怡";

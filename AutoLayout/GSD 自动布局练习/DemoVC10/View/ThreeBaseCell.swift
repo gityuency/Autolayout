@@ -58,7 +58,7 @@ class ThreeBaseCell: UITableViewCell, SDCycleScrollViewDelegate {
     var threeModel: ThreeModel?
     
     
-    required override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    required override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super .init(style: style, reuseIdentifier: reuseIdentifier)
         
         selectionStyle = .none

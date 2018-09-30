@@ -39,7 +39,7 @@ class SnpKit_DemoVC_1_Cell: UITableViewCell {
     }()
     
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         self.backgroundColor = UIColor.randomColor.withAlphaComponent(0.3)

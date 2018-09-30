@@ -36,7 +36,7 @@ extension NSAttributedString {
     ///   - attributes: Dictionary of attributes
     ///   - pattern: a regular expression to target
     /// - Returns: An NSAttributedString with attributes applied to substrings matching the pattern
-    public func applying(attributes: [NSAttributedStringKey: Any], toRangesMatching pattern: String) -> NSAttributedString {
+    public func applying(attributes: [NSAttributedString.Key: Any], toRangesMatching pattern: String) -> NSAttributedString {
         guard let pattern = try? NSRegularExpression(pattern: pattern, options: [NSRegularExpression.Options.caseInsensitive]) else { return self }
         
         let matches = pattern.matches(in: string, options: [], range: NSRange(0 ..< length))
@@ -55,7 +55,7 @@ extension NSAttributedString {
     ///   - attributes: Dictionary of attributes
     ///   - target: a subsequence string for the attributes to be applied to
     /// - Returns: An NSAttributedString with attributes applied on the target string
-    public func applying<T: StringProtocol>(attributes: [NSAttributedStringKey: Any], toOccurrencesOf target: T) -> NSAttributedString {
+    public func applying<T: StringProtocol>(attributes: [NSAttributedString.Key: Any], toOccurrencesOf target: T) -> NSAttributedString {
 
         // let pattern = "^(.*?(\\b\(target)\\b)[^$]*)$"
         

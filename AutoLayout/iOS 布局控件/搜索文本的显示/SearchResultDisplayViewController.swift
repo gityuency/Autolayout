@@ -26,7 +26,7 @@ class SearchResultDisplayViewController: UIViewController {
         }
         
         oriString = textview.text
-        NotificationCenter.default.addObserver(self, selector: #selector(searchAction), name: NSNotification.Name.UITextFieldTextDidChange, object: searchfield)
+        NotificationCenter.default.addObserver(self, selector: #selector(searchAction), name: UITextField.textDidChangeNotification, object: searchfield)
     }
     
     @objc func searchAction(notif: NSNotification) {
@@ -76,13 +76,13 @@ class MessageDisplayTool {
         let i1 = fatherString.index(fatherString.startIndex, offsetBy: indexFirst)
         let actuallyCleanURL = fatherString[..<i1]
         let finalString = String(actuallyCleanURL)
-        let size: CGSize = finalString.size(withAttributes: [NSAttributedStringKey.font: labelFont])  //取第一次匹配到的结果,往后多截3个文字,然后拿宽度去比较
+        let size: CGSize = finalString.size(withAttributes: [NSAttributedString.Key.font: labelFont])  //取第一次匹配到的结果,往后多截3个文字,然后拿宽度去比较
         
         let of2 =  position1 < 0 ? 0 : position1
         let start = fatherString.index(fatherString.startIndex, offsetBy: of2)
         let i2String = fatherString[start..<fatherString.endIndex]  //这里取的是 第一次搜索到的子串 到 父串尾部的 串, 然后拿到宽度
         let finalString2 = String(i2String)
-        let size2_W = finalString2.size(withAttributes: [NSAttributedStringKey.font: labelFont]).width
+        let size2_W = finalString2.size(withAttributes: [NSAttributedString.Key.font: labelFont]).width
         
         if labelWidth > size.width {  //这里要把最终字符串的宽度和 Label 的宽度进行比较, 才能确定显示的样式
             messageLabel.attributedText = MessageDisplayTool.attriMessage(searchTxt: searchTxt, oriString: fatherString)
@@ -100,7 +100,7 @@ class MessageDisplayTool {
     /// 添加富文本高亮
     static func attriMessage(searchTxt: String, oriString: String) -> NSAttributedString {
         let attri: NSAttributedString = NSAttributedString(string: oriString)
-        let newAttri = attri.applying(attributes: [NSAttributedStringKey.foregroundColor: UIColor.red], toOccurrencesOf: searchTxt)
+        let newAttri = attri.applying(attributes: [NSAttributedString.Key.foregroundColor: UIColor.red], toOccurrencesOf: searchTxt)
         return newAttri;
     }
     

@@ -27,7 +27,7 @@ class MagicTrickViewController: UITableViewController {
         super.viewDidLoad()
         self.title = "iOS 奇技淫巧"
         tableView.estimatedRowHeight = 150;
-        tableView.rowHeight = UITableViewAutomaticDimension;
+        tableView.rowHeight = UITableView.automaticDimension;
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellidMagicTrickViewController)
     }
     

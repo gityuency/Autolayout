@@ -30,7 +30,7 @@ class SnpKitDemoVC1: UIViewController {
         tableview.register(SnpKit_DemoVC_1_Cell.self, forCellReuseIdentifier: SnpKit_DemoVC_1_Cell.resuseId)
 
         tableview.estimatedRowHeight = 130;
-        tableview.rowHeight = UITableViewAutomaticDimension;
+        tableview.rowHeight = UITableView.automaticDimension;
         
         tableview.delegate = self
         tableview.dataSource = self

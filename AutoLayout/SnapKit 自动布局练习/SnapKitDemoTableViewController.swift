@@ -27,7 +27,7 @@ class SnapKitDemoTableViewController: UITableViewController {
         self.title = "SnapKit 三方库的练习"
         
         self.tableView.estimatedRowHeight = 150;
-        self.tableView.rowHeight = UITableViewAutomaticDimension;
+        self.tableView.rowHeight = UITableView.automaticDimension;
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellidSnapKitPracticeList)
     }

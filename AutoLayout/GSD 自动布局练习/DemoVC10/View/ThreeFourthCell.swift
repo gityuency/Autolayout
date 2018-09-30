@@ -13,7 +13,7 @@ class ThreeFourthCell: ThreeBaseCell {
     
     
     
-    required init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    required init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         setup()

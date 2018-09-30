@@ -37,7 +37,7 @@ class iOS10AnimationViewController: UIViewController {
         self.v = v
         
         // 初始化一个属性动画器
-        let animator = UIViewPropertyAnimator(duration: 4, curve: UIViewAnimationCurve.linear) {
+        let animator = UIViewPropertyAnimator(duration: 4, curve: UIView.AnimationCurve.linear) {
             v.frame = CGRect(x: 200, y: 200, width: 200, height: 200)
         }
         self.animator = animator

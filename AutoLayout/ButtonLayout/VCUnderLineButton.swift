@@ -10,7 +10,7 @@ import UIKit
 
 class VCUnderLineButton: UIViewController {
 
-    let buttonX = UIButton(type: UIButtonType.custom)
+    let buttonX = UIButton(type: UIButton.ButtonType.custom)
 
     
     override func viewDidLoad() {
@@ -25,8 +25,8 @@ class VCUnderLineButton: UIViewController {
         
         let str = "去注册"
         let attributedString = NSMutableAttributedString(string:"")
-        let attrs = [NSAttributedStringKey.foregroundColor.rawValue :UIColor.black,
-                     NSAttributedStringKey.underlineStyle :1] as! [NSAttributedStringKey :Any]
+        let attrs = [NSAttributedString.Key.foregroundColor.rawValue :UIColor.black,
+                     NSAttributedString.Key.underlineStyle :1] as! [NSAttributedString.Key :Any]
         let sssetstr = NSMutableAttributedString.init(string: str, attributes: attrs)
         
         attributedString.append(sssetstr)

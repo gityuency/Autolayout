@@ -42,7 +42,7 @@ class iOS10TabbarViewController: UITabBarController {
         vc.tabBarItem.selectedImage = UIImage(named: "\(imageName)_selected")?.withRenderingMode(.alwaysOriginal)
         //使用导航控制器包裹起来
         let nav = UINavigationController(rootViewController: vc)
-        addChildViewController(nav)
+        addChild(nav)
     }
 
 }
@@ -64,9 +64,9 @@ private class HomeTableViewController: UITableViewController {
 
         tabBarItem.badgeValue = "100"
         
-        let textAttr: [String: Any] = [
-            NSAttributedStringKey.foregroundColor.rawValue: UIColor.red,
-            NSAttributedStringKey.font.rawValue: UIFont.systemFont(ofSize: 16)
+        let textAttr: [NSAttributedString.Key: Any] = [
+            NSAttributedString.Key.foregroundColor: UIColor.red,
+            NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16),
         ]
         tabBarItem.setBadgeTextAttributes(textAttr, for: [])
     }
