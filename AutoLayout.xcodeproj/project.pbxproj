@@ -131,6 +131,8 @@
 		1CD9B6F220A92D8700DA7CE1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6F120A92D8700DA7CE1 /* String+Extension.swift */; };
 		1CD9B6F420A92DB900DA7CE1 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
+		E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */; };
+		E15D0B652195167C00EAE06C /* CollectionViewLeftAlignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */; };
 		E166C167214610A600F8EA87 /* DynamicUILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166C166214610A600F8EA87 /* DynamicUILabelViewController.swift */; };
 		E166C16B214615B200F8EA87 /* iOS10AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166C169214615B200F8EA87 /* iOS10AnimationViewController.swift */; };
 		E166C16C214615B200F8EA87 /* iOS10AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E166C16A214615B200F8EA87 /* iOS10AnimationViewController.xib */; };
@@ -271,6 +273,8 @@
 		1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
+		E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
+		E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLeftAlignController.swift; sourceTree = "<group>"; };
 		E166C166214610A600F8EA87 /* DynamicUILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicUILabelViewController.swift; sourceTree = "<group>"; };
 		E166C169214615B200F8EA87 /* iOS10AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10AnimationViewController.swift; sourceTree = "<group>"; };
 		E166C16A214615B200F8EA87 /* iOS10AnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iOS10AnimationViewController.xib; sourceTree = "<group>"; };
@@ -340,6 +344,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9051BE20AD4E23008C7C0E /* MagicTrickViewController.swift */,
+				E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */,
 				E1696A16214A8B4800EF5564 /* 画圆角 */,
 				E166C1962146596C00F8EA87 /* iOS10本地通知 */,
 				E166C175214636C100F8EA87 /* iOS10Tabbar定制 */,
@@ -709,6 +714,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */ = {
+			isa = PBXGroup;
+			children = (
+				E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */,
+				E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */,
+			);
+			path = "UICollectionViewCell 左对齐";
+			sourceTree = "<group>";
+		};
 		E166C1632146106800F8EA87 /* iOS10UILabel动态字体 */ = {
 			isa = PBXGroup;
 			children = (
@@ -977,6 +991,7 @@
 				1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */,
 				1CD9B6D720A92ABC00DA7CE1 /* ThreeSecondCell.swift in Sources */,
 				1CD9B6E320A92ABC00DA7CE1 /* DemoVC5TableViewCell.swift in Sources */,
+				E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */,
 				E166C1772146384400F8EA87 /* iOS10TabbarViewController.swift in Sources */,
 				E1696A18214A8B5900EF5564 /* CornerViewController.swift in Sources */,
 				1CD9B6D220A92ABC00DA7CE1 /* ThreeModel.swift in Sources */,
@@ -999,6 +1014,7 @@
 				1C9051C720AD55AC008C7C0E /* SnpKitCellOptimizationViewModel.swift in Sources */,
 				1CD9B6EB20A92ABC00DA7CE1 /* ViewsViewController.swift in Sources */,
 				1CD9B6CF20A92ABC00DA7CE1 /* DemoVC1.swift in Sources */,
+				E15D0B652195167C00EAE06C /* CollectionViewLeftAlignController.swift in Sources */,
 				1C2C90142089896B008F0580 /* SnpKit_DemoVC_2_Cell.swift in Sources */,
 				1C9051C520AD554A008C7C0E /* SnpKitCellOptimizationViewController.swift in Sources */,
 				1CD9B6D920A92ABC00DA7CE1 /* DemoVC11.swift in Sources */,
