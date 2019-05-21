@@ -130,6 +130,9 @@
 		1CD9B6F020A92B4F00DA7CE1 /* SearchResultDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD9B6EE20A92B4F00DA7CE1 /* SearchResultDisplayViewController.xib */; };
 		1CD9B6F220A92D8700DA7CE1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6F120A92D8700DA7CE1 /* String+Extension.swift */; };
 		1CD9B6F420A92DB900DA7CE1 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */; };
+		A4631DE22293A3AC008F8A4E /* RatingStarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */; };
+		A4631DE32293A3AC008F8A4E /* SlidingRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */; };
+		A4631DE42293A3AC008F8A4E /* RatingStarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 		E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */; };
 		E15D0B652195167C00EAE06C /* CollectionViewLeftAlignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */; };
@@ -272,6 +275,9 @@
 		1CD9B6F120A92D8700DA7CE1 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingStarsViewController.swift; sourceTree = "<group>"; };
+		A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingRatingView.swift; sourceTree = "<group>"; };
+		A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingStarsViewController.xib; sourceTree = "<group>"; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 		E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
 		E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLeftAlignController.swift; sourceTree = "<group>"; };
@@ -344,6 +350,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9051BE20AD4E23008C7C0E /* MagicTrickViewController.swift */,
+				A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */,
 				E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */,
 				E1696A16214A8B4800EF5564 /* 画圆角 */,
 				E166C1962146596C00F8EA87 /* iOS10本地通知 */,
@@ -714,6 +721,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */ = {
+			isa = PBXGroup;
+			children = (
+				A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */,
+				A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */,
+				A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */,
+			);
+			path = "改写的星星评分控件";
+			sourceTree = "<group>";
+		};
 		E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */ = {
 			isa = PBXGroup;
 			children = (
@@ -834,6 +851,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -867,6 +885,7 @@
 				1CC2C2961F6BB1C1005964C7 /* pic7.jpg in Resources */,
 				1CC2C2741F6BB1C1005964C7 /* 13.jpg in Resources */,
 				1CC2C26F1F6BB1C1005964C7 /* 0.jpg in Resources */,
+				A4631DE42293A3AC008F8A4E /* RatingStarsViewController.xib in Resources */,
 				1CC2C2981F6BB1C1005964C7 /* picon.jpg in Resources */,
 				1CC2C2771F6BB1C1005964C7 /* 16.jpg in Resources */,
 				1CC2C27B1F6BB1C1005964C7 /* 2.jpg in Resources */,
@@ -1006,6 +1025,7 @@
 				1C426C441F6A523000E40164 /* MainViewController.swift in Sources */,
 				1CD9B6E120A92ABC00DA7CE1 /* DemoVC5.swift in Sources */,
 				1C9993CF208837A50091D293 /* EFPAFamilyCell.swift in Sources */,
+				A4631DE22293A3AC008F8A4E /* RatingStarsViewController.swift in Sources */,
 				1C2C901620898A76008F0580 /* SnpKitDemoVC2ViewModel.swift in Sources */,
 				1C5C6682208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift in Sources */,
 				1C5C668620889B24003003C9 /* Array+Extension.swift in Sources */,
@@ -1046,6 +1066,7 @@
 				1CD9B6E020A92ABC00DA7CE1 /* DemoVC4.swift in Sources */,
 				1CD9B6D420A92ABC00DA7CE1 /* ThreeBaseCell.swift in Sources */,
 				1C9051C920AD569A008C7C0E /* BundleImageManager.swift in Sources */,
+				A4631DE32293A3AC008F8A4E /* SlidingRatingView.swift in Sources */,
 				1CD9B6F420A92DB900DA7CE1 /* NSAttributedString+Extension.swift in Sources */,
 				1C9993D12088397E0091D293 /* UILabel+Extensions.swift in Sources */,
 				1C2C901220898952008F0580 /* SnpKitDemoVC2.swift in Sources */,

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RatingStarsViewController" customModule="AutoLayout" customModuleProvider="target">
+            <connections>
+                <outlet property="scrollView" destination="5Yh-il-xox" id="W0a-1w-i7v"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Yh-il-xox">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用 ScrollView 展示的星星评分控件  以下分别是XIB固定宽高  和  XIB 自动宽高的效果" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFJ-ko-w20">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="48"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="igO-X5-WsY" customClass="SlidingRatingView" customModule="AutoLayout" customModuleProvider="target">
+                            <rect key="frame" x="20" y="68" width="374" height="60"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="S7n-q9-nko"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="numberOfStar">
+                                    <integer key="value" value="7"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="baseColor">
+                                    <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                    <color key="value" red="1" green="0.15532076189999999" blue="0.13222834459999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vqJ-93-mv0" customClass="SlidingRatingView" customModule="AutoLayout" customModuleProvider="target">
+                            <rect key="frame" x="168" y="148" width="78" height="26.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="markCharacter" value="👍"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="numberOfStar">
+                                    <integer key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                    <color key="value" red="0.60858303083001952" green="0.25541696677653369" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                    <real key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="stepInterval">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="以下是由代码创建的效果" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEt-II-57H">
+                            <rect key="frame" x="0.0" y="194.5" width="414" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="igO-X5-WsY" firstAttribute="top" secondItem="SFJ-ko-w20" secondAttribute="bottom" constant="20" id="1fH-jr-PWT"/>
+                        <constraint firstItem="oEt-II-57H" firstAttribute="top" secondItem="vqJ-93-mv0" secondAttribute="bottom" constant="20" id="437-NU-fpD"/>
+                        <constraint firstItem="oEt-II-57H" firstAttribute="leading" secondItem="5Yh-il-xox" secondAttribute="leading" id="7kS-SB-pen"/>
+                        <constraint firstItem="vqJ-93-mv0" firstAttribute="top" secondItem="igO-X5-WsY" secondAttribute="bottom" constant="20" id="8mm-7L-Y2Y"/>
+                        <constraint firstAttribute="trailing" secondItem="oEt-II-57H" secondAttribute="trailing" id="DO4-VK-vNb"/>
+                        <constraint firstItem="SFJ-ko-w20" firstAttribute="centerX" secondItem="5Yh-il-xox" secondAttribute="centerX" id="LoY-ep-zVH"/>
+                        <constraint firstItem="SFJ-ko-w20" firstAttribute="top" secondItem="5Yh-il-xox" secondAttribute="top" id="Lwp-Wr-Si3"/>
+                        <constraint firstAttribute="bottom" secondItem="SFJ-ko-w20" secondAttribute="bottom" constant="1500" id="YQg-p0-nrG"/>
+                        <constraint firstAttribute="trailing" secondItem="SFJ-ko-w20" secondAttribute="trailing" id="fIf-Gl-I2m"/>
+                        <constraint firstItem="SFJ-ko-w20" firstAttribute="leading" secondItem="5Yh-il-xox" secondAttribute="leading" id="jFa-eY-CZp"/>
+                        <constraint firstItem="vqJ-93-mv0" firstAttribute="centerX" secondItem="5Yh-il-xox" secondAttribute="centerX" id="s07-an-FPM"/>
+                        <constraint firstAttribute="trailing" secondItem="igO-X5-WsY" secondAttribute="trailing" constant="20" id="u4S-oI-NbM"/>
+                        <constraint firstItem="igO-X5-WsY" firstAttribute="leading" secondItem="5Yh-il-xox" secondAttribute="leading" constant="20" id="v7i-tU-X5B"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5Yh-il-xox" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="3qh-di-jc8"/>
+                <constraint firstItem="5Yh-il-xox" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="8Lw-Hj-C6s"/>
+                <constraint firstItem="5Yh-il-xox" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="TJy-gx-9d2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5Yh-il-xox" secondAttribute="bottom" id="hlb-sf-myk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5Yh-il-xox" secondAttribute="trailing" id="uRV-8B-PuQ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-474" y="128"/>
+        </view>
+    </objects>
+</document>
