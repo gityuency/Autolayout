@@ -133,6 +133,9 @@
 		A4631DE22293A3AC008F8A4E /* RatingStarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */; };
 		A4631DE32293A3AC008F8A4E /* SlidingRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */; };
 		A4631DE42293A3AC008F8A4E /* RatingStarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */; };
+		A49F399B22B1F3E40034B88A /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F399922B1F3E40034B88A /* PageControlViewController.swift */; };
+		A49F399C22B1F3E40034B88A /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49F399A22B1F3E40034B88A /* PageControlViewController.xib */; };
+		A49F399E22B1F3FE0034B88A /* YXPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F399D22B1F3FE0034B88A /* YXPageControl.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 		E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */; };
 		E15D0B652195167C00EAE06C /* CollectionViewLeftAlignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */; };
@@ -278,6 +281,9 @@
 		A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingStarsViewController.swift; sourceTree = "<group>"; };
 		A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingRatingView.swift; sourceTree = "<group>"; };
 		A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingStarsViewController.xib; sourceTree = "<group>"; };
+		A49F399922B1F3E40034B88A /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		A49F399A22B1F3E40034B88A /* PageControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControlViewController.xib; sourceTree = "<group>"; };
+		A49F399D22B1F3FE0034B88A /* YXPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPageControl.swift; sourceTree = "<group>"; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 		E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
 		E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLeftAlignController.swift; sourceTree = "<group>"; };
@@ -350,6 +356,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9051BE20AD4E23008C7C0E /* MagicTrickViewController.swift */,
+				A49F399822B1F39A0034B88A /* 自定义PageControl */,
 				A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */,
 				E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */,
 				E1696A16214A8B4800EF5564 /* 画圆角 */,
@@ -724,11 +731,21 @@
 		A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */ = {
 			isa = PBXGroup;
 			children = (
-				A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */,
 				A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */,
+				A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */,
 				A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */,
 			);
 			path = "改写的星星评分控件";
+			sourceTree = "<group>";
+		};
+		A49F399822B1F39A0034B88A /* 自定义PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				A49F399922B1F3E40034B88A /* PageControlViewController.swift */,
+				A49F399A22B1F3E40034B88A /* PageControlViewController.xib */,
+				A49F399D22B1F3FE0034B88A /* YXPageControl.swift */,
+			);
+			path = "自定义PageControl";
 			sourceTree = "<group>";
 		};
 		E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */ = {
@@ -877,6 +894,7 @@
 				1CC2C28D1F6BB1C1005964C7 /* icon4.jpg in Resources */,
 				1CC2C2751F6BB1C1005964C7 /* 14.jpg in Resources */,
 				1CC2C27C1F6BB1C1005964C7 /* 20.jpg in Resources */,
+				A49F399C22B1F3E40034B88A /* PageControlViewController.xib in Resources */,
 				1CC2C2941F6BB1C1005964C7 /* pic5.jpg in Resources */,
 				1CC2C2891F6BB1C1005964C7 /* icon0.jpg in Resources */,
 				1CC2C2911F6BB1C1005964C7 /* pic2.jpg in Resources */,
@@ -1029,6 +1047,7 @@
 				1C2C901620898A76008F0580 /* SnpKitDemoVC2ViewModel.swift in Sources */,
 				1C5C6682208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift in Sources */,
 				1C5C668620889B24003003C9 /* Array+Extension.swift in Sources */,
+				A49F399B22B1F3E40034B88A /* PageControlViewController.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,
 				1CD9B69E20A924D800DA7CE1 /* PrintConfig.swift in Sources */,
 				1C9051C720AD55AC008C7C0E /* SnpKitCellOptimizationViewModel.swift in Sources */,
@@ -1042,6 +1061,7 @@
 				E166C17221461D6200F8EA87 /* iOS10SpeechViewController.swift in Sources */,
 				1CD9B6E420A92ABC00DA7CE1 /* DemoVC6.swift in Sources */,
 				E166C16B214615B200F8EA87 /* iOS10AnimationViewController.swift in Sources */,
+				A49F399E22B1F3FE0034B88A /* YXPageControl.swift in Sources */,
 				1CC2C22E1F6A791B005964C7 /* UIView+Extension.swift in Sources */,
 				E166C16F21461A3E00F8EA87 /* iOS10PullRefreshViewController.swift in Sources */,
 				1CD9B6DF20A92ABC00DA7CE1 /* TestCell2.swift in Sources */,
