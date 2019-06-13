@@ -136,6 +136,8 @@
 		A49F399B22B1F3E40034B88A /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F399922B1F3E40034B88A /* PageControlViewController.swift */; };
 		A49F399C22B1F3E40034B88A /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49F399A22B1F3E40034B88A /* PageControlViewController.xib */; };
 		A49F399E22B1F3FE0034B88A /* YXPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F399D22B1F3FE0034B88A /* YXPageControl.swift */; };
+		A49F39A122B2253C0034B88A /* TrangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39A022B2253C0034B88A /* TrangleViewController.swift */; };
+		A49F39A322B225500034B88A /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39A222B225500034B88A /* TriangleView.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 		E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */; };
 		E15D0B652195167C00EAE06C /* CollectionViewLeftAlignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */; };
@@ -284,6 +286,8 @@
 		A49F399922B1F3E40034B88A /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
 		A49F399A22B1F3E40034B88A /* PageControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControlViewController.xib; sourceTree = "<group>"; };
 		A49F399D22B1F3FE0034B88A /* YXPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPageControl.swift; sourceTree = "<group>"; };
+		A49F39A022B2253C0034B88A /* TrangleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrangleViewController.swift; sourceTree = "<group>"; };
+		A49F39A222B225500034B88A /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 		E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
 		E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLeftAlignController.swift; sourceTree = "<group>"; };
@@ -356,6 +360,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9051BE20AD4E23008C7C0E /* MagicTrickViewController.swift */,
+				A49F399F22B224FF0034B88A /* 画三角形 */,
 				A49F399822B1F39A0034B88A /* 自定义PageControl */,
 				A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */,
 				E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */,
@@ -748,6 +753,15 @@
 			path = "自定义PageControl";
 			sourceTree = "<group>";
 		};
+		A49F399F22B224FF0034B88A /* 画三角形 */ = {
+			isa = PBXGroup;
+			children = (
+				A49F39A022B2253C0034B88A /* TrangleViewController.swift */,
+				A49F39A222B225500034B88A /* TriangleView.swift */,
+			);
+			path = "画三角形";
+			sourceTree = "<group>";
+		};
 		E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1009,6 +1023,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD9B6D620A92ABC00DA7CE1 /* ThreeFourthCell.swift in Sources */,
+				A49F39A122B2253C0034B88A /* TrangleViewController.swift in Sources */,
 				1CD9B6E720A92ABC00DA7CE1 /* DemoVC7Cell2.swift in Sources */,
 				1C5C66802088912C003003C9 /* SnpKitDemoVC1.swift in Sources */,
 				1CD9B6E820A92ABC00DA7CE1 /* DemoVC7Model.swift in Sources */,
@@ -1077,6 +1092,7 @@
 				1C5C6684208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift in Sources */,
 				1CD9B6E620A92ABC00DA7CE1 /* DemoVC7Cell1.swift in Sources */,
 				1C612CF22093206000992DD3 /* PlistManager.swift in Sources */,
+				A49F39A322B225500034B88A /* TriangleView.swift in Sources */,
 				1CD9B6DC20A92ABC00DA7CE1 /* SDChatTableViewCell.swift in Sources */,
 				1C9051BF20AD4E23008C7C0E /* MagicTrickViewController.swift in Sources */,
 				1C9993C820882BA70091D293 /* SnapKitDemoTableViewController.swift in Sources */,

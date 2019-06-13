@@ -14,6 +14,7 @@ private let cellidMagicTrickViewController = "cellidMagicTrickViewController"
 class MagicTrickViewController: UITableViewController {
 
     let listArray = [
+        ["TrangleViewController": "画三角形"],
         ["PageControlViewController": "自定义的UIpageControl"],
         ["RatingStarsViewController": "星星评分展示控件"],
         ["CollectionViewLeftAlignController": "UICollectionViewCell 左对齐"],
