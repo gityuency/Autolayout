@@ -41,6 +41,24 @@ class BundleImageManager {
         }
         return images
     }()
-        
+
+    
+    /// 获取碧池
+    static let needAllBitchesImage: [UIImage] = {
+        var names = [String]()
+        for i in 0..<8 {
+            names.append("bitches\(i)")
+        }
+        var images = [UIImage]()
+        for name in names {
+            if let img = UIImage.init(named: name) {
+                images.append(img)
+            }
+        }
+        return images
+    }()
+    
+    
 }
+
 

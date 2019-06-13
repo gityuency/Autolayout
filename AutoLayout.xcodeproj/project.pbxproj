@@ -138,6 +138,11 @@
 		A49F399E22B1F3FE0034B88A /* YXPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F399D22B1F3FE0034B88A /* YXPageControl.swift */; };
 		A49F39A122B2253C0034B88A /* TrangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39A022B2253C0034B88A /* TrangleViewController.swift */; };
 		A49F39A322B225500034B88A /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39A222B225500034B88A /* TriangleView.swift */; };
+		A49F39A622B22BAA0034B88A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39A522B22BAA0034B88A /* ListViewController.swift */; };
+		A49F39A922B2374B0034B88A /* Coll_1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39A822B2374B0034B88A /* Coll_1_ViewController.swift */; };
+		A49F39AB22B237C90034B88A /* YXCellScaleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39AA22B237C90034B88A /* YXCellScaleFlowLayout.swift */; };
+		A49F39AE22B2383C0034B88A /* ScaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39AC22B2383C0034B88A /* ScaleCell.swift */; };
+		A49F39AF22B2383C0034B88A /* ScaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49F39AD22B2383C0034B88A /* ScaleCell.xib */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 		E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */; };
 		E15D0B652195167C00EAE06C /* CollectionViewLeftAlignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */; };
@@ -288,6 +293,11 @@
 		A49F399D22B1F3FE0034B88A /* YXPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPageControl.swift; sourceTree = "<group>"; };
 		A49F39A022B2253C0034B88A /* TrangleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrangleViewController.swift; sourceTree = "<group>"; };
 		A49F39A222B225500034B88A /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		A49F39A522B22BAA0034B88A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A49F39A822B2374B0034B88A /* Coll_1_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coll_1_ViewController.swift; sourceTree = "<group>"; };
+		A49F39AA22B237C90034B88A /* YXCellScaleFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXCellScaleFlowLayout.swift; sourceTree = "<group>"; };
+		A49F39AC22B2383C0034B88A /* ScaleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleCell.swift; sourceTree = "<group>"; };
+		A49F39AD22B2383C0034B88A /* ScaleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScaleCell.xib; sourceTree = "<group>"; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 		E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
 		E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLeftAlignController.swift; sourceTree = "<group>"; };
@@ -363,7 +373,6 @@
 				A49F399F22B224FF0034B88A /* 画三角形 */,
 				A49F399822B1F39A0034B88A /* 自定义PageControl */,
 				A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */,
-				E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */,
 				E1696A16214A8B4800EF5564 /* 画圆角 */,
 				E166C1962146596C00F8EA87 /* iOS10本地通知 */,
 				E166C175214636C100F8EA87 /* iOS10Tabbar定制 */,
@@ -445,6 +454,7 @@
 				1CB0B2621F347FE000A4B698 /* AppDelegate.swift */,
 				1CB0B2641F347FE000A4B698 /* ViewController.swift */,
 				1C426C431F6A523000E40164 /* MainViewController.swift */,
+				A49F39A422B22AA40034B88A /* 表格视图合集 */,
 				1C9051BD20AD4DE6008C7C0E /* iOS 奇技淫巧 */,
 				1CD9B69F20A9298900DA7CE1 /* iOS 布局控件 */,
 				1C9993C220882B3D0091D293 /* SnapKit 自动布局练习 */,
@@ -762,6 +772,27 @@
 			path = "画三角形";
 			sourceTree = "<group>";
 		};
+		A49F39A422B22AA40034B88A /* 表格视图合集 */ = {
+			isa = PBXGroup;
+			children = (
+				A49F39A522B22BAA0034B88A /* ListViewController.swift */,
+				A49F39A722B22ED90034B88A /* Cell 滑动放大 */,
+				E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */,
+			);
+			path = "表格视图合集";
+			sourceTree = "<group>";
+		};
+		A49F39A722B22ED90034B88A /* Cell 滑动放大 */ = {
+			isa = PBXGroup;
+			children = (
+				A49F39A822B2374B0034B88A /* Coll_1_ViewController.swift */,
+				A49F39AA22B237C90034B88A /* YXCellScaleFlowLayout.swift */,
+				A49F39AC22B2383C0034B88A /* ScaleCell.swift */,
+				A49F39AD22B2383C0034B88A /* ScaleCell.xib */,
+			);
+			path = "Cell 滑动放大";
+			sourceTree = "<group>";
+		};
 		E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */ = {
 			isa = PBXGroup;
 			children = (
@@ -867,7 +898,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = yuency;
+				ORGANIZATIONNAME = "姬友大人";
 				TargetAttributes = {
 					1CB0B25E1F347FE000A4B698 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -958,6 +989,7 @@
 				1CC2C27D1F6BB1C1005964C7 /* 21.jpg in Resources */,
 				1CD9B6D320A92ABC00DA7CE1 /* wangyi.json in Resources */,
 				E166C17421461E4000F8EA87 /* voice.mp3 in Resources */,
+				A49F39AF22B2383C0034B88A /* ScaleCell.xib in Resources */,
 				1CC2C2761F6BB1C1005964C7 /* 15.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1042,6 +1074,7 @@
 				1C9993D320883DD60091D293 /* SnpKitDemoVC0ViewModel.swift in Sources */,
 				1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */,
 				1CD9B6D720A92ABC00DA7CE1 /* ThreeSecondCell.swift in Sources */,
+				A49F39A922B2374B0034B88A /* Coll_1_ViewController.swift in Sources */,
 				1CD9B6E320A92ABC00DA7CE1 /* DemoVC5TableViewCell.swift in Sources */,
 				E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */,
 				E166C1772146384400F8EA87 /* iOS10TabbarViewController.swift in Sources */,
@@ -1050,6 +1083,7 @@
 				1CC2C2201F6A58CA005964C7 /* ViewControllerButtonList.swift in Sources */,
 				1CD9B6E920A92ABC00DA7CE1 /* DemoVC8.swift in Sources */,
 				1CC2C2231F6A5FB4005964C7 /* Bundle+Extension.swift in Sources */,
+				A49F39AB22B237C90034B88A /* YXCellScaleFlowLayout.swift in Sources */,
 				1CD9B6DD20A92ABC00DA7CE1 /* DemoVC2.swift in Sources */,
 				1CD9B6F220A92D8700DA7CE1 /* String+Extension.swift in Sources */,
 				1CC2C2251F6A6563005964C7 /* VCImageButton.swift in Sources */,
@@ -1074,6 +1108,7 @@
 				1CD9B6D920A92ABC00DA7CE1 /* DemoVC11.swift in Sources */,
 				1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */,
 				E166C17221461D6200F8EA87 /* iOS10SpeechViewController.swift in Sources */,
+				A49F39AE22B2383C0034B88A /* ScaleCell.swift in Sources */,
 				1CD9B6E420A92ABC00DA7CE1 /* DemoVC6.swift in Sources */,
 				E166C16B214615B200F8EA87 /* iOS10AnimationViewController.swift in Sources */,
 				A49F399E22B1F3FE0034B88A /* YXPageControl.swift in Sources */,
@@ -1090,6 +1125,7 @@
 				1C9993D7208850F70091D293 /* UIColor+Extension.swift in Sources */,
 				1CD9B6D120A92ABC00DA7CE1 /* GGG.swift in Sources */,
 				1C5C6684208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift in Sources */,
+				A49F39A622B22BAA0034B88A /* ListViewController.swift in Sources */,
 				1CD9B6E620A92ABC00DA7CE1 /* DemoVC7Cell1.swift in Sources */,
 				1C612CF22093206000992DD3 /* PlistManager.swift in Sources */,
 				A49F39A322B225500034B88A /* TriangleView.swift in Sources */,
