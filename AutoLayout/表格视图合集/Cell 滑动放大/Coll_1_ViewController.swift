@@ -17,7 +17,7 @@ class Coll_1_ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imagesArray = BundleImageManager.needAllBitchesImage
+        imagesArray = BundleImageManager.needAllImage + BundleImageManager.needAllHeadImage + BundleImageManager.needAllBitchesImage
         
         collectionView = UICollectionView(frame: CGRect(x: 0, y: 100, width: ScreenWidth, height: 400), collectionViewLayout: YXCellScaleFlowLayout())
         collectionView.delegate = self
@@ -26,6 +26,29 @@ class Coll_1_ViewController: UIViewController {
         collectionView?.register(UINib.init(nibName: ScaleCell.resuseid, bundle: nil), forCellWithReuseIdentifier: ScaleCell.resuseid)
         view.addSubview(collectionView)
     }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        //如果是为了做各种屏幕的适配, 比如,要在 iPhone 和 iPad 上 都做正常的显示,就需要写一些看似垃圾但确实垃圾的代码
+        //可以在改变布局的时候使用不同的layout?
+        //要么就像这样, 重新设定 collectionView的布局, 然后刷新, 就会走 sizeForItemAt indexPath 这个代理方法,重新设定cell的大小
+        //一点都不好玩
+        
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            collectionView.frame = CGRect(x: 0, y: 0, width: view.width, height: 500)
+        } else if UIDevice.current.userInterfaceIdiom == .phone {
+            let ori = UIDevice.current.orientation
+            if (ori == .portrait) || (ori == .portraitUpsideDown) {
+                collectionView.frame = CGRect(x: 0, y: 0, width: view.width, height: 400)
+            } else if (ori == .landscapeLeft) || (ori == .landscapeRight) {
+                collectionView.frame = CGRect(x: 0, y: 0, width: view.width, height: 300)
+            }
+        }
+        collectionView.center = view.center
+        collectionView.reloadData()
+    }
+    
 }
 
 
@@ -41,4 +64,21 @@ extension Coll_1_ViewController: UICollectionViewDataSource, UICollectionViewDel
         cell.imageView.image = imagesArray[indexPath.row]
         return cell
     }
+    
+    /// 写这个是为了屏幕适配,还有好的方法吗.
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return CGSize(width: 400, height: 400)
+        } else if UIDevice.current.userInterfaceIdiom == .phone {
+            let ori = UIDevice.current.orientation
+            if (ori == .portrait) || (ori == .portraitUpsideDown) {
+                return CGSize(width: 260, height: 360)
+            } else if (ori == .landscapeLeft) || (ori == .landscapeRight) {
+                return CGSize(width: 300, height: 250)
+            }
+        }
+        return CGSize(width: 260, height: 360)
+    }
+    
 }

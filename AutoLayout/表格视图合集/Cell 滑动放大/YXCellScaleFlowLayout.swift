@@ -8,10 +8,11 @@
 
 import UIKit
 
-///单元格的宽度
-private let K_CELL_WIDTH: CGFloat = 260
 
 class YXCellScaleFlowLayout: UICollectionViewFlowLayout {
+    
+    ///单元格的宽度
+    private let K_CELL_WIDTH: CGFloat = 260
     
     override init() {
         super.init()
@@ -111,6 +112,7 @@ class YXCellScaleFlowLayout: UICollectionViewFlowLayout {
         //记录距离中心最近的那个layoutitem的中心点x
         var shouldBeX: CGFloat = 0
         
+        //遍历当前数组里面的元素,找到里中心点最近的那个元素,把这个元素的中心位置拿到,然后返回给函数
         for layoutAttributes in array {
             let currentX = layoutAttributes.center.x
             let currentDistance = abs(currentX - horizontalCenter)
