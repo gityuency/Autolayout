@@ -143,6 +143,14 @@
 		A49F39AB22B237C90034B88A /* YXCellScaleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39AA22B237C90034B88A /* YXCellScaleFlowLayout.swift */; };
 		A49F39AE22B2383C0034B88A /* ScaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39AC22B2383C0034B88A /* ScaleCell.swift */; };
 		A49F39AF22B2383C0034B88A /* ScaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49F39AD22B2383C0034B88A /* ScaleCell.xib */; };
+		A4AAB50B22CDEAA700F9893F /* ExampleCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAB50A22CDEAA700F9893F /* ExampleCodeCell.swift */; };
+		A4C0C3D422C5F89C0036790F /* ExampleOfUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0C3D222C5F89C0036790F /* ExampleOfUICollectionViewController.swift */; };
+		A4C0C3D522C5F89C0036790F /* ExampleOfUICollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C0C3D322C5F89C0036790F /* ExampleOfUICollectionViewController.xib */; };
+		A4C0C3D822C5FA410036790F /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0C3D622C5FA410036790F /* ExampleCell.swift */; };
+		A4C0C3D922C5FA410036790F /* ExampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C0C3D722C5FA410036790F /* ExampleCell.xib */; };
+		A4C0C3DC22C5FB700036790F /* ExampleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0C3DA22C5FB700036790F /* ExampleHeaderView.swift */; };
+		A4C0C3DD22C5FB700036790F /* ExampleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C0C3DB22C5FB700036790F /* ExampleHeaderView.xib */; };
+		A4C0C3DF22C5FF0A0036790F /* ExampleFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0C3DE22C5FF0A0036790F /* ExampleFooterView.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 		E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */; };
 		E15D0B652195167C00EAE06C /* CollectionViewLeftAlignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */; };
@@ -298,6 +306,14 @@
 		A49F39AA22B237C90034B88A /* YXCellScaleFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXCellScaleFlowLayout.swift; sourceTree = "<group>"; };
 		A49F39AC22B2383C0034B88A /* ScaleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleCell.swift; sourceTree = "<group>"; };
 		A49F39AD22B2383C0034B88A /* ScaleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScaleCell.xib; sourceTree = "<group>"; };
+		A4AAB50A22CDEAA700F9893F /* ExampleCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCodeCell.swift; sourceTree = "<group>"; };
+		A4C0C3D222C5F89C0036790F /* ExampleOfUICollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOfUICollectionViewController.swift; sourceTree = "<group>"; };
+		A4C0C3D322C5F89C0036790F /* ExampleOfUICollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleOfUICollectionViewController.xib; sourceTree = "<group>"; };
+		A4C0C3D622C5FA410036790F /* ExampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
+		A4C0C3D722C5FA410036790F /* ExampleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleCell.xib; sourceTree = "<group>"; };
+		A4C0C3DA22C5FB700036790F /* ExampleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleHeaderView.swift; sourceTree = "<group>"; };
+		A4C0C3DB22C5FB700036790F /* ExampleHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleHeaderView.xib; sourceTree = "<group>"; };
+		A4C0C3DE22C5FF0A0036790F /* ExampleFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFooterView.swift; sourceTree = "<group>"; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 		E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
 		E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLeftAlignController.swift; sourceTree = "<group>"; };
@@ -776,6 +792,7 @@
 			isa = PBXGroup;
 			children = (
 				A49F39A522B22BAA0034B88A /* ListViewController.swift */,
+				A4C0C3D122C5F86B0036790F /* UICollectionView基本用法 */,
 				A49F39A722B22ED90034B88A /* Cell 滑动放大 */,
 				E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */,
 			);
@@ -791,6 +808,21 @@
 				A49F39AD22B2383C0034B88A /* ScaleCell.xib */,
 			);
 			path = "Cell 滑动放大";
+			sourceTree = "<group>";
+		};
+		A4C0C3D122C5F86B0036790F /* UICollectionView基本用法 */ = {
+			isa = PBXGroup;
+			children = (
+				A4C0C3D222C5F89C0036790F /* ExampleOfUICollectionViewController.swift */,
+				A4C0C3D322C5F89C0036790F /* ExampleOfUICollectionViewController.xib */,
+				A4C0C3D622C5FA410036790F /* ExampleCell.swift */,
+				A4C0C3D722C5FA410036790F /* ExampleCell.xib */,
+				A4AAB50A22CDEAA700F9893F /* ExampleCodeCell.swift */,
+				A4C0C3DA22C5FB700036790F /* ExampleHeaderView.swift */,
+				A4C0C3DB22C5FB700036790F /* ExampleHeaderView.xib */,
+				A4C0C3DE22C5FF0A0036790F /* ExampleFooterView.swift */,
+			);
+			path = "UICollectionView基本用法";
 			sourceTree = "<group>";
 		};
 		E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */ = {
@@ -948,6 +980,7 @@
 				1CC2C2961F6BB1C1005964C7 /* pic7.jpg in Resources */,
 				1CC2C2741F6BB1C1005964C7 /* 13.jpg in Resources */,
 				1CC2C26F1F6BB1C1005964C7 /* 0.jpg in Resources */,
+				A4C0C3DD22C5FB700036790F /* ExampleHeaderView.xib in Resources */,
 				A4631DE42293A3AC008F8A4E /* RatingStarsViewController.xib in Resources */,
 				1CC2C2981F6BB1C1005964C7 /* picon.jpg in Resources */,
 				1CC2C2771F6BB1C1005964C7 /* 16.jpg in Resources */,
@@ -962,6 +995,7 @@
 				1CC2C2881F6BB1C1005964C7 /* Home.xcassets in Resources */,
 				1CC2C28C1F6BB1C1005964C7 /* icon3.jpg in Resources */,
 				1CB0B2681F347FE000A4B698 /* Main.storyboard in Resources */,
+				A4C0C3D522C5F89C0036790F /* ExampleOfUICollectionViewController.xib in Resources */,
 				1CD9B6F020A92B4F00DA7CE1 /* SearchResultDisplayViewController.xib in Resources */,
 				1CC2C2871F6BB1C1005964C7 /* Discover.xcassets in Resources */,
 				1CC2C29B1F6BB1C1005964C7 /* test2.jpg in Resources */,
@@ -987,6 +1021,7 @@
 				1CC2C2791F6BB1C1005964C7 /* 18.jpg in Resources */,
 				1C2C9020208D6E2B008F0580 /* NameList_Unfamiliar.plist in Resources */,
 				1CC2C27D1F6BB1C1005964C7 /* 21.jpg in Resources */,
+				A4C0C3D922C5FA410036790F /* ExampleCell.xib in Resources */,
 				1CD9B6D320A92ABC00DA7CE1 /* wangyi.json in Resources */,
 				E166C17421461E4000F8EA87 /* voice.mp3 in Resources */,
 				A49F39AF22B2383C0034B88A /* ScaleCell.xib in Resources */,
@@ -1074,6 +1109,7 @@
 				1C9993D320883DD60091D293 /* SnpKitDemoVC0ViewModel.swift in Sources */,
 				1CC2C22C1F6A6DDA005964C7 /* ViewControllerLabelList.swift in Sources */,
 				1CD9B6D720A92ABC00DA7CE1 /* ThreeSecondCell.swift in Sources */,
+				A4C0C3DF22C5FF0A0036790F /* ExampleFooterView.swift in Sources */,
 				A49F39A922B2374B0034B88A /* Coll_1_ViewController.swift in Sources */,
 				1CD9B6E320A92ABC00DA7CE1 /* DemoVC5TableViewCell.swift in Sources */,
 				E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */,
@@ -1084,6 +1120,7 @@
 				1CD9B6E920A92ABC00DA7CE1 /* DemoVC8.swift in Sources */,
 				1CC2C2231F6A5FB4005964C7 /* Bundle+Extension.swift in Sources */,
 				A49F39AB22B237C90034B88A /* YXCellScaleFlowLayout.swift in Sources */,
+				A4C0C3D822C5FA410036790F /* ExampleCell.swift in Sources */,
 				1CD9B6DD20A92ABC00DA7CE1 /* DemoVC2.swift in Sources */,
 				1CD9B6F220A92D8700DA7CE1 /* String+Extension.swift in Sources */,
 				1CC2C2251F6A6563005964C7 /* VCImageButton.swift in Sources */,
@@ -1098,8 +1135,10 @@
 				1C5C668620889B24003003C9 /* Array+Extension.swift in Sources */,
 				A49F399B22B1F3E40034B88A /* PageControlViewController.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,
+				A4AAB50B22CDEAA700F9893F /* ExampleCodeCell.swift in Sources */,
 				1CD9B69E20A924D800DA7CE1 /* PrintConfig.swift in Sources */,
 				1C9051C720AD55AC008C7C0E /* SnpKitCellOptimizationViewModel.swift in Sources */,
+				A4C0C3DC22C5FB700036790F /* ExampleHeaderView.swift in Sources */,
 				1CD9B6EB20A92ABC00DA7CE1 /* ViewsViewController.swift in Sources */,
 				1CD9B6CF20A92ABC00DA7CE1 /* DemoVC1.swift in Sources */,
 				E15D0B652195167C00EAE06C /* CollectionViewLeftAlignController.swift in Sources */,
@@ -1124,6 +1163,7 @@
 				1C9051D620AE6D71008C7C0E /* OptimizationPictureView.swift in Sources */,
 				1C9993D7208850F70091D293 /* UIColor+Extension.swift in Sources */,
 				1CD9B6D120A92ABC00DA7CE1 /* GGG.swift in Sources */,
+				A4C0C3D422C5F89C0036790F /* ExampleOfUICollectionViewController.swift in Sources */,
 				1C5C6684208892C5003003C9 /* SnpKit_DemoVC_1_Cell.swift in Sources */,
 				A49F39A622B22BAA0034B88A /* ListViewController.swift in Sources */,
 				1CD9B6E620A92ABC00DA7CE1 /* DemoVC7Cell1.swift in Sources */,

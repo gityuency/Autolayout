@@ -15,6 +15,7 @@ class ListViewController: UITableViewController {
     let listArray = [
         ["Coll_1_ViewController": "Cell 滑动放大"],
         ["CollectionViewLeftAlignController": "UICollectionViewCell 左对齐"],
+        ["ExampleOfUICollectionViewController": "UICollectionView 基本用法"],
     ]
     
     override func viewDidLoad() {
