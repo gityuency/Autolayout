@@ -16,6 +16,7 @@ class ViewLayoutViewController: UITableViewController {
 
     
     let listArray = [
+        ["ContentSiseViewController": "制作带有内容尺寸(宽高)的控件"],
         ["TrangleViewController": "画三角形"],
         ["PageControlViewController": "自定义的UIpageControl"],
         ["RatingStarsViewController": "星星评分展示控件"],

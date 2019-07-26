@@ -143,6 +143,9 @@
 		A49F39AB22B237C90034B88A /* YXCellScaleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39AA22B237C90034B88A /* YXCellScaleFlowLayout.swift */; };
 		A49F39AE22B2383C0034B88A /* ScaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F39AC22B2383C0034B88A /* ScaleCell.swift */; };
 		A49F39AF22B2383C0034B88A /* ScaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49F39AD22B2383C0034B88A /* ScaleCell.xib */; };
+		A4A033FF22EAFA36007C600A /* ContentSiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A033FD22EAFA36007C600A /* ContentSiseViewController.swift */; };
+		A4A0340022EAFA36007C600A /* ContentSiseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A033FE22EAFA36007C600A /* ContentSiseViewController.xib */; };
+		A4A0340222EAFA49007C600A /* ContentSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A0340122EAFA49007C600A /* ContentSizeView.swift */; };
 		A4AAB50B22CDEAA700F9893F /* ExampleCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAB50A22CDEAA700F9893F /* ExampleCodeCell.swift */; };
 		A4C0C3D422C5F89C0036790F /* ExampleOfUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0C3D222C5F89C0036790F /* ExampleOfUICollectionViewController.swift */; };
 		A4C0C3D522C5F89C0036790F /* ExampleOfUICollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C0C3D322C5F89C0036790F /* ExampleOfUICollectionViewController.xib */; };
@@ -306,6 +309,9 @@
 		A49F39AA22B237C90034B88A /* YXCellScaleFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXCellScaleFlowLayout.swift; sourceTree = "<group>"; };
 		A49F39AC22B2383C0034B88A /* ScaleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleCell.swift; sourceTree = "<group>"; };
 		A49F39AD22B2383C0034B88A /* ScaleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScaleCell.xib; sourceTree = "<group>"; };
+		A4A033FD22EAFA36007C600A /* ContentSiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSiseViewController.swift; sourceTree = "<group>"; };
+		A4A033FE22EAFA36007C600A /* ContentSiseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentSiseViewController.xib; sourceTree = "<group>"; };
+		A4A0340122EAFA49007C600A /* ContentSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSizeView.swift; sourceTree = "<group>"; };
 		A4AAB50A22CDEAA700F9893F /* ExampleCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCodeCell.swift; sourceTree = "<group>"; };
 		A4C0C3D222C5F89C0036790F /* ExampleOfUICollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOfUICollectionViewController.swift; sourceTree = "<group>"; };
 		A4C0C3D322C5F89C0036790F /* ExampleOfUICollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleOfUICollectionViewController.xib; sourceTree = "<group>"; };
@@ -591,6 +597,7 @@
 			isa = PBXGroup;
 			children = (
 				1CD9B6A020A929EC00DA7CE1 /* ViewLayoutViewController.swift */,
+				A4A033FC22EAF992007C600A /* 制作带有内容尺寸的控件 */,
 				A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */,
 				A49F399822B1F39A0034B88A /* 自定义PageControl */,
 				A49F399F22B224FF0034B88A /* 画三角形 */,
@@ -810,6 +817,16 @@
 			path = "Cell 滑动放大";
 			sourceTree = "<group>";
 		};
+		A4A033FC22EAF992007C600A /* 制作带有内容尺寸的控件 */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0340122EAFA49007C600A /* ContentSizeView.swift */,
+				A4A033FD22EAFA36007C600A /* ContentSiseViewController.swift */,
+				A4A033FE22EAFA36007C600A /* ContentSiseViewController.xib */,
+			);
+			path = "制作带有内容尺寸的控件";
+			sourceTree = "<group>";
+		};
 		A4C0C3D122C5F86B0036790F /* UICollectionView基本用法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1023,6 +1040,7 @@
 				1CC2C27D1F6BB1C1005964C7 /* 21.jpg in Resources */,
 				A4C0C3D922C5FA410036790F /* ExampleCell.xib in Resources */,
 				1CD9B6D320A92ABC00DA7CE1 /* wangyi.json in Resources */,
+				A4A0340022EAFA36007C600A /* ContentSiseViewController.xib in Resources */,
 				E166C17421461E4000F8EA87 /* voice.mp3 in Resources */,
 				A49F39AF22B2383C0034B88A /* ScaleCell.xib in Resources */,
 				1CC2C2761F6BB1C1005964C7 /* 15.jpg in Resources */,
@@ -1092,6 +1110,7 @@
 				1CD9B6D620A92ABC00DA7CE1 /* ThreeFourthCell.swift in Sources */,
 				A49F39A122B2253C0034B88A /* TrangleViewController.swift in Sources */,
 				1CD9B6E720A92ABC00DA7CE1 /* DemoVC7Cell2.swift in Sources */,
+				A4A0340222EAFA49007C600A /* ContentSizeView.swift in Sources */,
 				1C5C66802088912C003003C9 /* SnpKitDemoVC1.swift in Sources */,
 				1CD9B6E820A92ABC00DA7CE1 /* DemoVC7Model.swift in Sources */,
 				1C2C90192089D1BB008F0580 /* FPSLabel.swift in Sources */,
@@ -1175,6 +1194,7 @@
 				1C9051BA20AD38F3008C7C0E /* SizeConfig.swift in Sources */,
 				1C9051BC20AD3C64008C7C0E /* UIImage+Extensions.swift in Sources */,
 				1CB0B2631F347FE000A4B698 /* AppDelegate.swift in Sources */,
+				A4A033FF22EAFA36007C600A /* ContentSiseViewController.swift in Sources */,
 				1CD9B6E020A92ABC00DA7CE1 /* DemoVC4.swift in Sources */,
 				1CD9B6D420A92ABC00DA7CE1 /* ThreeBaseCell.swift in Sources */,
 				1C9051C920AD569A008C7C0E /* BundleImageManager.swift in Sources */,
