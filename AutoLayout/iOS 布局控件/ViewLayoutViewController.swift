@@ -16,6 +16,9 @@ class ViewLayoutViewController: UITableViewController {
 
     
     let listArray = [
+        ["TrangleViewController": "画三角形"],
+        ["PageControlViewController": "自定义的UIpageControl"],
+        ["RatingStarsViewController": "星星评分展示控件"],
         ["SearchResultDisplayViewController": "将搜索文本在一个 Label 上动态显示"],
         ["DynamicUILabelViewController": "iOS10 字体大小随系统调整"],
         ]

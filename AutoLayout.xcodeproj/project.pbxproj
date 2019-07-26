@@ -386,9 +386,6 @@
 			isa = PBXGroup;
 			children = (
 				1C9051BE20AD4E23008C7C0E /* MagicTrickViewController.swift */,
-				A49F399F22B224FF0034B88A /* 画三角形 */,
-				A49F399822B1F39A0034B88A /* 自定义PageControl */,
-				A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */,
 				E1696A16214A8B4800EF5564 /* 画圆角 */,
 				E166C1962146596C00F8EA87 /* iOS10本地通知 */,
 				E166C175214636C100F8EA87 /* iOS10Tabbar定制 */,
@@ -470,9 +467,9 @@
 				1CB0B2621F347FE000A4B698 /* AppDelegate.swift */,
 				1CB0B2641F347FE000A4B698 /* ViewController.swift */,
 				1C426C431F6A523000E40164 /* MainViewController.swift */,
-				A49F39A422B22AA40034B88A /* 表格视图合集 */,
 				1C9051BD20AD4DE6008C7C0E /* iOS 奇技淫巧 */,
 				1CD9B69F20A9298900DA7CE1 /* iOS 布局控件 */,
+				A49F39A422B22AA40034B88A /* 表格视图合集 */,
 				1C9993C220882B3D0091D293 /* SnapKit 自动布局练习 */,
 				1CD9B6A220A92ABC00DA7CE1 /* GSD 自动布局练习 */,
 				1C2C90172089D1A9008F0580 /* 特殊类 */,
@@ -594,6 +591,9 @@
 			isa = PBXGroup;
 			children = (
 				1CD9B6A020A929EC00DA7CE1 /* ViewLayoutViewController.swift */,
+				A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */,
+				A49F399822B1F39A0034B88A /* 自定义PageControl */,
+				A49F399F22B224FF0034B88A /* 画三角形 */,
 				E166C1632146106800F8EA87 /* iOS10UILabel动态字体 */,
 				1CD9B6EC20A92B2D00DA7CE1 /* 搜索文本的显示 */,
 			);
