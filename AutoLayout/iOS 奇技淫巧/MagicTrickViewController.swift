@@ -14,6 +14,7 @@ private let cellidMagicTrickViewController = "cellidMagicTrickViewController"
 class MagicTrickViewController: UITableViewController {
 
     let listArray = [
+        ["ContentSiseViewController": "制作带有内容尺寸(宽高)的控件"],
         ["CornerViewController": "画圆角 部分圆角 指定位置圆角"],
         ["iOS10UserNotificationViewController": "iOS 10 新特性 本地通知"],
         ["iOS10TabbarViewController": "iOS 10 Tabbar 定制"],

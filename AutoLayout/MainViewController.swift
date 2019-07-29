@@ -24,8 +24,8 @@ class MainViewController: UIViewController {
     
     let listArray = [
         ["MagicTrickViewController": "iOS 奇技淫巧"],
-        ["ListViewController": "Tableview,CollectionView合集"],
         ["ViewLayoutViewController": "iOS 布局控件"],
+        ["ListViewController": "Tableview,CollectionView合集"],
         ["ViewControllerButtonList":"按钮组"],
         ["ViewControllerLabelList":"标签组"],
         ["GSDPracticeTableViewController": "GSD 自动布局练习"],

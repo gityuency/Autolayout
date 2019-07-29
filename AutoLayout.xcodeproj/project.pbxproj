@@ -130,6 +130,9 @@
 		1CD9B6F020A92B4F00DA7CE1 /* SearchResultDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD9B6EE20A92B4F00DA7CE1 /* SearchResultDisplayViewController.xib */; };
 		1CD9B6F220A92D8700DA7CE1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6F120A92D8700DA7CE1 /* String+Extension.swift */; };
 		1CD9B6F420A92DB900DA7CE1 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */; };
+		A45399A522EE8FAA00918A12 /* SlidingCircularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45399A322EE8FAA00918A12 /* SlidingCircularViewController.swift */; };
+		A45399A622EE8FAA00918A12 /* SlidingCircularViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45399A422EE8FAA00918A12 /* SlidingCircularViewController.xib */; };
+		A45399A822EE902600918A12 /* YXGoalReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45399A722EE902600918A12 /* YXGoalReviewView.swift */; };
 		A4631DE22293A3AC008F8A4E /* RatingStarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */; };
 		A4631DE32293A3AC008F8A4E /* SlidingRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */; };
 		A4631DE42293A3AC008F8A4E /* RatingStarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */; };
@@ -296,6 +299,9 @@
 		1CD9B6F120A92D8700DA7CE1 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		1CD9B6F320A92DB900DA7CE1 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45399A322EE8FAA00918A12 /* SlidingCircularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingCircularViewController.swift; sourceTree = "<group>"; };
+		A45399A422EE8FAA00918A12 /* SlidingCircularViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlidingCircularViewController.xib; sourceTree = "<group>"; };
+		A45399A722EE902600918A12 /* YXGoalReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXGoalReviewView.swift; sourceTree = "<group>"; };
 		A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingStarsViewController.swift; sourceTree = "<group>"; };
 		A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingRatingView.swift; sourceTree = "<group>"; };
 		A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingStarsViewController.xib; sourceTree = "<group>"; };
@@ -598,6 +604,7 @@
 			isa = PBXGroup;
 			children = (
 				1CD9B6A020A929EC00DA7CE1 /* ViewLayoutViewController.swift */,
+				A45399A222EE8F7F00918A12 /* 滑动评分圆圈控件 */,
 				A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */,
 				A49F399822B1F39A0034B88A /* 自定义PageControl */,
 				A49F399F22B224FF0034B88A /* 画三角形 */,
@@ -764,6 +771,16 @@
 				ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A45399A222EE8F7F00918A12 /* 滑动评分圆圈控件 */ = {
+			isa = PBXGroup;
+			children = (
+				A45399A722EE902600918A12 /* YXGoalReviewView.swift */,
+				A45399A322EE8FAA00918A12 /* SlidingCircularViewController.swift */,
+				A45399A422EE8FAA00918A12 /* SlidingCircularViewController.xib */,
+			);
+			path = "滑动评分圆圈控件";
 			sourceTree = "<group>";
 		};
 		A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */ = {
@@ -1029,6 +1046,7 @@
 				1CC2C2721F6BB1C1005964C7 /* 11.jpg in Resources */,
 				1CC2C2831F6BB1C1005964C7 /* 6.jpg in Resources */,
 				1CC2C2931F6BB1C1005964C7 /* pic4.jpg in Resources */,
+				A45399A622EE8FAA00918A12 /* SlidingCircularViewController.xib in Resources */,
 				1CC2C28A1F6BB1C1005964C7 /* icon1.jpg in Resources */,
 				1CC2C29C1F6BB1C1005964C7 /* test3.jpg in Resources */,
 				1CC2C2701F6BB1C1005964C7 /* 1.jpg in Resources */,
@@ -1165,8 +1183,10 @@
 				1C9051C520AD554A008C7C0E /* SnpKitCellOptimizationViewController.swift in Sources */,
 				1CD9B6D920A92ABC00DA7CE1 /* DemoVC11.swift in Sources */,
 				1CB0B2651F347FE000A4B698 /* ViewController.swift in Sources */,
+				A45399A822EE902600918A12 /* YXGoalReviewView.swift in Sources */,
 				E166C17221461D6200F8EA87 /* iOS10SpeechViewController.swift in Sources */,
 				A49F39AE22B2383C0034B88A /* ScaleCell.swift in Sources */,
+				A45399A522EE8FAA00918A12 /* SlidingCircularViewController.swift in Sources */,
 				1CD9B6E420A92ABC00DA7CE1 /* DemoVC6.swift in Sources */,
 				E166C16B214615B200F8EA87 /* iOS10AnimationViewController.swift in Sources */,
 				A49F399E22B1F3FE0034B88A /* YXPageControl.swift in Sources */,
