@@ -1,0 +1,25 @@
+{
+    "name": "农夫果园",
+    "location": "上海市 浦东新区 申迪北路 753号 上海迪士尼度假区",
+    "number": 10001,
+    "money": 998.12,
+    "open": true,
+    "fruits": [
+        {
+            "name": "火龙果",
+            "count": 2000,
+            "price": 56.23,
+            "onsale": true
+        },
+        {
+            "name": "山竹",
+            "count": 555,
+            "price": 17.22,
+            "onsale": false
+        }
+    ],
+    "owner": {
+        "name": "姬友大人",
+        "age": 30
+    }
+}

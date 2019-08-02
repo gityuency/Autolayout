@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwiftCodingViewController" customModule="AutoLayout" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVf-LS-4iK">
+                    <rect key="frame" x="20" y="124" width="374" height="60"/>
+                    <color key="backgroundColor" red="0.89803921568627454" green="0.89610535562347504" blue="0.81341044191430689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="eHQ-5E-fN0"/>
+                    </constraints>
+                    <state key="normal" title="字典转模型"/>
+                    <connections>
+                        <action selector="actionDicToModel:" destination="-1" eventType="touchUpInside" id="fdR-7a-Sfy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2s-ZB-Rkx">
+                    <rect key="frame" x="30" y="354" width="354" height="60"/>
+                    <color key="backgroundColor" red="0.73403461943771819" green="0.81200011020778795" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="21q-eJ-w8a"/>
+                    </constraints>
+                    <state key="normal" title="从UserDefault里取出数据"/>
+                    <connections>
+                        <action selector="actionFetchDataFromUserDefault:" destination="-1" eventType="touchUpInside" id="x1C-qH-PHx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hri-8L-Wj6">
+                    <rect key="frame" x="30" y="214" width="354" height="60"/>
+                    <color key="backgroundColor" red="0.84601446923057566" green="0.87117505467311451" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="dow-WL-AtT"/>
+                    </constraints>
+                    <state key="normal" title="数组转模型"/>
+                    <connections>
+                        <action selector="actionArrToModel:" destination="-1" eventType="touchUpInside" id="UIw-sM-1Fj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAm-i0-waC">
+                    <rect key="frame" x="30" y="584" width="354" height="60"/>
+                    <color key="backgroundColor" red="0.85603808112209534" green="0.7976618401357809" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="PIz-ZQ-8HH"/>
+                    </constraints>
+                    <state key="normal" title="清理所有文件"/>
+                    <connections>
+                        <action selector="actionClearAll:" destination="-1" eventType="touchUpInside" id="0qC-vX-TpQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6N-kT-vwA">
+                    <rect key="frame" x="30" y="444" width="354" height="60"/>
+                    <color key="backgroundColor" red="0.89803921568627454" green="0.79154036540635742" blue="0.74381122599436478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="W2A-zU-qHT"/>
+                    </constraints>
+                    <state key="normal" title="从沙盒里取出数据"/>
+                    <connections>
+                        <action selector="actionFetchDataFromSandBox:" destination="-1" eventType="touchUpInside" id="BPu-7Z-aaY"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hri-8L-Wj6" secondAttribute="trailing" constant="30" id="8jF-Rx-CSN"/>
+                <constraint firstItem="JAm-i0-waC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="AXW-eu-Grt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="M2s-ZB-Rkx" secondAttribute="trailing" constant="30" id="CTG-1G-TmZ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="H6N-kT-vwA" secondAttribute="trailing" constant="30" id="DdI-u6-gwc"/>
+                <constraint firstItem="M2s-ZB-Rkx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="JIE-gx-lnM"/>
+                <constraint firstItem="M2s-ZB-Rkx" firstAttribute="top" secondItem="hri-8L-Wj6" secondAttribute="bottom" constant="80" id="VQu-zh-26c"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KVf-LS-4iK" secondAttribute="trailing" constant="20" id="Ytd-oT-Bz6"/>
+                <constraint firstItem="hri-8L-Wj6" firstAttribute="top" secondItem="KVf-LS-4iK" secondAttribute="bottom" constant="30" id="Zto-8a-gDD"/>
+                <constraint firstItem="hri-8L-Wj6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="cTm-pD-ZwG"/>
+                <constraint firstItem="KVf-LS-4iK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="etc-IJ-PeN"/>
+                <constraint firstItem="H6N-kT-vwA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="jAi-DH-uql"/>
+                <constraint firstItem="JAm-i0-waC" firstAttribute="top" secondItem="H6N-kT-vwA" secondAttribute="bottom" constant="80" id="kWl-aQ-eAX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JAm-i0-waC" secondAttribute="trailing" constant="30" id="rN8-Fg-Kgv"/>
+                <constraint firstItem="H6N-kT-vwA" firstAttribute="top" secondItem="M2s-ZB-Rkx" secondAttribute="bottom" constant="30" id="saX-ww-g7s"/>
+                <constraint firstItem="KVf-LS-4iK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="wmd-Pg-JRv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

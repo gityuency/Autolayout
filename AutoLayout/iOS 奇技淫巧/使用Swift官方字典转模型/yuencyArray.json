@@ -1,0 +1,20 @@
+[
+    {
+        "name": "苹果🍎",
+        "count": 8855,
+        "price": 6.23,
+        "onsale": false
+    },
+    {
+        "name": "菠萝🍍",
+        "count": 555,
+        "price": 55.22,
+        "onsale": false
+    },
+    {
+        "name": "樱桃🍒",
+        "count": 2567,
+        "price": 100.5,
+        "onsale": true
+    }
+]
