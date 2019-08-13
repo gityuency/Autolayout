@@ -145,6 +145,10 @@
 		A4631DE22293A3AC008F8A4E /* RatingStarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */; };
 		A4631DE32293A3AC008F8A4E /* SlidingRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */; };
 		A4631DE42293A3AC008F8A4E /* RatingStarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */; };
+		A48A53912302ADF9008C8038 /* SwiftCoding_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48A538F2302ADF9008C8038 /* SwiftCoding_2_ViewController.swift */; };
+		A48A53922302ADF9008C8038 /* SwiftCoding_2_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A48A53902302ADF9008C8038 /* SwiftCoding_2_ViewController.xib */; };
+		A48A53942302AE3D008C8038 /* FarmerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48A53932302AE3D008C8038 /* FarmerModel.swift */; };
+		A48A53962302B427008C8038 /* FarmerSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48A53952302B427008C8038 /* FarmerSaver.swift */; };
 		A49F399B22B1F3E40034B88A /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F399922B1F3E40034B88A /* PageControlViewController.swift */; };
 		A49F399C22B1F3E40034B88A /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49F399A22B1F3E40034B88A /* PageControlViewController.xib */; };
 		A49F399E22B1F3FE0034B88A /* YXPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F399D22B1F3FE0034B88A /* YXPageControl.swift */; };
@@ -323,6 +327,10 @@
 		A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingStarsViewController.swift; sourceTree = "<group>"; };
 		A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingRatingView.swift; sourceTree = "<group>"; };
 		A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingStarsViewController.xib; sourceTree = "<group>"; };
+		A48A538F2302ADF9008C8038 /* SwiftCoding_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoding_2_ViewController.swift; sourceTree = "<group>"; };
+		A48A53902302ADF9008C8038 /* SwiftCoding_2_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftCoding_2_ViewController.xib; sourceTree = "<group>"; };
+		A48A53932302AE3D008C8038 /* FarmerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerModel.swift; sourceTree = "<group>"; };
+		A48A53952302B427008C8038 /* FarmerSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerSaver.swift; sourceTree = "<group>"; };
 		A49F399922B1F3E40034B88A /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
 		A49F399A22B1F3E40034B88A /* PageControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControlViewController.xib; sourceTree = "<group>"; };
 		A49F399D22B1F3FE0034B88A /* YXPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXPageControl.swift; sourceTree = "<group>"; };
@@ -416,6 +424,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9051BE20AD4E23008C7C0E /* MagicTrickViewController.swift */,
+				A48A538E2302ADA7008C8038 /* Swift 对象存沙盒 */,
 				A45399C122EEC24700918A12 /* 使用Swift官方字典转模型 */,
 				A4A033FC22EAF992007C600A /* 制作带有内容尺寸的控件 */,
 				E1696A16214A8B4800EF5564 /* 画圆角 */,
@@ -828,6 +837,17 @@
 			path = "改写的星星评分控件";
 			sourceTree = "<group>";
 		};
+		A48A538E2302ADA7008C8038 /* Swift 对象存沙盒 */ = {
+			isa = PBXGroup;
+			children = (
+				A48A538F2302ADF9008C8038 /* SwiftCoding_2_ViewController.swift */,
+				A48A53902302ADF9008C8038 /* SwiftCoding_2_ViewController.xib */,
+				A48A53932302AE3D008C8038 /* FarmerModel.swift */,
+				A48A53952302B427008C8038 /* FarmerSaver.swift */,
+			);
+			path = "Swift 对象存沙盒";
+			sourceTree = "<group>";
+		};
 		A49F399822B1F39A0034B88A /* 自定义PageControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -1091,6 +1111,7 @@
 				1CC2C28F1F6BB1C1005964C7 /* pic0.jpg in Resources */,
 				1CC2C2821F6BB1C1005964C7 /* 5.jpg in Resources */,
 				1CC2C2901F6BB1C1005964C7 /* pic1.jpg in Resources */,
+				A48A53922302ADF9008C8038 /* SwiftCoding_2_ViewController.xib in Resources */,
 				1CC2C2791F6BB1C1005964C7 /* 18.jpg in Resources */,
 				1C2C9020208D6E2B008F0580 /* NameList_Unfamiliar.plist in Resources */,
 				1CC2C27D1F6BB1C1005964C7 /* 21.jpg in Resources */,
@@ -1164,6 +1185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD9B6D620A92ABC00DA7CE1 /* ThreeFourthCell.swift in Sources */,
+				A48A53912302ADF9008C8038 /* SwiftCoding_2_ViewController.swift in Sources */,
 				A49F39A122B2253C0034B88A /* TrangleViewController.swift in Sources */,
 				1CD9B6E720A92ABC00DA7CE1 /* DemoVC7Cell2.swift in Sources */,
 				A4A0340222EAFA49007C600A /* ContentSizeView.swift in Sources */,
@@ -1260,12 +1282,14 @@
 				1CD9B6D420A92ABC00DA7CE1 /* ThreeBaseCell.swift in Sources */,
 				A40F80D822F2BCF100785F2D /* YXSaverForSandBox.swift in Sources */,
 				1C9051C920AD569A008C7C0E /* BundleImageManager.swift in Sources */,
+				A48A53962302B427008C8038 /* FarmerSaver.swift in Sources */,
 				A4631DE32293A3AC008F8A4E /* SlidingRatingView.swift in Sources */,
 				1CD9B6F420A92DB900DA7CE1 /* NSAttributedString+Extension.swift in Sources */,
 				1C9993D12088397E0091D293 /* UILabel+Extensions.swift in Sources */,
 				A40F80DE22F2BD8500785F2D /* YXTransferToJson.swift in Sources */,
 				A40F80DA22F2BD1B00785F2D /* YXSaverForUserDefaults.swift in Sources */,
 				1C2C901220898952008F0580 /* SnpKitDemoVC2.swift in Sources */,
+				A48A53942302AE3D008C8038 /* FarmerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

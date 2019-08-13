@@ -14,6 +14,7 @@ private let cellidMagicTrickViewController = "cellidMagicTrickViewController"
 class MagicTrickViewController: UITableViewController {
 
     let listArray = [
+        ["SwiftCoding_2_ViewController": "Swift 对象存沙盒"],
         ["SwiftCodingViewController": "使用Swift原生字典转模型, 对象存储 UserDefaults / 沙盒"],
         ["ContentSiseViewController": "制作带有内容尺寸(宽高)的控件"],
         ["CornerViewController": "画圆角 部分圆角 指定位置圆角"],
