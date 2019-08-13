@@ -20,6 +20,17 @@ class Coll_1_ViewController: UIViewController {
         imagesArray = BundleImageManager.needAllImage + BundleImageManager.needAllHeadImage + BundleImageManager.needAllBitchesImage
         
         collectionView = UICollectionView(frame: CGRect(x: 0, y: 100, width: ScreenWidth, height: 400), collectionViewLayout: YXCellScaleFlowLayout())
+        
+        
+        if #available(iOS 11.0, *) {
+            collectionView.contentInsetAdjustmentBehavior = .never
+        } else {
+            automaticallyAdjustsScrollViewInsets = false
+        }
+        
+        //UICollectionView 滑动过快 设置减速
+        //collectionView.decelerationRate = UIScrollView.DecelerationRate(rawValue: 0.5)
+
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.backgroundColor = UIColor.magenta.withAlphaComponent(0.2)

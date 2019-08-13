@@ -27,13 +27,15 @@ class iOS10UserNotificationViewController: UIViewController, UNUserNotificationC
         UIApplication.shared.applicationIconBadgeNumber = 0
     }
     
+    let b = UIButton();
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let b = UIButton(frame: view.bounds);
-        b.setTitle("3秒钟之后发送通知", for: .normal)
+        b.frame = view.bounds
+        b.setTitle("点击按钮发送通知🔔", for: .normal)
         b.setTitleColor(UIColor.red, for: .normal)
-        b.addTarget(self, action: #selector(send), for: .touchUpInside)
+        b.addTarget(self, action: #selector(send(button:)), for: .touchUpInside)
         view.addSubview(b)
         
 
@@ -56,8 +58,10 @@ class iOS10UserNotificationViewController: UIViewController, UNUserNotificationC
     }
     
     
-    @objc func send() {
+    @objc func send(button: UIButton) {
         
+        button.setTitle("把程序退到后台, 3秒之后发送通知.", for: .normal)
+
         //4. 设置本地通知相关的属性 // 应该使用UNNotificationContent的子类来进行设定
         let content = UNMutableNotificationContent() //iOS 10
         
@@ -100,7 +104,15 @@ class iOS10UserNotificationViewController: UIViewController, UNUserNotificationC
         //8. 通过用户通知中心来添加一个本地通知的请求
         UNUserNotificationCenter.current().add(request) { (error) in
             if error == nil {
+                
+                lllog("线程 \(Thread.current)")
+                
                 lllog("通知完成 \(content)")
+                
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3, execute: {
+                    self.b.setTitle("点击按钮发送通知🔔", for: .normal)
+                })
+                
             }
         }
     }
