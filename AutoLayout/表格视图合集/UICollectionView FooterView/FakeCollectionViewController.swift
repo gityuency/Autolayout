@@ -83,7 +83,7 @@ extension FakeCollectionViewController: UICollectionViewDataSource, UICollection
         
         contentHeight = collectionView.contentSize.height
         
-        if collectionView.frame.height > collectionView.contentSize.height { //当视图的高度比内容高度大的时候
+        if collectionView.frame.height > collectionView.contentSize.height + FooterHeight { //当视图的高度 比 (内容高度 + Footer高度) 大的时候
             
             DispatchQueue.main.async {
                 print("直接放到collectionview的底部: \(collectionView.contentSize.height)")
