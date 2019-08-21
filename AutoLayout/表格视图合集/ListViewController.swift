@@ -13,6 +13,7 @@ private let ListViewControllerCellID = "ListViewControllerCellID"
 class ListViewController: UITableViewController {
 
     let listArray = [
+        ["FakeCollectionViewController": "如何伪造一个Collectionview 的 Footer View"],
         ["Coll_1_ViewController": "Cell 滑动放大"],
         ["CollectionViewLeftAlignController": "UICollectionViewCell 左对齐"],
         ["ExampleOfUICollectionViewController": "UICollectionView 基本用法"],

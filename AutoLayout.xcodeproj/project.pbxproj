@@ -170,6 +170,8 @@
 		A4C0C3DC22C5FB700036790F /* ExampleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0C3DA22C5FB700036790F /* ExampleHeaderView.swift */; };
 		A4C0C3DD22C5FB700036790F /* ExampleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C0C3DB22C5FB700036790F /* ExampleHeaderView.xib */; };
 		A4C0C3DF22C5FF0A0036790F /* ExampleFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0C3DE22C5FF0A0036790F /* ExampleFooterView.swift */; };
+		A4F218AA230BE6FD00D215B8 /* FakeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F218A8230BE6FD00D215B8 /* FakeCollectionViewController.swift */; };
+		A4F218AB230BE6FD00D215B8 /* FakeCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F218A9230BE6FD00D215B8 /* FakeCollectionViewController.xib */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 		E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */; };
 		E15D0B652195167C00EAE06C /* CollectionViewLeftAlignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */; };
@@ -352,6 +354,8 @@
 		A4C0C3DA22C5FB700036790F /* ExampleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleHeaderView.swift; sourceTree = "<group>"; };
 		A4C0C3DB22C5FB700036790F /* ExampleHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleHeaderView.xib; sourceTree = "<group>"; };
 		A4C0C3DE22C5FF0A0036790F /* ExampleFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFooterView.swift; sourceTree = "<group>"; };
+		A4F218A8230BE6FD00D215B8 /* FakeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCollectionViewController.swift; sourceTree = "<group>"; };
+		A4F218A9230BE6FD00D215B8 /* FakeCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FakeCollectionViewController.xib; sourceTree = "<group>"; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 		E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
 		E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLeftAlignController.swift; sourceTree = "<group>"; };
@@ -871,6 +875,7 @@
 			isa = PBXGroup;
 			children = (
 				A49F39A522B22BAA0034B88A /* ListViewController.swift */,
+				A4F218A5230BE64300D215B8 /* UICollectionView FooterView */,
 				A4C0C3D122C5F86B0036790F /* UICollectionView基本用法 */,
 				A49F39A722B22ED90034B88A /* Cell 滑动放大 */,
 				E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */,
@@ -912,6 +917,15 @@
 				A4C0C3DE22C5FF0A0036790F /* ExampleFooterView.swift */,
 			);
 			path = "UICollectionView基本用法";
+			sourceTree = "<group>";
+		};
+		A4F218A5230BE64300D215B8 /* UICollectionView FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				A4F218A8230BE6FD00D215B8 /* FakeCollectionViewController.swift */,
+				A4F218A9230BE6FD00D215B8 /* FakeCollectionViewController.xib */,
+			);
+			path = "UICollectionView FooterView";
 			sourceTree = "<group>";
 		};
 		E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */ = {
@@ -1065,6 +1079,7 @@
 				1CC2C2941F6BB1C1005964C7 /* pic5.jpg in Resources */,
 				1CC2C2891F6BB1C1005964C7 /* icon0.jpg in Resources */,
 				1CC2C2911F6BB1C1005964C7 /* pic2.jpg in Resources */,
+				A4F218AB230BE6FD00D215B8 /* FakeCollectionViewController.xib in Resources */,
 				1C9051D420AE692D008C7C0E /* NameList_Unfamiliar_2.plist in Resources */,
 				A45399C522EEC26300918A12 /* SwiftCodingViewController.xib in Resources */,
 				1CC2C2731F6BB1C1005964C7 /* 12.jpg in Resources */,
@@ -1211,6 +1226,7 @@
 				A4C0C3DF22C5FF0A0036790F /* ExampleFooterView.swift in Sources */,
 				A49F39A922B2374B0034B88A /* Coll_1_ViewController.swift in Sources */,
 				1CD9B6E320A92ABC00DA7CE1 /* DemoVC5TableViewCell.swift in Sources */,
+				A4F218AA230BE6FD00D215B8 /* FakeCollectionViewController.swift in Sources */,
 				E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */,
 				E166C1772146384400F8EA87 /* iOS10TabbarViewController.swift in Sources */,
 				E1696A18214A8B5900EF5564 /* CornerViewController.swift in Sources */,
