@@ -16,6 +16,7 @@ class ViewLayoutViewController: UITableViewController {
 
     
     let listArray = [
+        ["FormSheetViewController": "如何在iPad上使用modalPresentationStyle"],
         ["SlidingCircularViewController": "自定义的一个圆圈评分控件"],
         ["TrangleViewController": "画三角形"],
         ["PageControlViewController": "自定义的UIpageControl"],

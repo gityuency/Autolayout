@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FormSheetViewController" customModule="AutoLayout" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omO-xi-yYf">
+                    <rect key="frame" x="20" y="250" width="728" height="70"/>
+                    <color key="backgroundColor" red="1" green="0.64390230520000002" blue="0.62831825289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="fVs-fH-JCS"/>
+                    </constraints>
+                    <state key="normal">
+                        <string key="title">第一种情况:  self.present -&gt; ViewController
+</string>
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="actionOne:" destination="-1" eventType="touchUpInside" id="Fcu-b8-hOa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvI-Gc-H57">
+                    <rect key="frame" x="20" y="360" width="728" height="70"/>
+                    <color key="backgroundColor" red="1" green="0.64390230520000002" blue="0.62831825289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="Zcg-5B-VM8"/>
+                    </constraints>
+                    <state key="normal" title="第二种情况:  self.present -&gt; UINavigationController(ViewController)">
+                        <color key="titleColor" red="0.01176470588" green="0.01176470588" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="actionTwo:" destination="-1" eventType="touchUpInside" id="s6m-b7-mOr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zr1-u9-XjN">
+                    <rect key="frame" x="20" y="470" width="728" height="70"/>
+                    <color key="backgroundColor" red="1" green="0.64390230520000002" blue="0.62831825289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="3lO-Tr-8PJ"/>
+                    </constraints>
+                    <state key="normal" title="第三种情况:  self.navigationController.present -&gt; ViewController">
+                        <color key="titleColor" red="0.01176470588" green="0.01176470588" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="actionThree:" destination="-1" eventType="touchUpInside" id="b5m-ZK-al0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y62-Vr-CcL">
+                    <rect key="frame" x="20" y="580" width="728" height="70"/>
+                    <color key="backgroundColor" red="1" green="0.64390230520000002" blue="0.62831825289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="Zu3-f7-JnY"/>
+                    </constraints>
+                    <state key="normal" title="第四种情况:  self.navigationController.present -&gt;  UINavigationController(ViewController)">
+                        <color key="titleColor" red="0.01176470588" green="0.01176470588" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="actionFour:" destination="-1" eventType="touchUpInside" id="9rO-f8-IXH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mfF-Vs-N5G">
+                    <rect key="frame" x="20" y="100" width="354" height="70"/>
+                    <color key="backgroundColor" red="0.62999113521221939" green="1" blue="0.5701085116753023" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="LSg-8c-Mu2"/>
+                    </constraints>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="设置控制器">
+                                <attributes>
+                                    <font key="NSFont" size="15" name=".HiraginoSansGBInterface-W3"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content=" ">
+                                <attributes>
+                                    <font key="NSFont" metaFont="system" size="15"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="没有">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="0.096120026352770171" blue="0.047384771665326508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="15" name=".HiraKakuInterface-W3"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content=" NavigationController">
+                                <attributes>
+                                    <font key="NSFont" metaFont="system" size="15"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                    <connections>
+                        <action selector="actionNoNavi:" destination="-1" eventType="touchUpInside" id="qD8-Yx-Mso"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MdP-Kd-rTu">
+                    <rect key="frame" x="20" y="690" width="728" height="70"/>
+                    <color key="backgroundColor" red="1" green="0.64390230520000002" blue="0.62831825289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="ClA-b7-pNI"/>
+                    </constraints>
+                    <state key="normal" title="自定义弹出控制器的大小">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="actionFiv:" destination="-1" eventType="touchUpInside" id="LCh-FQ-gSQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wcX-bw-ON5">
+                    <rect key="frame" x="394" y="100" width="354" height="70"/>
+                    <color key="backgroundColor" red="0.62999113520000005" green="1" blue="0.57010851169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="mlT-h7-s78"/>
+                    </constraints>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="设置控制器">
+                                <attributes>
+                                    <font key="NSFont" size="15" name=".HiraginoSansGBInterface-W3"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content=" ">
+                                <attributes>
+                                    <font key="NSFont" metaFont="system" size="15"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="有">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="0.096120026352770171" blue="0.047384771665326508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="15" name=".HiraKakuInterface-W3"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content=" NavigationController">
+                                <attributes>
+                                    <font key="NSFont" metaFont="system" size="15"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                    <connections>
+                        <action selector="actionAddNavi:" destination="-1" eventType="touchUpInside" id="1Wn-U2-hrb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wcX-bw-ON5" firstAttribute="width" secondItem="mfF-Vs-N5G" secondAttribute="width" id="138-cm-Wwe"/>
+                <constraint firstItem="y62-Vr-CcL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="17K-DD-lbd"/>
+                <constraint firstItem="mfF-Vs-N5G" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="3V3-Sz-z2P"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MvI-Gc-H57" secondAttribute="trailing" constant="20" id="7LI-N1-eSl"/>
+                <constraint firstItem="mfF-Vs-N5G" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="80a-3d-hwW"/>
+                <constraint firstItem="omO-xi-yYf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="CAt-Ax-Yr0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zr1-u9-XjN" secondAttribute="trailing" constant="20" id="ELL-RK-jwf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="y62-Vr-CcL" secondAttribute="trailing" constant="20" id="ETq-k0-w46"/>
+                <constraint firstItem="MvI-Gc-H57" firstAttribute="top" secondItem="omO-xi-yYf" secondAttribute="bottom" constant="40" id="H4o-PJ-akE"/>
+                <constraint firstItem="wcX-bw-ON5" firstAttribute="top" secondItem="mfF-Vs-N5G" secondAttribute="top" id="Ixq-cT-P3Q"/>
+                <constraint firstItem="MvI-Gc-H57" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Jax-HP-Riu"/>
+                <constraint firstItem="zr1-u9-XjN" firstAttribute="top" secondItem="MvI-Gc-H57" secondAttribute="bottom" constant="40" id="LG2-3q-tbR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MdP-Kd-rTu" secondAttribute="trailing" constant="20" id="OEp-eG-55F"/>
+                <constraint firstItem="MdP-Kd-rTu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="RZ7-Aj-Wdn"/>
+                <constraint firstItem="MdP-Kd-rTu" firstAttribute="top" secondItem="y62-Vr-CcL" secondAttribute="bottom" constant="40" id="aNM-Ns-xJF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="omO-xi-yYf" secondAttribute="trailing" constant="20" id="aRR-Fx-Kfg"/>
+                <constraint firstItem="y62-Vr-CcL" firstAttribute="top" secondItem="zr1-u9-XjN" secondAttribute="bottom" constant="40" id="ff4-QP-Sgv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wcX-bw-ON5" secondAttribute="trailing" constant="20" id="fkM-9a-u6G"/>
+                <constraint firstItem="omO-xi-yYf" firstAttribute="top" secondItem="mfF-Vs-N5G" secondAttribute="bottom" constant="80" id="hvG-Xp-jeS"/>
+                <constraint firstItem="wcX-bw-ON5" firstAttribute="leading" secondItem="mfF-Vs-N5G" secondAttribute="trailing" constant="20" id="tAR-bC-GOn"/>
+                <constraint firstItem="zr1-u9-XjN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="xXD-G6-UY3"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132.8125" y="153.515625"/>
+        </view>
+    </objects>
+</document>
