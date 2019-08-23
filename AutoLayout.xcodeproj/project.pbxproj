@@ -145,6 +145,8 @@
 		A4631DE22293A3AC008F8A4E /* RatingStarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */; };
 		A4631DE32293A3AC008F8A4E /* SlidingRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */; };
 		A4631DE42293A3AC008F8A4E /* RatingStarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */; };
+		A481B0E2230F9A340052AFC8 /* AttributeTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481B0E0230F9A340052AFC8 /* AttributeTextViewController.swift */; };
+		A481B0E3230F9A340052AFC8 /* AttributeTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A481B0E1230F9A340052AFC8 /* AttributeTextViewController.xib */; };
 		A48A53912302ADF9008C8038 /* SwiftCoding_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48A538F2302ADF9008C8038 /* SwiftCoding_2_ViewController.swift */; };
 		A48A53922302ADF9008C8038 /* SwiftCoding_2_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A48A53902302ADF9008C8038 /* SwiftCoding_2_ViewController.xib */; };
 		A48A53942302AE3D008C8038 /* FarmerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48A53932302AE3D008C8038 /* FarmerModel.swift */; };
@@ -333,6 +335,8 @@
 		A4631DDF2293A3AB008F8A4E /* RatingStarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingStarsViewController.swift; sourceTree = "<group>"; };
 		A4631DE02293A3AB008F8A4E /* SlidingRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingRatingView.swift; sourceTree = "<group>"; };
 		A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingStarsViewController.xib; sourceTree = "<group>"; };
+		A481B0E0230F9A340052AFC8 /* AttributeTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeTextViewController.swift; sourceTree = "<group>"; };
+		A481B0E1230F9A340052AFC8 /* AttributeTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttributeTextViewController.xib; sourceTree = "<group>"; };
 		A48A538F2302ADF9008C8038 /* SwiftCoding_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoding_2_ViewController.swift; sourceTree = "<group>"; };
 		A48A53902302ADF9008C8038 /* SwiftCoding_2_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftCoding_2_ViewController.xib; sourceTree = "<group>"; };
 		A48A53932302AE3D008C8038 /* FarmerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerModel.swift; sourceTree = "<group>"; };
@@ -644,6 +648,7 @@
 			isa = PBXGroup;
 			children = (
 				1CD9B6A020A929EC00DA7CE1 /* ViewLayoutViewController.swift */,
+				A481B0DF230F9A0E0052AFC8 /* 我使用过的富文本 */,
 				A4AA336D230CF02B0059B04E /* 在iPad上的fromsheet */,
 				A45399A222EE8F7F00918A12 /* 滑动评分圆圈控件 */,
 				A4631DDE2293A3AB008F8A4E /* 改写的星星评分控件 */,
@@ -848,6 +853,15 @@
 				A4631DE12293A3AB008F8A4E /* RatingStarsViewController.xib */,
 			);
 			path = "改写的星星评分控件";
+			sourceTree = "<group>";
+		};
+		A481B0DF230F9A0E0052AFC8 /* 我使用过的富文本 */ = {
+			isa = PBXGroup;
+			children = (
+				A481B0E0230F9A340052AFC8 /* AttributeTextViewController.swift */,
+				A481B0E1230F9A340052AFC8 /* AttributeTextViewController.xib */,
+			);
+			path = "我使用过的富文本";
 			sourceTree = "<group>";
 		};
 		A48A538E2302ADA7008C8038 /* Swift 对象存沙盒 */ = {
@@ -1151,6 +1165,7 @@
 				A48A53922302ADF9008C8038 /* SwiftCoding_2_ViewController.xib in Resources */,
 				1CC2C2791F6BB1C1005964C7 /* 18.jpg in Resources */,
 				1C2C9020208D6E2B008F0580 /* NameList_Unfamiliar.plist in Resources */,
+				A481B0E3230F9A340052AFC8 /* AttributeTextViewController.xib in Resources */,
 				1CC2C27D1F6BB1C1005964C7 /* 21.jpg in Resources */,
 				A4C0C3D922C5FA410036790F /* ExampleCell.xib in Resources */,
 				1CD9B6D320A92ABC00DA7CE1 /* wangyi.json in Resources */,
@@ -1237,6 +1252,7 @@
 				1CD9B6EF20A92B4F00DA7CE1 /* SearchResultDisplayViewController.swift in Sources */,
 				1CC2C2271F6A6B45005964C7 /* VCUnderLineButton.swift in Sources */,
 				A40F80DC22F2BD6C00785F2D /* YXTransferToModel.swift in Sources */,
+				A481B0E2230F9A340052AFC8 /* AttributeTextViewController.swift in Sources */,
 				1CD9B6D820A92ABC00DA7CE1 /* ThreeThirdCell.swift in Sources */,
 				1C9051CB20AD6445008C7C0E /* OptimizationTableViewCell.swift in Sources */,
 				E166C1982146598F00F8EA87 /* iOS10UserNotificationViewController.swift in Sources */,
