@@ -26,7 +26,7 @@ class CollectionViewLeftAlignController: UIViewController, UICollectionViewDeleg
         collectionView.backgroundColor = UIColor.white
         view.addSubview(collectionView)
         
-        Timer.scheduledTimer(timeInterval: 2.0, target: collectionView, selector: #selector(UICollectionView.reloadData), userInfo: nil, repeats: true)
+        Timer.scheduledTimer(timeInterval: 2.0, target: collectionView!, selector: #selector(UICollectionView.reloadData), userInfo: nil, repeats: true)
     }
     
     
