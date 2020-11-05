@@ -178,6 +178,9 @@
 		A4C0C3DF22C5FF0A0036790F /* ExampleFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0C3DE22C5FF0A0036790F /* ExampleFooterView.swift */; };
 		A4F218AA230BE6FD00D215B8 /* FakeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F218A8230BE6FD00D215B8 /* FakeCollectionViewController.swift */; };
 		A4F218AB230BE6FD00D215B8 /* FakeCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F218A9230BE6FD00D215B8 /* FakeCollectionViewController.xib */; };
+		D6FAADC42553A1F8006DD696 /* OCCurveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FAADC22553A1F8006DD696 /* OCCurveViewController.swift */; };
+		D6FAADC52553A1F8006DD696 /* OCCurveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6FAADC32553A1F8006DD696 /* OCCurveViewController.xib */; };
+		D6FAADC82553A31B006DD696 /* SecondQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FAADC72553A31B006DD696 /* SecondQuestion.swift */; };
 		DB7EA02DD6916D3B03233F0B /* Pods_AutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A168A1994EEFF0DEB6575DE /* Pods_AutoLayout.framework */; };
 		E15D0B632195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */; };
 		E15D0B652195167C00EAE06C /* CollectionViewLeftAlignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */; };
@@ -369,6 +372,9 @@
 		A4F218A8230BE6FD00D215B8 /* FakeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCollectionViewController.swift; sourceTree = "<group>"; };
 		A4F218A9230BE6FD00D215B8 /* FakeCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FakeCollectionViewController.xib; sourceTree = "<group>"; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
+		D6FAADC22553A1F8006DD696 /* OCCurveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCCurveViewController.swift; sourceTree = "<group>"; };
+		D6FAADC32553A1F8006DD696 /* OCCurveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCCurveViewController.xib; sourceTree = "<group>"; };
+		D6FAADC72553A31B006DD696 /* SecondQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondQuestion.swift; sourceTree = "<group>"; };
 		E15D0B622195164900EAE06C /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
 		E15D0B642195167C00EAE06C /* CollectionViewLeftAlignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLeftAlignController.swift; sourceTree = "<group>"; };
 		E166C166214610A600F8EA87 /* DynamicUILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicUILabelViewController.swift; sourceTree = "<group>"; };
@@ -648,6 +654,7 @@
 			isa = PBXGroup;
 			children = (
 				1CD9B6A020A929EC00DA7CE1 /* ViewLayoutViewController.swift */,
+				D6FAADC02553A1DF006DD696 /* 质量管理个人作业 */,
 				A481B0DF230F9A0E0052AFC8 /* 我使用过的富文本 */,
 				A4AA336D230CF02B0059B04E /* 在iPad上的fromsheet */,
 				A45399A222EE8F7F00918A12 /* 滑动评分圆圈控件 */,
@@ -962,6 +969,16 @@
 			path = "UICollectionView FooterView";
 			sourceTree = "<group>";
 		};
+		D6FAADC02553A1DF006DD696 /* 质量管理个人作业 */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAADC22553A1F8006DD696 /* OCCurveViewController.swift */,
+				D6FAADC32553A1F8006DD696 /* OCCurveViewController.xib */,
+				D6FAADC72553A31B006DD696 /* SecondQuestion.swift */,
+			);
+			path = "质量管理个人作业";
+			sourceTree = "<group>";
+		};
 		E15D0B5F219515FC00EAE06C /* UICollectionViewCell 左对齐 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1168,6 +1185,7 @@
 				1CC2C27D1F6BB1C1005964C7 /* 21.jpg in Resources */,
 				A4C0C3D922C5FA410036790F /* ExampleCell.xib in Resources */,
 				1CD9B6D320A92ABC00DA7CE1 /* wangyi.json in Resources */,
+				D6FAADC52553A1F8006DD696 /* OCCurveViewController.xib in Resources */,
 				A4A0340022EAFA36007C600A /* ContentSiseViewController.xib in Resources */,
 				E166C17421461E4000F8EA87 /* voice.mp3 in Resources */,
 				A49F39AF22B2383C0034B88A /* ScaleCell.xib in Resources */,
@@ -1244,6 +1262,7 @@
 				1CD9B6E820A92ABC00DA7CE1 /* DemoVC7Model.swift in Sources */,
 				1C2C90192089D1BB008F0580 /* FPSLabel.swift in Sources */,
 				1C9051C220AD4E77008C7C0E /* Magic_0_ViewController.swift in Sources */,
+				D6FAADC42553A1F8006DD696 /* OCCurveViewController.swift in Sources */,
 				1CD9B6DB20A92ABC00DA7CE1 /* SDChatModel.swift in Sources */,
 				1CD9B6CE20A92ABC00DA7CE1 /* DemoVC0.swift in Sources */,
 				1CD9B6D020A92ABC00DA7CE1 /* DemoVC10.swift in Sources */,
@@ -1285,6 +1304,7 @@
 				A4631DE22293A3AC008F8A4E /* RatingStarsViewController.swift in Sources */,
 				1C2C901620898A76008F0580 /* SnpKitDemoVC2ViewModel.swift in Sources */,
 				1C5C6682208891B2003003C9 /* SnpKitDemoVC1ViewModel.swift in Sources */,
+				D6FAADC82553A31B006DD696 /* SecondQuestion.swift in Sources */,
 				1C5C668620889B24003003C9 /* Array+Extension.swift in Sources */,
 				A49F399B22B1F3E40034B88A /* PageControlViewController.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,
