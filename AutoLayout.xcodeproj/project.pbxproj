@@ -178,6 +178,8 @@
 		A4C0C3DF22C5FF0A0036790F /* ExampleFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0C3DE22C5FF0A0036790F /* ExampleFooterView.swift */; };
 		A4F218AA230BE6FD00D215B8 /* FakeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F218A8230BE6FD00D215B8 /* FakeCollectionViewController.swift */; };
 		A4F218AB230BE6FD00D215B8 /* FakeCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F218A9230BE6FD00D215B8 /* FakeCollectionViewController.xib */; };
+		D6238DE82575E105001D46B4 /* PropertyWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6238DE72575E105001D46B4 /* PropertyWriteViewController.swift */; };
+		D6238DEB2575E11B001D46B4 /* PropertyWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6238DEA2575E11B001D46B4 /* PropertyWrite.swift */; };
 		D6FAADC42553A1F8006DD696 /* OCCurveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FAADC22553A1F8006DD696 /* OCCurveViewController.swift */; };
 		D6FAADC52553A1F8006DD696 /* OCCurveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6FAADC32553A1F8006DD696 /* OCCurveViewController.xib */; };
 		D6FAADC82553A31B006DD696 /* SecondQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FAADC72553A31B006DD696 /* SecondQuestion.swift */; };
@@ -372,6 +374,8 @@
 		A4F218A8230BE6FD00D215B8 /* FakeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCollectionViewController.swift; sourceTree = "<group>"; };
 		A4F218A9230BE6FD00D215B8 /* FakeCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FakeCollectionViewController.xib; sourceTree = "<group>"; };
 		ADE461C88A9C9CBAF83F5716 /* Pods-AutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout/Pods-AutoLayout.release.xcconfig"; sourceTree = "<group>"; };
+		D6238DE72575E105001D46B4 /* PropertyWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWriteViewController.swift; sourceTree = "<group>"; };
+		D6238DEA2575E11B001D46B4 /* PropertyWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrite.swift; sourceTree = "<group>"; };
 		D6FAADC22553A1F8006DD696 /* OCCurveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCCurveViewController.swift; sourceTree = "<group>"; };
 		D6FAADC32553A1F8006DD696 /* OCCurveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCCurveViewController.xib; sourceTree = "<group>"; };
 		D6FAADC72553A31B006DD696 /* SecondQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondQuestion.swift; sourceTree = "<group>"; };
@@ -446,6 +450,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9051BE20AD4E23008C7C0E /* MagicTrickViewController.swift */,
+				D6238DE52575E0D0001D46B4 /* Swift 属性的写法 */,
 				A48A538E2302ADA7008C8038 /* Swift 对象存沙盒 */,
 				A45399C122EEC24700918A12 /* 使用Swift官方字典转模型 */,
 				A4A033FC22EAF992007C600A /* 制作带有内容尺寸的控件 */,
@@ -969,6 +974,15 @@
 			path = "UICollectionView FooterView";
 			sourceTree = "<group>";
 		};
+		D6238DE52575E0D0001D46B4 /* Swift 属性的写法 */ = {
+			isa = PBXGroup;
+			children = (
+				D6238DE72575E105001D46B4 /* PropertyWriteViewController.swift */,
+				D6238DEA2575E11B001D46B4 /* PropertyWrite.swift */,
+			);
+			path = "Swift 属性的写法";
+			sourceTree = "<group>";
+		};
 		D6FAADC02553A1DF006DD696 /* 质量管理个人作业 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1309,6 +1323,7 @@
 				A49F399B22B1F3E40034B88A /* PageControlViewController.swift in Sources */,
 				1CC2C22A1F6A6D31005964C7 /* VCAutoSizeLabel.swift in Sources */,
 				A4AAB50B22CDEAA700F9893F /* ExampleCodeCell.swift in Sources */,
+				D6238DE82575E105001D46B4 /* PropertyWriteViewController.swift in Sources */,
 				1CD9B69E20A924D800DA7CE1 /* PrintConfig.swift in Sources */,
 				1C9051C720AD55AC008C7C0E /* SnpKitCellOptimizationViewModel.swift in Sources */,
 				A4C0C3DC22C5FB700036790F /* ExampleHeaderView.swift in Sources */,
@@ -1324,6 +1339,7 @@
 				A49F39AE22B2383C0034B88A /* ScaleCell.swift in Sources */,
 				A45399A522EE8FAA00918A12 /* SlidingCircularViewController.swift in Sources */,
 				A45399C922EEC65300918A12 /* HomePageModel.swift in Sources */,
+				D6238DEB2575E11B001D46B4 /* PropertyWrite.swift in Sources */,
 				1CD9B6E420A92ABC00DA7CE1 /* DemoVC6.swift in Sources */,
 				E166C16B214615B200F8EA87 /* iOS10AnimationViewController.swift in Sources */,
 				A49F399E22B1F3FE0034B88A /* YXPageControl.swift in Sources */,
@@ -1512,7 +1528,7 @@
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuency.AutoLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuency.all;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1527,7 +1543,7 @@
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuency.AutoLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuency.all;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
